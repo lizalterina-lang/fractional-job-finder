@@ -91,6 +91,15 @@
         >
           🔴 Живые вакансии
         </button>
+        <button
+          class="tab-btn"
+          data-tab="settings"
+          role="tab"
+          aria-selected="false"
+          tabindex="0"
+        >
+          ⚙️ Настройки
+        </button>
       </nav>
 
       <div id="filter-controls" class="controls" role="search" aria-label="Фильтры и поиск">
@@ -110,18 +119,12 @@
         </div>
 
         <div class="filter-group" role="group" aria-label="Фильтр по стране">
-          <button class="filter-btn" data-region="AUS" aria-pressed="false" tabindex="0">
-            🇦🇺 AUS
-          </button>
-          <button class="filter-btn" data-region="SG" aria-pressed="false" tabindex="0">
-            🇸🇬 SG
-          </button>
-          <button class="filter-btn" data-region="UK" aria-pressed="false" tabindex="0">
-            🇬🇧 UK
-          </button>
-          <button class="filter-btn" data-region="NZ" aria-pressed="false" tabindex="0">
-            🇳🇿 NZ
-          </button>
+          <button class="filter-btn" data-region="AUS" aria-pressed="false" tabindex="0">🇦🇺 AUS</button>
+          <button class="filter-btn" data-region="SG" aria-pressed="false" tabindex="0">🇸🇬 SG</button>
+          <button class="filter-btn" data-region="UK" aria-pressed="false" tabindex="0">🇬🇧 UK</button>
+          <button class="filter-btn" data-region="NZ" aria-pressed="false" tabindex="0">🇳🇿 NZ</button>
+          <button class="filter-btn" data-region="NL" aria-pressed="false" tabindex="0">🇳🇱 NL</button>
+          <button class="filter-btn" data-region="UAE" aria-pressed="false" tabindex="0">🇦🇪 UAE</button>
         </div>
 
         <div class="filter-group" id="filter-tags" role="group" aria-label="Фильтр по роли">
@@ -151,6 +154,8 @@
       <div id="content" role="region" aria-label="Результаты"></div>
     </main>
 
+    <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
     <footer class="footer" role="contentinfo">
       <div class="container">
         Данные актуальны на март 2026 · Fractional Job Finder
@@ -159,6 +164,7 @@
 
     <script src="data/companies.js"></script>
     <script src="data/platforms.js"></script>
+    <script src="data/settings.js"></script>
     <script src="data/live-jobs.js" onerror="window.LIVE_JOBS=[];window.LAST_UPDATED=null;"></script>
     <script src="app.js"></script>
   </body>

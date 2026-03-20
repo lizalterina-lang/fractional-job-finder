@@ -143,6 +143,10 @@ REGIONS_MAP = {
     "manchester": "UK", "edinburgh": "UK", " uk": "UK",
     "new zealand": "NZ", "auckland": "NZ", "wellington": "NZ",
     "christchurch": "NZ",
+    "netherlands": "NL", "amsterdam": "NL", "rotterdam": "NL",
+    "the hague": "NL", "utrecht": "NL",
+    "united arab emirates": "UAE", "dubai": "UAE",
+    "abu dhabi": "UAE", "uae": "UAE",
 }
 
 # ===== УТИЛИТЫ =====

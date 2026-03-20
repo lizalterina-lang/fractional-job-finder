@@ -1,4 +1,15 @@
-const COUNTRY_FLAGS = { AUS: "🇦🇺", SG: "🇸🇬", UK: "🇬🇧", NZ: "🇳🇿" };
+const COUNTRY_FLAGS = { AUS: "🇦🇺", SG: "🇸🇬", UK: "🇬🇧", NZ: "🇳🇿", NL: "🇳🇱", UAE: "🇦🇪" };
+
+const LS_COMPANIES_ADDED   = "fj_companies_added";
+const LS_COMPANIES_REMOVED = "fj_companies_removed";
+const LS_BOARDS_ADDED      = "fj_boards_added";
+
+const showToast = (msg, ms = 2500) => {
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  setTimeout(() => el.classList.remove("show"), ms);
+};
 
 const TACTICS = [
   {
@@ -248,6 +259,13 @@ const renderContent = () => {
     content.innerHTML = `<div class="tactics-grid">${TACTICS.map(renderTacticCard).join("")}</div>`;
   }
 
+  if (activeTab === "settings") {
+    resultsCount.textContent = "";
+    content.innerHTML = renderSettingsTab();
+    bindSettingsEvents();
+    return;
+  }
+
   if (activeTab === "live") {
     const jobs = typeof LIVE_JOBS !== "undefined" ? LIVE_JOBS : [];
     const lastUpdated = typeof LAST_UPDATED !== "undefined" ? LAST_UPDATED : null;
@@ -282,9 +300,24 @@ const renderContent = () => {
 
     resultsCount.textContent = `${filtered.length} вакансий`;
 
-    const updatedHtml = lastUpdated
-      ? `<p style="font-size:12px;color:var(--color-text-faint);margin-bottom:16px">Обновлено: ${lastUpdated} · <code style="font-size:11px">node scraper.js</code> для обновления</p>`
-      : "";
+    const refreshBar = `
+      <div class="refresh-bar">
+        <span class="refresh-hint">
+          ${lastUpdated ? `Обновлено: <b>${lastUpdated}</b> ·` : ""}
+          Чтобы получить свежие вакансии: <code>python3 scraper.py</code>
+        </span>
+        <button class="btn-refresh" onclick="location.reload()" aria-label="Обновить страницу">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M3 12a9 9 0 009 9 9.75 9.75 0 006.74-2.74L21 16"/>
+            <path d="M21 21v-5h-5"/>
+            <path d="M21 12a9 9 0 00-9-9 9.75 9.75 0 00-6.74 2.74L3 8"/>
+            <path d="M3 3v5h5"/>
+          </svg>
+          Обновить
+        </button>
+      </div>`;
+
+    const updatedHtml = refreshBar;
 
     if (filtered.length === 0) {
       content.innerHTML = `${updatedHtml}<div class="empty-state">
@@ -305,7 +338,7 @@ const handleTabClick = (tab) => {
     btn.classList.toggle("active", btn.dataset.tab === tab);
   });
 
-  const showFilters = tab !== "tactics";
+  const showFilters = tab !== "tactics" && tab !== "settings";
   document.getElementById("filter-controls").style.display = showFilters ? "flex" : "none";
 
   // Фильтр по роли — только на вкладках компаний и платформ
@@ -363,6 +396,204 @@ const handleFormatFilter = (format) => {
 const handleSearch = (e) => {
   searchQuery = e.target.value;
   renderContent();
+};
+
+// ===== SETTINGS TAB =====
+
+const getCompanies = () => {
+  const base = typeof WATCH_COMPANIES_DEFAULT !== "undefined" ? WATCH_COMPANIES_DEFAULT : [];
+  const added = JSON.parse(localStorage.getItem(LS_COMPANIES_ADDED) || "[]");
+  const removed = new Set(JSON.parse(localStorage.getItem(LS_COMPANIES_REMOVED) || "[]"));
+  return [
+    ...base.filter((c) => !removed.has(c)),
+    ...added.filter((c) => !removed.has(c)),
+  ];
+};
+
+const getBoards = () => {
+  const base = typeof JOB_BOARDS_CONFIG !== "undefined" ? JOB_BOARDS_CONFIG : [];
+  const added = JSON.parse(localStorage.getItem(LS_BOARDS_ADDED) || "[]");
+  return [...base, ...added];
+};
+
+const statusLabel = (status) => {
+  const map = {
+    working:     { cls: "status-working",     text: "✅ Работает" },
+    partial:     { cls: "status-partial",     text: "⚠️ Частично" },
+    low:         { cls: "status-low",         text: "🔸 Мало данных" },
+    unavailable: { cls: "status-unavailable", text: "❌ Недоступен" },
+  };
+  return map[status] || map.unavailable;
+};
+
+const renderSettingsTab = () => {
+  const companies = getCompanies();
+  const boards = getBoards();
+  const added = new Set(JSON.parse(localStorage.getItem(LS_COMPANIES_ADDED) || "[]"));
+
+  const chipsHtml = companies
+    .map((c) => `
+      <span class="chip ${added.has(c) ? "chip-new" : ""}" data-company="${c}">
+        ${c}
+        <button class="chip-remove" data-remove="${c}" aria-label="Удалить ${c}" title="Удалить">✕</button>
+      </span>`)
+    .join("");
+
+  const boardsHtml = boards.map((b) => {
+    const st = statusLabel(b.status);
+    return `
+      <div class="board-card">
+        <div class="board-icon">${b.icon || "📋"}</div>
+        <div class="board-info">
+          <div class="board-name">${b.name}</div>
+          <div class="board-note">${b.note || ""}</div>
+          ${b.url ? `<div class="board-url">${b.url}</div>` : ""}
+        </div>
+        <div class="board-meta">
+          <span class="board-method">${b.method || ""}</span>
+          <span class="status-badge ${st.cls}">${st.text}</span>
+          ${b.custom ? `<button class="chip-remove" data-remove-board="${b.id}" title="Удалить">✕</button>` : ""}
+        </div>
+      </div>`;
+  }).join("");
+
+  const exportList = `WATCH_COMPANIES = [\n${companies.map(c => `    "${c}",`).join("\n")}\n]`;
+
+  return `
+    <!-- Компании -->
+    <div class="settings-section">
+      <div class="settings-header">
+        <div>
+          <div class="settings-title">🏢 Компании для мониторинга</div>
+          <div class="settings-subtitle">Вакансии от этих компаний помечаются ⭐ в дайджесте</div>
+        </div>
+        <span class="settings-count">${companies.length} компаний</span>
+      </div>
+
+      <div class="chips-grid" id="chips-grid">${chipsHtml}</div>
+
+      <div class="add-form">
+        <input class="add-input" id="company-input" type="text"
+          placeholder="Название компании..." autocomplete="off" />
+        <button class="btn-add" id="company-add-btn">Добавить</button>
+        <button class="btn-secondary" id="company-export-btn">Экспорт</button>
+      </div>
+
+      <div class="export-box" id="company-export-box">
+        <textarea readonly id="company-export-text">${exportList}</textarea>
+        <div class="export-hint">Вставь этот список в <code>scraper.py</code> → переменную <code>WATCH_COMPANIES</code></div>
+      </div>
+    </div>
+
+    <!-- Борды -->
+    <div class="settings-section">
+      <div class="settings-header">
+        <div>
+          <div class="settings-title">📡 Job boards</div>
+          <div class="settings-subtitle">Источники, которые парсит scraper.py</div>
+        </div>
+        <span class="settings-count">${boards.length} источников</span>
+      </div>
+
+      <div class="boards-list">${boardsHtml}</div>
+
+      <div class="add-form">
+        <input class="add-input" id="board-name-input" type="text"
+          placeholder="Название борда..." style="max-width:180px" autocomplete="off" />
+        <input class="add-input" id="board-url-input" type="url"
+          placeholder="https://..." autocomplete="off" />
+        <button class="btn-add" id="board-add-btn">Добавить</button>
+      </div>
+    </div>
+  `;
+};
+
+const bindSettingsEvents = () => {
+  // Удаление компании
+  document.querySelectorAll(".chip-remove[data-remove]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const name = btn.dataset.remove;
+      const removed = JSON.parse(localStorage.getItem(LS_COMPANIES_REMOVED) || "[]");
+      if (!removed.includes(name)) removed.push(name);
+      localStorage.setItem(LS_COMPANIES_REMOVED, JSON.stringify(removed));
+      // Убрать из added тоже
+      const added = JSON.parse(localStorage.getItem(LS_COMPANIES_ADDED) || "[]");
+      localStorage.setItem(LS_COMPANIES_ADDED, JSON.stringify(added.filter((c) => c !== name)));
+      document.getElementById("chips-grid").innerHTML = getCompanies()
+        .map((c) => {
+          const isNew = new Set(JSON.parse(localStorage.getItem(LS_COMPANIES_ADDED) || "[]")).has(c);
+          return `<span class="chip ${isNew ? "chip-new" : ""}" data-company="${c}">${c}
+            <button class="chip-remove" data-remove="${c}" aria-label="Удалить ${c}" title="Удалить">✕</button></span>`;
+        }).join("");
+      bindSettingsEvents();
+      showToast(`«${name}» удалена из списка`);
+    });
+  });
+
+  // Добавление компании
+  const companyInput = document.getElementById("company-input");
+  const companyAddBtn = document.getElementById("company-add-btn");
+  const handleAddCompany = () => {
+    const val = companyInput.value.trim();
+    if (!val) return;
+    const added = JSON.parse(localStorage.getItem(LS_COMPANIES_ADDED) || "[]");
+    const all = getCompanies();
+    if (all.some((c) => c.toLowerCase() === val.toLowerCase())) {
+      showToast("Компания уже есть в списке"); return;
+    }
+    added.push(val);
+    localStorage.setItem(LS_COMPANIES_ADDED, JSON.stringify(added));
+    // Убрать из removed если была
+    const removed = JSON.parse(localStorage.getItem(LS_COMPANIES_REMOVED) || "[]");
+    localStorage.setItem(LS_COMPANIES_REMOVED, JSON.stringify(removed.filter((c) => c !== val)));
+    companyInput.value = "";
+    renderContent();
+    showToast(`«${val}» добавлена ⭐`);
+  };
+  companyAddBtn.addEventListener("click", handleAddCompany);
+  companyInput.addEventListener("keydown", (e) => { if (e.key === "Enter") handleAddCompany(); });
+
+  // Экспорт
+  document.getElementById("company-export-btn").addEventListener("click", () => {
+    const box = document.getElementById("company-export-box");
+    box.classList.toggle("open");
+    if (box.classList.contains("open")) {
+      const list = `WATCH_COMPANIES = [\n${getCompanies().map(c => `    "${c}",`).join("\n")}\n]`;
+      document.getElementById("company-export-text").value = list;
+      document.getElementById("company-export-text").select();
+    }
+  });
+
+  // Удаление борда (только кастомные)
+  document.querySelectorAll(".chip-remove[data-remove-board]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.removeBoard;
+      const boards = JSON.parse(localStorage.getItem(LS_BOARDS_ADDED) || "[]");
+      localStorage.setItem(LS_BOARDS_ADDED, JSON.stringify(boards.filter((b) => b.id !== id)));
+      renderContent();
+      showToast("Борд удалён");
+    });
+  });
+
+  // Добавление борда
+  const boardNameInput = document.getElementById("board-name-input");
+  const boardUrlInput = document.getElementById("board-url-input");
+  const boardAddBtn = document.getElementById("board-add-btn");
+  const handleAddBoard = () => {
+    const name = boardNameInput.value.trim();
+    const url = boardUrlInput.value.trim();
+    if (!name) { showToast("Введи название борда"); return; }
+    const boards = JSON.parse(localStorage.getItem(LS_BOARDS_ADDED) || "[]");
+    const id = `custom-${Date.now()}`;
+    boards.push({ id, name, url, status: "unknown", method: "—", icon: "📋", note: "Добавлен вручную", custom: true });
+    localStorage.setItem(LS_BOARDS_ADDED, JSON.stringify(boards));
+    boardNameInput.value = "";
+    boardUrlInput.value = "";
+    renderContent();
+    showToast(`«${name}» добавлен`);
+  };
+  boardAddBtn.addEventListener("click", handleAddBoard);
+  boardNameInput.addEventListener("keydown", (e) => { if (e.key === "Enter") handleAddBoard(); });
 };
 
 const init = () => {
