@@ -1,0 +1,16 @@
+# Секреты — никогда не коммитить
+.env
+
+# Данные генерируются автоматически
+data/live-jobs.js
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Логи
+logs/

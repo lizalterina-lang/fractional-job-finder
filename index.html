@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fractional Job Finder — PMM / GTM / Growth</title>
+    <meta
+      name="description"
+      content="Стартапы и скейлапы в AUS, SG, UK где можно найти удалённую fractional работу PMM / GTM / Growth на 4-6 часов в день"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header" role="banner">
+      <div class="container">
+        <div class="header-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+          Remote · Fractional · 4–6ч/день
+        </div>
+        <h1 class="header-title">
+          Найди <span>Fractional PMM / GTM</span><br />работу в топ-стартапах
+        </h1>
+        <p class="header-subtitle">
+          Стартапы и скейлапы Австралии, Сингапура и Великобритании,
+          где реально найти удалённую fractional роль
+        </p>
+        <div class="header-stats" role="list" aria-label="Статистика">
+          <div class="stat" role="listitem">
+            <span class="stat-number">30</span>
+            <span class="stat-label">компаний</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat-number">3</span>
+            <span class="stat-label">страны</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat-number">12</span>
+            <span class="stat-label">платформ</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat-number">6</span>
+            <span class="stat-label">тактик</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container" role="main">
+      <nav class="tabs" role="tablist" aria-label="Разделы">
+        <button
+          class="tab-btn active"
+          data-tab="companies"
+          role="tab"
+          aria-selected="true"
+          tabindex="0"
+        >
+          🏢 Компании
+        </button>
+        <button
+          class="tab-btn"
+          data-tab="platforms"
+          role="tab"
+          aria-selected="false"
+          tabindex="0"
+        >
+          🔎 Где искать
+        </button>
+        <button
+          class="tab-btn"
+          data-tab="tactics"
+          role="tab"
+          aria-selected="false"
+          tabindex="0"
+        >
+          ⚡ Тактики
+        </button>
+        <button
+          class="tab-btn"
+          data-tab="live"
+          role="tab"
+          aria-selected="false"
+          tabindex="0"
+        >
+          🔴 Живые вакансии
+        </button>
+      </nav>
+
+      <div id="filter-controls" class="controls" role="search" aria-label="Фильтры и поиск">
+        <div class="search-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="M21 21l-4.35-4.35"/>
+          </svg>
+          <input
+            type="search"
+            id="search-input"
+            class="search-input"
+            placeholder="Поиск по названию, нише..."
+            aria-label="Поиск"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="filter-group" role="group" aria-label="Фильтр по стране">
+          <button class="filter-btn" data-region="AUS" aria-pressed="false" tabindex="0">
+            🇦🇺 AUS
+          </button>
+          <button class="filter-btn" data-region="SG" aria-pressed="false" tabindex="0">
+            🇸🇬 SG
+          </button>
+          <button class="filter-btn" data-region="UK" aria-pressed="false" tabindex="0">
+            🇬🇧 UK
+          </button>
+          <button class="filter-btn" data-region="NZ" aria-pressed="false" tabindex="0">
+            🇳🇿 NZ
+          </button>
+        </div>
+
+        <div class="filter-group" id="filter-tags" role="group" aria-label="Фильтр по роли">
+          <button class="filter-btn" data-tag="PMM" aria-pressed="false" tabindex="0">
+            PMM
+          </button>
+          <button class="filter-btn" data-tag="GTM" aria-pressed="false" tabindex="0">
+            GTM
+          </button>
+          <button class="filter-btn" data-tag="Growth" aria-pressed="false" tabindex="0">
+            Growth
+          </button>
+        </div>
+
+        <div class="filter-group" id="filter-format" role="group" aria-label="Фильтр по формату" style="display:none">
+          <button class="filter-btn" data-format="part-time" aria-pressed="false" tabindex="0">
+            ⏱ Part-time
+          </button>
+          <button class="filter-btn" data-format="full-time" aria-pressed="false" tabindex="0">
+            💼 Full-time
+          </button>
+        </div>
+
+        <span id="results-count" class="results-count" aria-live="polite" aria-atomic="true"></span>
+      </div>
+
+      <div id="content" role="region" aria-label="Результаты"></div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        Данные актуальны на март 2026 · Fractional Job Finder
+      </div>
+    </footer>
+
+    <script src="data/companies.js"></script>
+    <script src="data/platforms.js"></script>
+    <script src="data/live-jobs.js" onerror="window.LIVE_JOBS=[];window.LAST_UPDATED=null;"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
