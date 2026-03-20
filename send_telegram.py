@@ -6,21 +6,19 @@ Telegram Digest Sender
 """
 
 import urllib.request
-import urllib.parse
 import json
 import os
 import re
+import time
 from datetime import datetime
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LIVE_JOBS_FILE = os.path.join(BASE_DIR, "data", "live-jobs.js")
 ENV_FILE = os.path.join(BASE_DIR, ".env")
-
-TG_MAX_LENGTH = 4000  # Telegram лимит ~4096, оставляем запас
+TG_MAX_LENGTH = 4000
 
 
 def load_env():
-    # Сначала читаем из .env, потом перекрываем переменными окружения (GitHub Actions Secrets)
     env = {}
     if os.path.exists(ENV_FILE):
         with open(ENV_FILE) as f:
@@ -29,7 +27,7 @@ def load_env():
                 if line and not line.startswith("#") and "=" in line:
                     key, _, val = line.partition("=")
                     env[key.strip()] = val.strip()
-    for key in ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID"):
+    for key in ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "DASHBOARD_URL"):
         if os.environ.get(key):
             env[key] = os.environ[key]
     return env
@@ -55,8 +53,7 @@ def send_message(bot_token, chat_id, text):
         "disable_web_page_preview": True,
     }).encode("utf-8")
     req = urllib.request.Request(
-        url,
-        data=payload,
+        url, data=payload,
         headers={"Content-Type": "application/json"},
         method="POST",
     )
@@ -64,81 +61,101 @@ def send_message(bot_token, chat_id, text):
         return json.loads(resp.read())
 
 
-def format_region(region):
-    flags = {"AUS": "🇦🇺", "SG": "🇸🇬", "UK": "🇬🇧", "NZ": "🇳🇿"}
-    if region in flags:
-        return f"{flags[region]} {region}"
-    return f"🌍 {region}" if region else "🌍 Remote"
+COUNTRY_FLAGS = {
+    "AUS": "🇦🇺", "SG": "🇸🇬", "UK": "🇬🇧",
+    "NZ": "🇳🇿", "NL": "🇳🇱", "UAE": "🇦🇪",
+}
+
+WEEKDAYS_RU = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"]
+MONTHS_RU   = ["января", "февраля", "марта", "апреля", "мая", "июня",
+                "июля", "августа", "сентября", "октября", "ноября", "декабря"]
 
 
-def format_format(fmt):
-    if fmt == "part-time":
-        return "⏱ Part-time"
-    return "💼 Full-time"
+def friendly_date():
+    now = datetime.now()
+    wd  = WEEKDAYS_RU[now.weekday()].capitalize()
+    mon = MONTHS_RU[now.month - 1]
+    return f"{wd}, {now.day} {mon}"
 
 
 def format_source(source):
     icons = {
-        "Remote OK": "🌐",
-        "LinkedIn": "💼",
-        "WorkingNomads": "✈️",
-        "Wellfound": "🌟",
-        "MeetFrank": "🤝",
+        "Remote OK":       "🌐",
+        "LinkedIn":        "💼",
+        "WorkingNomads":   "✈️",
+        "WeWorkRemotely":  "🏠",
+        "Jobicy":          "💡",
     }
     return f"{icons.get(source, '📋')} {source}"
 
 
-def format_job(job, index):
-    watch = "⭐ " if job.get("watch_company") else ""
-    title = job.get("title", "")
+def format_job_line(job, index):
+    title   = job.get("title", "")
     company = job.get("company", "")
-    region = format_region(job.get("region", "Remote"))
-    fmt = format_format(job.get("format", "full-time"))
-    source = format_source(job.get("source", ""))
-    url = job.get("url", "")
-    salary = job.get("salary", "")
+    region  = job.get("region", "")
+    fmt     = job.get("format", "")
+    url     = job.get("url", "")
+    watch   = "⭐ " if job.get("watch_company") else ""
 
-    lines = [
-        f"{index}. {watch}<b>{title}</b>",
-        f"   🏢 {company} · {region} · {fmt}",
-    ]
-    if salary:
-        lines.append(f"   💰 {salary}")
-    lines.append(f"   {source}")
-    if url:
-        lines.append(f"   🔗 <a href='{url}'>Открыть вакансию</a>")
+    flag = COUNTRY_FLAGS.get(region, "🌍")
+    fmt_icon = "⏱" if fmt == "part-time" else "💼"
 
-    return "\n".join(lines)
+    line = f"{index}. {watch}<a href='{url}'>{title}</a>\n"
+    line += f"   🏢 {company}  {flag} {region}  {fmt_icon} {fmt}"
+    return line
 
 
-def build_messages(jobs):
-    today = datetime.now().strftime("%d %B %Y")
-    total = len(jobs)
-    watch_count = sum(1 for j in jobs if j.get("watch_company"))
+def build_messages(jobs, dashboard_url=""):
+    total    = len(jobs)
     pt_count = sum(1 for j in jobs if j.get("format") == "part-time")
     ft_count = total - pt_count
+    watch_count = sum(1 for j in jobs if j.get("watch_company"))
 
+    # Счётчик по странам
+    regions = {}
+    for j in jobs:
+        r = j.get("region", "Remote")
+        regions[r] = regions.get(r, 0) + 1
+
+    # Счётчик по источникам
     sources = {}
     for j in jobs:
         s = j.get("source", "?")
         sources[s] = sources.get(s, 0) + 1
 
-    sources_str = " | ".join(f"{s}: {c}" for s, c in sorted(sources.items(), key=lambda x: -x[1]))
+    def regions_str():
+        parts = []
+        for r, cnt in sorted(regions.items(), key=lambda x: -x[1]):
+            flag = COUNTRY_FLAGS.get(r, "🌍")
+            parts.append(f"{flag} {r}: {cnt}")
+        return "  ·  ".join(parts)
+
+    def sources_str():
+        return "  ·  ".join(
+            f"{format_source(s)}: {c}"
+            for s, c in sorted(sources.items(), key=lambda x: -x[1])
+        )
+
+    dash_line = f'\n\n🔗 <a href="{dashboard_url}">Открыть дашборд →</a>' if dashboard_url else ""
 
     header = (
-        f"🎯 <b>Jobs Radar — {today}</b>\n\n"
-        f"📊 Найдено вакансий: <b>{total}</b>\n"
-        f"⭐ Watchlist компании: <b>{watch_count}</b>\n"
-        f"⏱ Part-time: <b>{pt_count}</b> · 💼 Full-time: <b>{ft_count}</b>\n"
-        f"📡 {sources_str}\n"
-        f"{'─'*35}\n\n"
+        f"🎯 <b>Jobs Radar — {friendly_date()}</b>\n\n"
+        f"Нашла <b>{total}</b> свежих вакансий! 🎉\n\n"
+        f"<b>По формату:</b>\n"
+        f"  ⏱ Part-time / Fractional: <b>{pt_count}</b>\n"
+        f"  💼 Full-time: <b>{ft_count}</b>\n"
+        + (f"  ⭐ Watchlist компании: <b>{watch_count}</b>\n" if watch_count else "")
+        + f"\n<b>По странам:</b>\n  {regions_str()}\n"
+        f"\n<b>По источникам:</b>\n  {sources_str()}"
+        f"{dash_line}\n"
+        f"\n{'─'*35}\n\n"
     )
 
     messages = []
-    current = header
+    current  = header
 
     for i, job in enumerate(jobs, 1):
-        block = format_job(job, i) + "\n\n"
+        block = format_job_line(job, i) + "\n\n"
         if len(current) + len(block) > TG_MAX_LENGTH:
             messages.append(current)
             current = block
@@ -148,16 +165,22 @@ def build_messages(jobs):
     if current.strip():
         messages.append(current)
 
-    if not jobs:
-        messages = [f"🎯 <b>Jobs Radar — {today}</b>\n\n📭 Сегодня новых вакансий не найдено."]
-
     return messages
+
+
+def build_empty_message():
+    return (
+        f"🎯 <b>Jobs Radar — {friendly_date()}</b>\n\n"
+        "📭 Сегодня новых вакансий не нашла.\n"
+        "Попробую снова завтра! 👋"
+    )
 
 
 def main():
     env = load_env()
-    bot_token = env.get("TELEGRAM_BOT_TOKEN", "")
-    chat_id = env.get("TELEGRAM_CHAT_ID", "")
+    bot_token     = env.get("TELEGRAM_BOT_TOKEN", "")
+    chat_id       = env.get("TELEGRAM_CHAT_ID", "")
+    dashboard_url = env.get("DASHBOARD_URL", "")
 
     if not bot_token or not chat_id:
         print("❌ TELEGRAM_BOT_TOKEN или TELEGRAM_CHAT_ID не заданы в .env")
@@ -167,29 +190,29 @@ def main():
     print(f"📋 Загружено {len(jobs)} вакансий из live-jobs.js")
 
     if not jobs:
-        print("⚠️  Нет вакансий для отправки. Сначала запусти: python3 scraper.py")
-        return False
+        print("⚠️  Нет вакансий. Отправляю заглушку...")
+        send_message(bot_token, chat_id, build_empty_message())
+        return True
 
-    messages = build_messages(jobs)
+    messages = build_messages(jobs, dashboard_url)
     print(f"📨 Отправляю {len(messages)} сообщений в Telegram...")
 
-    success_count = 0
+    ok = 0
     for i, msg in enumerate(messages, 1):
         try:
             send_message(bot_token, chat_id, msg)
-            print(f"   ✓ Сообщение {i}/{len(messages)} отправлено")
-            success_count += 1
-            # Небольшая пауза между сообщениями
-            import time
-            time.sleep(1)
+            print(f"   ✓ Сообщение {i}/{len(messages)}")
+            ok += 1
+            if i < len(messages):
+                time.sleep(1)
         except Exception as e:
-            print(f"   ✗ Ошибка отправки сообщения {i}: {e}")
+            print(f"   ✗ Ошибка {i}: {e}")
 
-    if success_count == len(messages):
-        print(f"\n✅ Дайджест успешно отправлен в Telegram!")
+    if ok == len(messages):
+        print("\n✅ Дайджест отправлен!")
         return True
     else:
-        print(f"\n⚠️  Отправлено {success_count}/{len(messages)} сообщений")
+        print(f"\n⚠️  Отправлено {ok}/{len(messages)}")
         return False
 
 
