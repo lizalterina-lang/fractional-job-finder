@@ -1,3 +1,33 @@
+// Ключевые слова для поиска вакансий (должны совпадать со scraper.py)
+const KEYWORDS_CONFIG = {
+  include: [
+    "product marketing manager", "product marketing strategist",
+    "product marketer", "product marketing advisor",
+    "product marketing consultant", "pmm",
+    "go-to-market", "gtm manager", "gtm strategist",
+    "gtm advisor", "gtm consultant", "gtm marketer",
+    "growth manager", "growth marketer", "growth strategist",
+    "growth advisor", "growth consultant", "growth hacker",
+    "growth marketing manager", "growth marketing strategist",
+    "marketing strategy", "marketing strategist",
+    "marketing strategy advisor", "marketing strategy consultant",
+    "fractional cmo", "fractional pmm", "fractional gtm",
+    "fractional growth", "fractional marketing",
+    "marketing advisor", "marketing consultant",
+    "vp marketing", "head of marketing", "cmo", "chief marketing",
+    "b2b marketing", "saas marketing",
+  ],
+  exclude: [
+    "sales operations", "sales strategy", "sales planning",
+    "account executive", "account manager", "sales manager",
+    "support specialist", "customer support", "customer success",
+    "data analyst", "data engineer", "data scientist",
+    "software engineer", "developer", "devops", "qa ",
+    "legal ", "finance", "accounting", "design intern",
+    "recruiter", "talent acquisition", "hr manager",
+  ],
+};
+
 // Список компаний для watchlist-мониторинга
 const WATCH_COMPANIES_DEFAULT = [
   "SafetyCulture", "Culture Amp", "Airwallex", "Employment Hero",

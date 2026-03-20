@@ -1,8 +1,13 @@
 const COUNTRY_FLAGS = { AUS: "🇦🇺", SG: "🇸🇬", UK: "🇬🇧", NZ: "🇳🇿", NL: "🇳🇱", UAE: "🇦🇪" };
+const KNOWN_REGIONS = new Set(Object.keys(COUNTRY_FLAGS));
 
 const LS_COMPANIES_ADDED   = "fj_companies_added";
 const LS_COMPANIES_REMOVED = "fj_companies_removed";
 const LS_BOARDS_ADDED      = "fj_boards_added";
+const LS_KW_ADDED          = "fj_kw_added";
+const LS_KW_REMOVED        = "fj_kw_removed";
+const LS_EX_ADDED          = "fj_ex_added";
+const LS_EX_REMOVED        = "fj_ex_removed";
 
 const showToast = (msg, ms = 2500) => {
   const el = document.getElementById("toast");
@@ -157,9 +162,10 @@ const renderLiveJobCard = (job) => {
   const regionColors = { AUS: "aus", SG: "sg", UK: "uk" };
   const regionColor = regionColors[job.region] || null;
 
-  const regionBadge = ["AUS", "SG", "UK"].includes(job.region)
-    ? `<span class="country-badge" data-country="${job.region}">${COUNTRY_FLAGS[job.region] || ""} ${job.region}</span>`
-    : `<span class="stage-badge">${job.region}</span>`;
+  const region = job.region || "Remote";
+  const regionBadge = KNOWN_REGIONS.has(region)
+    ? `<span class="country-badge" data-country="${region}">${COUNTRY_FLAGS[region]} ${region}</span>`
+    : `<span class="location-badge">🌍 ${region}</span>`;
 
   const tagsHtml = (job.tags || [])
     .slice(0, 4)
@@ -410,6 +416,16 @@ const getCompanies = () => {
   ];
 };
 
+const getKeywords = (type) => {
+  const cfg = typeof KEYWORDS_CONFIG !== "undefined" ? KEYWORDS_CONFIG : { include: [], exclude: [] };
+  const base = type === "include" ? cfg.include : cfg.exclude;
+  const lsAdd = type === "include" ? LS_KW_ADDED : LS_EX_ADDED;
+  const lsRm  = type === "include" ? LS_KW_REMOVED : LS_EX_REMOVED;
+  const added   = JSON.parse(localStorage.getItem(lsAdd) || "[]");
+  const removed = new Set(JSON.parse(localStorage.getItem(lsRm) || "[]"));
+  return [...base.filter((k) => !removed.has(k)), ...added.filter((k) => !removed.has(k))];
+};
+
 const getBoards = () => {
   const base = typeof JOB_BOARDS_CONFIG !== "undefined" ? JOB_BOARDS_CONFIG : [];
   const added = JSON.parse(localStorage.getItem(LS_BOARDS_ADDED) || "[]");
@@ -459,6 +475,23 @@ const renderSettingsTab = () => {
 
   const exportList = `WATCH_COMPANIES = [\n${companies.map(c => `    "${c}",`).join("\n")}\n]`;
 
+  const kwInclude = getKeywords("include");
+  const kwExclude = getKeywords("exclude");
+  const kwAddedInclude = new Set(JSON.parse(localStorage.getItem(LS_KW_ADDED) || "[]"));
+  const kwAddedExclude = new Set(JSON.parse(localStorage.getItem(LS_EX_ADDED) || "[]"));
+
+  const renderKwChips = (list, addedSet, prefix) => list
+    .map((k) => `
+      <span class="chip kw-chip ${addedSet.has(k) ? "chip-new" : ""}" data-kw="${k}">
+        ${k}
+        <button class="chip-remove" data-remove-kw="${k}" data-kw-type="${prefix}" title="Удалить">✕</button>
+      </span>`).join("");
+
+  const kwExportStr = [
+    `KEYWORDS_TITLE = [\n${kwInclude.map(k => `    "${k}",`).join("\n")}\n]`,
+    `\nEXCLUDE_TITLE = [\n${kwExclude.map(k => `    "${k}",`).join("\n")}\n]`,
+  ].join("\n");
+
   return `
     <!-- Компании -->
     <div class="settings-section">
@@ -482,6 +515,48 @@ const renderSettingsTab = () => {
       <div class="export-box" id="company-export-box">
         <textarea readonly id="company-export-text">${exportList}</textarea>
         <div class="export-hint">Вставь этот список в <code>scraper.py</code> → переменную <code>WATCH_COMPANIES</code></div>
+      </div>
+    </div>
+
+    <!-- Ключевые слова -->
+    <div class="settings-section">
+      <div class="settings-header">
+        <div>
+          <div class="settings-title">🔍 Ключевые слова для поиска</div>
+          <div class="settings-subtitle">Вакансия включается если заголовок содержит хотя бы одно из этих слов</div>
+        </div>
+        <span class="settings-count">${kwInclude.length} слов</span>
+      </div>
+      <div class="chips-grid" id="kw-include-grid" style="max-height:180px;overflow-y:auto">
+        ${renderKwChips(kwInclude, kwAddedInclude, "include")}
+      </div>
+      <div class="add-form" style="margin-top:8px">
+        <input class="add-input" id="kw-include-input" type="text"
+          placeholder="product marketing lead..." autocomplete="off" />
+        <button class="btn-add" id="kw-include-add-btn">Добавить</button>
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <div class="settings-header">
+        <div>
+          <div class="settings-title">🚫 Исключения (стоп-слова)</div>
+          <div class="settings-subtitle">Вакансия исключается если заголовок содержит любое из этих слов</div>
+        </div>
+        <span class="settings-count">${kwExclude.length} слов</span>
+      </div>
+      <div class="chips-grid" id="kw-exclude-grid" style="max-height:180px;overflow-y:auto">
+        ${renderKwChips(kwExclude, kwAddedExclude, "exclude")}
+      </div>
+      <div class="add-form" style="margin-top:8px">
+        <input class="add-input" id="kw-exclude-input" type="text"
+          placeholder="sales engineer..." autocomplete="off" />
+        <button class="btn-add" id="kw-exclude-add-btn">Добавить</button>
+        <button class="btn-secondary" id="kw-export-btn">Экспорт</button>
+      </div>
+      <div class="export-box" id="kw-export-box">
+        <textarea readonly id="kw-export-text">${kwExportStr}</textarea>
+        <div class="export-hint">Вставь в <code>scraper.py</code> → переменные <code>KEYWORDS_TITLE</code> и <code>EXCLUDE_TITLE</code></div>
       </div>
     </div>
 
@@ -561,6 +636,75 @@ const bindSettingsEvents = () => {
       const list = `WATCH_COMPANIES = [\n${getCompanies().map(c => `    "${c}",`).join("\n")}\n]`;
       document.getElementById("company-export-text").value = list;
       document.getElementById("company-export-text").select();
+    }
+  });
+
+  // Удаление ключевого слова
+  document.querySelectorAll(".chip-remove[data-remove-kw]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const kw = btn.dataset.removeKw;
+      const type = btn.dataset.kwType;
+      const lsRm  = type === "include" ? LS_KW_REMOVED : LS_EX_REMOVED;
+      const lsAdd = type === "include" ? LS_KW_ADDED   : LS_EX_ADDED;
+      const removed = JSON.parse(localStorage.getItem(lsRm) || "[]");
+      if (!removed.includes(kw)) removed.push(kw);
+      localStorage.setItem(lsRm, JSON.stringify(removed));
+      const added = JSON.parse(localStorage.getItem(lsAdd) || "[]");
+      localStorage.setItem(lsAdd, JSON.stringify(added.filter((k) => k !== kw)));
+      renderContent();
+      showToast(`«${kw}» удалено`);
+    });
+  });
+
+  // Добавление ключевого слова (include)
+  const kwIncInput = document.getElementById("kw-include-input");
+  const kwIncBtn   = document.getElementById("kw-include-add-btn");
+  const handleAddKwInclude = () => {
+    const val = kwIncInput.value.trim().toLowerCase();
+    if (!val) return;
+    const added = JSON.parse(localStorage.getItem(LS_KW_ADDED) || "[]");
+    if (getKeywords("include").includes(val)) { showToast("Уже есть"); return; }
+    added.push(val);
+    localStorage.setItem(LS_KW_ADDED, JSON.stringify(added));
+    const removed = JSON.parse(localStorage.getItem(LS_KW_REMOVED) || "[]");
+    localStorage.setItem(LS_KW_REMOVED, JSON.stringify(removed.filter((k) => k !== val)));
+    kwIncInput.value = "";
+    renderContent();
+    showToast(`«${val}» добавлено в поиск`);
+  };
+  kwIncBtn.addEventListener("click", handleAddKwInclude);
+  kwIncInput.addEventListener("keydown", (e) => { if (e.key === "Enter") handleAddKwInclude(); });
+
+  // Добавление ключевого слова (exclude)
+  const kwExcInput = document.getElementById("kw-exclude-input");
+  const kwExcBtn   = document.getElementById("kw-exclude-add-btn");
+  const handleAddKwExclude = () => {
+    const val = kwExcInput.value.trim().toLowerCase();
+    if (!val) return;
+    const added = JSON.parse(localStorage.getItem(LS_EX_ADDED) || "[]");
+    if (getKeywords("exclude").includes(val)) { showToast("Уже есть"); return; }
+    added.push(val);
+    localStorage.setItem(LS_EX_ADDED, JSON.stringify(added));
+    const removed = JSON.parse(localStorage.getItem(LS_EX_REMOVED) || "[]");
+    localStorage.setItem(LS_EX_REMOVED, JSON.stringify(removed.filter((k) => k !== val)));
+    kwExcInput.value = "";
+    renderContent();
+    showToast(`«${val}» добавлено в исключения`);
+  };
+  kwExcBtn.addEventListener("click", handleAddKwExclude);
+  kwExcInput.addEventListener("keydown", (e) => { if (e.key === "Enter") handleAddKwExclude(); });
+
+  // Экспорт ключевых слов
+  document.getElementById("kw-export-btn").addEventListener("click", () => {
+    const box = document.getElementById("kw-export-box");
+    box.classList.toggle("open");
+    if (box.classList.contains("open")) {
+      const str = [
+        `KEYWORDS_TITLE = [\n${getKeywords("include").map(k => `    "${k}",`).join("\n")}\n]`,
+        `\nEXCLUDE_TITLE = [\n${getKeywords("exclude").map(k => `    "${k}",`).join("\n")}\n]`,
+      ].join("\n");
+      document.getElementById("kw-export-text").value = str;
+      document.getElementById("kw-export-text").select();
     }
   });
 
