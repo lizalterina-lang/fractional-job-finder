@@ -8,9 +8,12 @@ Fractional Job Scraper
 
 import urllib.request
 import urllib.parse
+import urllib.error
 import json
 import os
 import re
+import xml.etree.ElementTree as ET
+import time
 from datetime import datetime
 
 # ===== КОНФИГ =====
@@ -66,6 +69,13 @@ WORKINGNOMADS_SOURCES = [
     {"name": "WorkingNomads — marketing", "url": "https://www.workingnomads.com/api/exposed_jobs/?category=marketing"},
 ]
 
+JOBICY_SOURCES = [
+    {"name": "Jobicy — marketing", "url": "https://jobicy.com/api/v2/remote-jobs?industry=marketing&count=50"},
+]
+
+# WeWorkRemotely общий RSS (marketing-specific даёт 301)
+WWR_RSS_URL = "https://weworkremotely.com/remote-jobs.rss"
+
 # RapidAPI — LinkedIn Jobs
 RAPIDAPI_SEARCHES = [
     {"title": "Product Marketing Manager", "location": "Australia"},
@@ -83,10 +93,13 @@ RAPIDAPI_SEARCHES = [
 # ===== ФИЛЬТРЫ =====
 
 EXCLUDE_TITLE = [
-    "sales operations", "support specialist", "data analyst",
-    "legal ", "software engineer", "developer", "devops",
-    "recruiter", "finance", "accounting", "design intern",
-    "customer success", "customer support", "qa ", "qa engineer",
+    "sales operations", "sales strategy", "sales planning",
+    "account executive", "account manager", "sales manager",
+    "support specialist", "customer support", "customer success",
+    "data analyst", "data engineer", "data scientist",
+    "software engineer", "developer", "devops", "qa ", "qa engineer",
+    "legal ", "finance", "accounting", "design intern",
+    "recruiter", "talent acquisition", "hr manager",
 ]
 
 KEYWORDS_TITLE = [
@@ -165,6 +178,10 @@ def is_relevant(job):
         return False
 
     if any(k in combined for k in KEYWORDS_TITLE):
+        return True
+
+    # Для watchlist-компаний достаточно слова «marketing» в заголовке
+    if job.get("watch_company") and "marketing" in title:
         return True
 
     return any(k in desc for k in KEYWORDS_DESC_ROLE)
@@ -285,6 +302,57 @@ def parse_rapidapi_linkedin(data, region):
     return jobs
 
 
+# ===== ПАРСЕРЫ НОВЫХ ИСТОЧНИКОВ =====
+
+def parse_jobicy(data):
+    jobs_raw = data.get("jobs", []) if isinstance(data, dict) else []
+    jobs = []
+    for j in jobs_raw:
+        if not isinstance(j, dict) or not j.get("jobTitle"):
+            continue
+        jobs.append(make_job(
+            source="Jobicy",
+            title=j.get("jobTitle", ""),
+            company=j.get("companyName", ""),
+            location=j.get("jobGeo", "Remote"),
+            url=j.get("url", ""),
+            description=j.get("jobExcerpt", "") + " " + j.get("jobDescription", ""),
+            date=j.get("pubDate", ""),
+        ))
+    return jobs
+
+
+def parse_weworkremotely_rss(xml_data):
+    jobs = []
+    try:
+        root = ET.fromstring(xml_data)
+        for item in root.findall(".//item"):
+            title_raw = item.findtext("title") or ""
+            # Формат: "Company Name: Job Title"
+            if ": " in title_raw:
+                company, _, title = title_raw.partition(": ")
+            else:
+                title, company = title_raw, ""
+
+            link = item.findtext("link") or ""
+            description = re.sub(r"<[^>]+>", "", item.findtext("description") or "")
+            pub_date = item.findtext("pubDate") or ""
+            region_tag = item.findtext("{https://weworkremotely.com}}region") or ""
+
+            jobs.append(make_job(
+                source="WeWorkRemotely",
+                title=title.strip(),
+                company=company.strip(),
+                location=region_tag or "Remote",
+                url=link,
+                description=description,
+                date=pub_date,
+            ))
+    except Exception as e:
+        print(f"  RSS parse error: {e}")
+    return jobs
+
+
 # ===== ОСНОВНЫЕ ФУНКЦИИ =====
 
 def scrape_remoteok():
@@ -295,7 +363,7 @@ def scrape_remoteok():
             print(f"  Загрузка {source['name']}... ", end="", flush=True)
             data = fetch_json(source["url"])
             parsed = parse_remoteok(data)
-            relevant = [j for j in parsed if is_relevant(j) or j["watch_company"]]
+            relevant = [j for j in parsed if is_relevant(j)]
             added = 0
             for job in relevant:
                 if job["id"] not in seen:
@@ -315,7 +383,7 @@ def scrape_workingnomads(seen):
             print(f"  Загрузка {source['name']}... ", end="", flush=True)
             data = fetch_json(source["url"])
             parsed = parse_workingnomads(data)
-            relevant = [j for j in parsed if is_relevant(j) or j["watch_company"]]
+            relevant = [j for j in parsed if is_relevant(j)]
             added = 0
             for job in relevant:
                 if job["id"] not in seen:
@@ -325,6 +393,51 @@ def scrape_workingnomads(seen):
             print(f"✓ {len(parsed)} → {added} релевантных")
         except Exception as e:
             print(f"✗ {e}")
+    return all_jobs
+
+
+def scrape_jobicy(seen):
+    all_jobs = []
+    for source in JOBICY_SOURCES:
+        try:
+            print(f"  Загрузка {source['name']}... ", end="", flush=True)
+            data = fetch_json(source["url"])
+            parsed = parse_jobicy(data)
+            relevant = [j for j in parsed if is_relevant(j)]
+            added = 0
+            for job in relevant:
+                if job["id"] not in seen:
+                    seen.add(job["id"])
+                    all_jobs.append(job)
+                    added += 1
+            print(f"✓ {len(parsed)} → {added} релевантных")
+        except Exception as e:
+            print(f"✗ {e}")
+        time.sleep(1)
+    return all_jobs
+
+
+def scrape_weworkremotely(seen):
+    all_jobs = []
+    try:
+        print(f"  Загрузка WeWorkRemotely RSS... ", end="", flush=True)
+        req = urllib.request.Request(
+            WWR_RSS_URL,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; FractionalJobFinder/1.0)"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            xml_data = resp.read()
+        parsed = parse_weworkremotely_rss(xml_data)
+        relevant = [j for j in parsed if is_relevant(j)]
+        added = 0
+        for job in relevant:
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                all_jobs.append(job)
+                added += 1
+        print(f"✓ {len(parsed)} → {added} релевантных")
+    except Exception as e:
+        print(f"✗ {e}")
     return all_jobs
 
 
@@ -364,7 +477,7 @@ def scrape_linkedin_rapidapi(seen):
             data = fetch_json(url, headers=headers)
             region = search.get("location", "Remote")
             parsed = parse_rapidapi_linkedin(data, region)
-            relevant = [j for j in parsed if is_relevant(j) or j["watch_company"]]
+            relevant = [j for j in parsed if is_relevant(j)]
             added = 0
             for job in relevant:
                 if job["id"] not in seen:
@@ -390,6 +503,14 @@ def main():
     print("\n📡 WorkingNomads:")
     wn_jobs = scrape_workingnomads(seen)
     all_jobs.extend(wn_jobs)
+
+    print("\n📡 WeWorkRemotely:")
+    wwr_jobs = scrape_weworkremotely(seen)
+    all_jobs.extend(wwr_jobs)
+
+    print("\n📡 Jobicy:")
+    jobicy_jobs = scrape_jobicy(seen)
+    all_jobs.extend(jobicy_jobs)
 
     print("\n📡 LinkedIn (RapidAPI):")
     li_jobs = scrape_linkedin_rapidapi(seen)
