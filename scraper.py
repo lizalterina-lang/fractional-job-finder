@@ -210,11 +210,18 @@ def detect_format(title, description):
     return "full-time"
 
 
+TARGET_REGIONS = {"AUS", "SG", "UK", "NZ", "NL", "UAE", "Remote"}
+
+
 def is_relevant(job):
     title = (job.get("title") or "").lower()
     tags = " ".join(job.get("tags") or []).lower()
     desc = (job.get("description") or "").lower()
     combined = f"{title} {tags}"
+
+    # Только целевые регионы + Remote
+    if job.get("region") not in TARGET_REGIONS:
+        return False
 
     if any(k in title for k in EXCLUDE_TITLE):
         return False

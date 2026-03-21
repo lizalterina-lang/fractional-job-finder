@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 21.03.2026 11:24
+// Автоматически сгенерировано: 21.03.2026 11:30
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -52,36 +52,6 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "Jobicy-deepgramproduct-marketing-manager--customer-market",
-    "source": "Jobicy",
-    "title": "Product Marketing Manager, Customer Marketing",
-    "company": "Deepgram",
-    "location": "USA",
-    "region": "USA",
-    "format": "full-time",
-    "url": "https://jobicy.com/jobs/140952-product-marketing-manager-customer-marketing",
-    "tags": [],
-    "description": "Company OverviewDeepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than... Company Overview\nDeepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-tex",
-    "date": "2026-03-19T03:26:44+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Jobicy-impelproduct-marketing-manager",
-    "source": "Jobicy",
-    "title": "Product Marketing Manager",
-    "company": "Impel",
-    "location": "USA",
-    "region": "USA",
-    "format": "full-time",
-    "url": "https://jobicy.com/jobs/140929-product-marketing-manager-3",
-    "tags": [],
-    "description": "We’re looking for a strategic, hands-on Product Marketing Manager to help shape how our products are positioned, launched, and adopted in the market. This role sits at the center of... We’re looking for a strategic, hands-on Product Marketing Manager to help shape how our products are positioned, launched, and adopted in the market. This role sits at the center of Product, Marketing, and Sales — t",
-    "date": "2026-03-19T03:25:36+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
     "id": "Remote OK-10x-teamgo-to-market-strategist-ai-trainer-freelan",
     "source": "Remote OK",
     "title": "Go To Market Strategist AI Trainer Freelance 8 20 hrs week",
@@ -100,116 +70,6 @@ const LIVE_JOBS = [
     ],
     "description": "Updated: 12 March 2026Freelance | 8â20 hrs/week | Remote (EU/UK)Are you an experienced go-to-market strategist ready to shape the next generation of AI-driven business solutions? Do you have 8 to 20 hours per week available to contribute your expertise while maintaining your existing professional commitments?We are 10x Team, a platform for fractional and freelance professionals. We partner with ",
     "date": "2026-03-13T08:00:09+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-phiture-gmbhmobile-growth-manager-performance-mark",
-    "source": "Remote OK",
-    "title": "Mobile Growth Manager Performance Marketing + UA",
-    "company": "Phiture GmbH",
-    "location": "Spain",
-    "region": "Spain",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-mobile-growth-manager-performance-marketing-ua-phiture-gmbh-1130437",
-    "tags": [
-      "growth",
-      "manager",
-      "consultancy",
-      "test",
-      "mobile",
-      "marketing"
-    ],
-    "description": "Hi, weâre Phiture â the mobile growth consultancy working with the teams behind leading apps like Adobe, Headspace, and LEGOÂ® ð. Weâre setting the standard for growth in the brave new digital world, and we need great people to join our global team!\n\nWHAT TO EXPECT\nGet ready to be a pivotal player in our marketing team, where you'll take charge of diverse user acquisition channels, includ",
-    "date": "2026-02-19T08:00:23+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-infstonesgrowth-marketing-manager",
-    "source": "Remote OK",
-    "title": "Growth Marketing Manager",
-    "company": "InfStones",
-    "location": "Texas",
-    "region": "USA",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-growth-marketing-manager-infstones-1130345",
-    "tags": [
-      "growth",
-      "manager",
-      "web3",
-      "node",
-      "mobile",
-      "management"
-    ],
-    "description": "Job Position: Growth Marketing ManagerLocation: Texas, USA (Remote Acceptable)Company: https://infstones.com/Contact: recruiter-usa@infstones.com&nbsp;About CompanyInfStones is an advanced, enterprise-grade Platform as a Service (PaaS) blockchain infrastructure provider trusted by the top blockchain companies in the world. InfStonesâ AI-based infrastructure provides developers worldwide with a r",
-    "date": "2026-02-17T12:00:02+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-omada-healthsenior-member-growth-manager",
-    "source": "Remote OK",
-    "title": "Senior Member Growth Manager",
-    "company": "Omada Health",
-    "location": "USA",
-    "region": "USA",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-member-growth-manager-omada-health-1130295",
-    "tags": [
-      "growth",
-      "manager",
-      "design",
-      "management",
-      "lead",
-      "senior"
-    ],
-    "description": "Omada Health is on a mission to inspire and engage people in lifelong health, one step at a time.  \n\nJob overview\nOmadaâs Member Growth team is focused on the first part of Omadaâs mission â to inspire people everywhere to take the first step toward lasting, healthy change. We understand our audience, know what makes Omada different, connect these two things to tell a great story, then measu",
-    "date": "2026-02-14T16:00:42+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-lumiveroproduct-marketing-manager",
-    "source": "Remote OK",
-    "title": "Product Marketing Manager",
-    "company": "Lumivero",
-    "location": "United States",
-    "region": "USA",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-product-marketing-manager-lumivero-1130273",
-    "tags": [
-      "manager",
-      "training",
-      "technical",
-      "support",
-      "software",
-      "growth"
-    ],
-    "description": "Join a Global Team Making a Lasting Impact with Lumivero&nbsp;Are you ready to be part of a team thatâs changing the world? At Lumivero, we develop powerful data-intelligence software that empowers users to answer their most pressing questions. Our trusted research, decision-making, and organizational tools help academic and corporate professionals create impactful insights from their most compl",
-    "date": "2026-02-14T00:02:11+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-coingeckosenior-product-marketer-api",
-    "source": "Remote OK",
-    "title": "Senior Product Marketer API",
-    "company": "CoinGecko",
-    "location": "Malaysia",
-    "region": "Malaysia",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-product-marketer-api-coingecko-1130132",
-    "tags": [
-      "saas",
-      "defi",
-      "crypto",
-      "cryptocurrency",
-      "technical",
-      "support"
-    ],
-    "description": "CoinGecko is a global leader in tracking cryptocurrency data. Operating since 2014, CoinGecko has built the world's largest cryptocurrency data platform, tracking over 10,000 tokens across more than 400 exchanges, serving over 300 million page views in more than 100 countries, and handling more than 45 billion API calls every month. We are proud to have played a major part in mainstream awareness,",
-    "date": "2026-02-07T02:00:05+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -234,29 +94,7 @@ const LIVE_JOBS = [
     "date": "2026-02-03T00:02:24+00:00",
     "salary": "",
     "watch_company": false
-  },
-  {
-    "id": "Remote OK-crypto-comproduct-marketing-manager",
-    "source": "Remote OK",
-    "title": "Product Marketing Manager",
-    "company": "Crypto.com",
-    "location": "United States",
-    "region": "USA",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-product-marketing-manager-crypto-com-1129996",
-    "tags": [
-      "manager",
-      "design",
-      "crypto",
-      "cryptocurrency",
-      "support",
-      "copywriting"
-    ],
-    "description": "Crypto.com is on a mission to accelerate the worldâs transition to cryptocurrency. As we continue to scale our Exchange and Crypto.com App (spot trading) weâre hiring a Product Marketing Manager to lead on our go-to-market strategy, lifecycle initiatives, and product positioning that fuel global user growth and engagement as we expand.This role sits at the intersection of product, data, and cr",
-    "date": "2026-02-02T09:00:04+00:00",
-    "salary": "",
-    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "21.03.2026 11:24";
+const LAST_UPDATED = "21.03.2026 11:30";
