@@ -240,6 +240,10 @@ def is_relevant(job):
     if any(k in title for k in EXCLUDE_TITLE):
         return False
 
+    # Исключаем "GTM Engineer", "Go To Market Engineer" и подобные инженерные роли
+    if "engineer" in title and not any(k in title for k in ("marketing engineer", "growth engineer")):
+        return False
+
     if any(k in combined for k in KEYWORDS_TITLE):
         return True
 

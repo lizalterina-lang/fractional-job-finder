@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 21.03.2026 11:31
+// Автоматически сгенерировано: 21.03.2026 11:37
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -29,25 +29,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: America\n    URL: https://www.clickguard.com/\n\n\nAbout the Job\nWe are seeking a Senior SaaS Marketing Manager to join our growing remote team. In this role, you will be responsible for owning and leading ClickGuard’s product marketing strategy end-to-end, shaping how our SaaS platform is positioned, launched, adopted, and scaled.\nYou will define the strategic marketing plan, align team",
     "date": "Fri, 13 Mar 2026 17:21:55 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-testgorillago-to-market-engineer",
-    "source": "Remote OK",
-    "title": "Go To Market Engineer",
-    "company": "TestGorilla",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-go-to-market-engineer-testgorilla-1130833",
-    "tags": [
-      "sales",
-      "marketing",
-      "engineer"
-    ],
-    "description": "â¨Â WhereÂ doÂ weÂ hireÂ from?Â FindÂ outÂ moreÂ aboutÂ hiring at TestGorillaHi there, I'm Natalie, Director of GTM Operations at TestGorilla. Weâre excited to share more about the Go-to-Market Engineer role in our team.AboutÂ TestGorillaImagine a world where everyone lands their dream job. TestGorilla is empowering one billion people to do just that, as we revolutionise the hiring process with",
-    "date": "2026-03-19T05:38:33+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -119,4 +100,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "21.03.2026 11:31";
+const LAST_UPDATED = "21.03.2026 11:37";
