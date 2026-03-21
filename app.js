@@ -5,7 +5,9 @@ const COUNTRY_FLAGS = {
   Portugal: "🇵🇹", Ireland: "🇮🇪", Sweden: "🇸🇪", Denmark: "🇩🇰",
   Norway: "🇳🇴", Switzerland: "🇨🇭", Austria: "🇦🇹",
   India: "🇮🇳", Malaysia: "🇲🇾", Philippines: "🇵🇭",
-  Indonesia: "🇮🇩", Brazil: "🇧🇷",
+  Indonesia: "🇮🇩", "Hong Kong": "🇭🇰", Japan: "🇯🇵",
+  "South Korea": "🇰🇷", Thailand: "🇹🇭", Vietnam: "🇻🇳",
+  Brazil: "🇧🇷",
 };
 const KNOWN_REGIONS = new Set(Object.keys(COUNTRY_FLAGS));
 

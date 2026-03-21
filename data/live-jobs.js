@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 21.03.2026 11:30
+// Автоматически сгенерировано: 21.03.2026 11:31
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -74,6 +74,28 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
+    "id": "Remote OK-coingeckosenior-product-marketer-api",
+    "source": "Remote OK",
+    "title": "Senior Product Marketer API",
+    "company": "CoinGecko",
+    "location": "Malaysia",
+    "region": "Malaysia",
+    "format": "full-time",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-product-marketer-api-coingecko-1130132",
+    "tags": [
+      "saas",
+      "defi",
+      "crypto",
+      "cryptocurrency",
+      "technical",
+      "support"
+    ],
+    "description": "CoinGecko is a global leader in tracking cryptocurrency data. Operating since 2014, CoinGecko has built the world's largest cryptocurrency data platform, tracking over 10,000 tokens across more than 400 exchanges, serving over 300 million page views in more than 100 countries, and handling more than 45 billion API calls every month. We are proud to have played a major part in mainstream awareness,",
+    "date": "2026-02-07T02:00:05+00:00",
+    "salary": "",
+    "watch_company": false
+  },
+  {
     "id": "Remote OK-ajax-systemsb2b-marketing-manager",
     "source": "Remote OK",
     "title": "B2B Marketing Manager",
@@ -97,4 +119,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "21.03.2026 11:30";
+const LAST_UPDATED = "21.03.2026 11:31";

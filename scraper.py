@@ -170,8 +170,14 @@ REGIONS_MAP = {
     "canada": "Canada", "toronto": "Canada", "vancouver": "Canada",
     "india": "India", "bangalore": "India", "mumbai": "India",
     "malaysia": "Malaysia", "kuala lumpur": "Malaysia",
-    "philippines": "Philippines",
-    "indonesia": "Indonesia",
+    "philippines": "Philippines", "manila": "Philippines",
+    "indonesia": "Indonesia", "jakarta": "Indonesia",
+    "hong kong": "Hong Kong", "hk": "Hong Kong",
+    "japan": "Japan", "tokyo": "Japan", "osaka": "Japan",
+    "south korea": "South Korea", "korea": "South Korea", "seoul": "South Korea",
+    "thailand": "Thailand", "bangkok": "Thailand",
+    "vietnam": "Vietnam", "ho chi minh": "Vietnam", "hanoi": "Vietnam",
+    "india": "India", "bangalore": "India", "mumbai": "India", "delhi": "India",
     "brazil": "Brazil",
     "poland": "Poland", "warsaw": "Poland",
     "ukraine": "Ukraine", "kyiv": "Ukraine",
@@ -210,7 +216,15 @@ def detect_format(title, description):
     return "full-time"
 
 
-TARGET_REGIONS = {"AUS", "SG", "UK", "NZ", "NL", "UAE", "Remote"}
+TARGET_REGIONS = {
+    # Основные целевые
+    "AUS", "SG", "UK", "NZ", "NL", "UAE",
+    # APAC
+    "Malaysia", "Indonesia", "Philippines", "Hong Kong",
+    "Japan", "South Korea", "Thailand", "Vietnam", "India",
+    # Remote всегда включаем
+    "Remote",
+}
 
 
 def is_relevant(job):
