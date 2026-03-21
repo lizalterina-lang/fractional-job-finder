@@ -377,6 +377,24 @@ body {
   border: 1px solid var(--color-border);
   flex-shrink: 0;
 }
+
+.country-badge-sm,
+.location-badge-sm {
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.location-badge-sm {
+  background: var(--color-surface-2);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+}
 .country-badge[data-country="NL"]  { background: rgba(255, 149,   0, 0.12); color: var(--color-nl); }
 .country-badge[data-country="UAE"] { background: rgba(  0, 184, 148, 0.12); color: var(--color-uae); }
 

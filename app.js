@@ -159,13 +159,13 @@ const renderPlatformCard = (platform) => {
 };
 
 const renderLiveJobCard = (job) => {
-  const regionColors = { AUS: "aus", SG: "sg", UK: "uk" };
-  const regionColor = regionColors[job.region] || null;
-
   const region = job.region || "Remote";
-  const regionBadge = KNOWN_REGIONS.has(region)
-    ? `<span class="country-badge" data-country="${region}">${COUNTRY_FLAGS[region]} ${region}</span>`
-    : `<span class="location-badge">🌍 ${region}</span>`;
+  const flag = COUNTRY_FLAGS[region] || "🌍";
+  const isKnown = KNOWN_REGIONS.has(region);
+
+  const regionInline = isKnown
+    ? `<span class="country-badge country-badge-sm" data-country="${region}">${flag} ${region}</span>`
+    : `<span class="location-badge location-badge-sm">${flag} ${region}</span>`;
 
   const tagsHtml = (job.tags || [])
     .slice(0, 4)
@@ -180,20 +180,26 @@ const renderLiveJobCard = (job) => {
     ? new Date(job.date).toLocaleDateString("ru-RU", { day: "numeric", month: "short" })
     : "";
 
+  const sourceBadge = `<span class="stage-badge" style="font-size:10px">${job.source || ""}</span>`;
+
   return `
-    <div class="card" data-country="${job.region}" role="article" aria-label="${job.title} at ${job.company}">
+    <div class="card" data-country="${region}" role="article" aria-label="${job.title} at ${job.company}">
       <div class="card-header">
         <div class="card-title-group">
           <div class="card-name">${job.title}</div>
-          <div class="card-niche">${job.company} · <span style="color:var(--color-text-faint);font-size:11px">${dateStr}</span></div>
+          <div class="card-niche" style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
+            <span>🏢 ${job.company}</span>
+            ${regionInline}
+            <span style="color:var(--color-text-faint);font-size:11px">${dateStr}</span>
+          </div>
         </div>
-        ${regionBadge}
+        ${formatBadge}
       </div>
       ${job.description ? `<p class="card-description">${job.description.slice(0, 180)}${job.description.length > 180 ? "…" : ""}</p>` : ""}
       <div class="card-footer">
         <div class="card-tags">${tagsHtml}</div>
         <div style="display:flex;gap:6px;align-items:center;flex-shrink:0">
-          ${formatBadge}
+          ${sourceBadge}
           ${job.salary ? `<span class="stage-badge">${job.salary}</span>` : ""}
         </div>
       </div>
