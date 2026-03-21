@@ -136,17 +136,55 @@ FORMAT_PARTTIME_KEYWORDS = [
 ]
 
 REGIONS_MAP = {
+    # Австралия
     "australia": "AUS", "sydney": "AUS", "melbourne": "AUS",
     "brisbane": "AUS", "perth": "AUS", "adelaide": "AUS",
+    "canberra": "AUS", "gold coast": "AUS",
+    # Сингапур
     "singapore": "SG",
+    # Великобритания
     "united kingdom": "UK", "london": "UK", "england": "UK",
-    "manchester": "UK", "edinburgh": "UK", " uk": "UK",
+    "manchester": "UK", "edinburgh": "UK", "birmingham": "UK",
+    "bristol": "UK", "leeds": "UK", " uk": "UK", "gb": "UK",
+    # Новая Зеландия
     "new zealand": "NZ", "auckland": "NZ", "wellington": "NZ",
     "christchurch": "NZ",
+    # Нидерланды
     "netherlands": "NL", "amsterdam": "NL", "rotterdam": "NL",
-    "the hague": "NL", "utrecht": "NL",
+    "the hague": "NL", "utrecht": "NL", "holland": "NL",
+    # ОАЭ
     "united arab emirates": "UAE", "dubai": "UAE",
     "abu dhabi": "UAE", "uae": "UAE",
+    # США → нормализуем в USA
+    "united states": "USA", "usa": "USA", "u.s.a": "USA",
+    "us ": "USA", "america": "USA",
+    # Штаты США → USA
+    "texas": "USA", "california": "USA", "new york": "USA",
+    "florida": "USA", "illinois": "USA", "washington": "USA",
+    "georgia": "USA", "colorado": "USA", "oregon": "USA",
+    "massachusetts": "USA", "north carolina": "USA",
+    # Другие страны
+    "spain": "Spain", "madrid": "Spain", "barcelona": "Spain",
+    "germany": "Germany", "berlin": "Germany", "munich": "Germany",
+    "france": "France", "paris": "France",
+    "canada": "Canada", "toronto": "Canada", "vancouver": "Canada",
+    "india": "India", "bangalore": "India", "mumbai": "India",
+    "malaysia": "Malaysia", "kuala lumpur": "Malaysia",
+    "philippines": "Philippines",
+    "indonesia": "Indonesia",
+    "brazil": "Brazil",
+    "poland": "Poland", "warsaw": "Poland",
+    "ukraine": "Ukraine", "kyiv": "Ukraine",
+    "portugal": "Portugal", "lisbon": "Portugal",
+    "ireland": "Ireland", "dublin": "Ireland",
+    "sweden": "Sweden", "stockholm": "Sweden",
+    "denmark": "Denmark", "copenhagen": "Denmark",
+    "norway": "Norway", "oslo": "Norway",
+    "switzerland": "Switzerland", "zurich": "Switzerland",
+    "austria": "Austria", "vienna": "Austria",
+    "italy": "Italy", "rome": "Italy", "milan": "Italy",
+    "worldwide": "Remote", "anywhere": "Remote",
+    "work from home": "Remote", "wfh": "Remote",
 }
 
 # ===== УТИЛИТЫ =====

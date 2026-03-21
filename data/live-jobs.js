@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 21.03.2026 03:19
+// Автоматически сгенерировано: 21.03.2026 11:24
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -131,7 +131,7 @@ const LIVE_JOBS = [
     "title": "Growth Marketing Manager",
     "company": "InfStones",
     "location": "Texas",
-    "region": "Texas",
+    "region": "USA",
     "format": "full-time",
     "url": "https://remoteOK.com/remote-jobs/remote-growth-marketing-manager-infstones-1130345",
     "tags": [
@@ -175,7 +175,7 @@ const LIVE_JOBS = [
     "title": "Product Marketing Manager",
     "company": "Lumivero",
     "location": "United States",
-    "region": "United States",
+    "region": "USA",
     "format": "full-time",
     "url": "https://remoteOK.com/remote-jobs/remote-product-marketing-manager-lumivero-1130273",
     "tags": [
@@ -241,7 +241,7 @@ const LIVE_JOBS = [
     "title": "Product Marketing Manager",
     "company": "Crypto.com",
     "location": "United States",
-    "region": "United States",
+    "region": "USA",
     "format": "full-time",
     "url": "https://remoteOK.com/remote-jobs/remote-product-marketing-manager-crypto-com-1129996",
     "tags": [
@@ -259,4 +259,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "21.03.2026 03:19";
+const LAST_UPDATED = "21.03.2026 11:24";

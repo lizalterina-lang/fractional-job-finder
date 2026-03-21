@@ -1,4 +1,12 @@
-const COUNTRY_FLAGS = { AUS: "🇦🇺", SG: "🇸🇬", UK: "🇬🇧", NZ: "🇳🇿", NL: "🇳🇱", UAE: "🇦🇪" };
+const COUNTRY_FLAGS = {
+  AUS: "🇦🇺", SG: "🇸🇬", UK: "🇬🇧", NZ: "🇳🇿", NL: "🇳🇱", UAE: "🇦🇪",
+  USA: "🇺🇸", Canada: "🇨🇦", Germany: "🇩🇪", France: "🇫🇷",
+  Spain: "🇪🇸", Italy: "🇮🇹", Poland: "🇵🇱", Ukraine: "🇺🇦",
+  Portugal: "🇵🇹", Ireland: "🇮🇪", Sweden: "🇸🇪", Denmark: "🇩🇰",
+  Norway: "🇳🇴", Switzerland: "🇨🇭", Austria: "🇦🇹",
+  India: "🇮🇳", Malaysia: "🇲🇾", Philippines: "🇵🇭",
+  Indonesia: "🇮🇩", Brazil: "🇧🇷",
+};
 const KNOWN_REGIONS = new Set(Object.keys(COUNTRY_FLAGS));
 
 const LS_COMPANIES_ADDED   = "fj_companies_added";
