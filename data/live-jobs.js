@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 21.03.2026 07:55
+// Автоматически сгенерировано: 22.03.2026 07:59
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -18,6 +18,21 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
+    "id": "WeWorkRemotely-spinncloud-systems-senior-product-manager---ai-inf",
+    "source": "WeWorkRemotely",
+    "title": "(Senior)Product Manager - AI Infrastructure",
+    "company": "SpiNNcloud Systems",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/spinncloud-systems-senior-product-manager-ai-infrastructure",
+    "tags": [],
+    "description": "Headquarters: Dresden, Deutschland\n\n\nThe Role&nbsp;We are hiring a Product Manager or Senior Product Manager to own the end-to-end lifecycle of our AI inference product direction. This&nbsp;includes&nbsp;market discovery and competitive intelligence, requirements definition, roadmap execution, and go-to-market readiness. You will partner closely with Engineering and Research and collaborate with M",
+    "date": "Sat, 21 Mar 2026 20:34:54 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
     "id": "WeWorkRemotely-clickguard-inc-saas-marketing-manager",
     "source": "WeWorkRemotely",
     "title": "SaaS Marketing Manager",
@@ -29,6 +44,28 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: America\n    URL: https://www.clickguard.com/\n\n\nAbout the Job\nWe are seeking a Senior SaaS Marketing Manager to join our growing remote team. In this role, you will be responsible for owning and leading ClickGuard’s product marketing strategy end-to-end, shaping how our SaaS platform is positioned, launched, adopted, and scaled.\nYou will define the strategic marketing plan, align team",
     "date": "Fri, 13 Mar 2026 17:21:55 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "Remote OK-12go-asiaproduct-manager-growth",
+    "source": "Remote OK",
+    "title": "Product Manager Growth",
+    "company": "12Go Asia",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://remoteOK.com/remote-jobs/remote-product-manager-growth-12go-asia-1130851",
+    "tags": [
+      "growth",
+      "manager",
+      "training",
+      "technical",
+      "seo",
+      "ads"
+    ],
+    "description": "You'll be the product owner for our marketing technology stack â the infrastructure that connects our platform to the channels where travellers discover us. This is a technical PM role at the intersection of product, engineering, and marketing. You won't be running campaigns yourself; you'll be building and improving the products and systems that make campaigns possible, measurable, and scalable",
+    "date": "2026-03-20T16:00:03+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -100,4 +137,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "21.03.2026 07:55";
+const LAST_UPDATED = "22.03.2026 07:59";
