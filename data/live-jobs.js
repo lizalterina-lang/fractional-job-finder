@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 23.03.2026 10:33
+// Автоматически сгенерировано: 24.03.2026 10:10
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -18,17 +18,47 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-clickguard-inc-saas-marketing-manager",
+    "id": "WeWorkRemotely-spinncloud-systems-senior-product-manager---ai-inf",
     "source": "WeWorkRemotely",
-    "title": "SaaS Marketing Manager",
-    "company": "ClickGUARD Inc.",
+    "title": "(Senior)Product Manager - AI Infrastructure",
+    "company": "SpiNNcloud Systems",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/clickguard-inc-saas-marketing-manager",
+    "url": "https://weworkremotely.com/remote-jobs/spinncloud-systems-senior-product-manager-ai-infrastructure",
     "tags": [],
-    "description": "Headquarters: America\n    URL: https://www.clickguard.com/\n\n\nAbout the Job\nWe are seeking a Senior SaaS Marketing Manager to join our growing remote team. In this role, you will be responsible for owning and leading ClickGuard’s product marketing strategy end-to-end, shaping how our SaaS platform is positioned, launched, adopted, and scaled.\nYou will define the strategic marketing plan, align team",
-    "date": "Fri, 13 Mar 2026 17:21:55 +0000",
+    "description": "Headquarters: Dresden, Deutschland\n\n\nThe Role&nbsp;We are hiring a Product Manager or Senior Product Manager to own the end-to-end lifecycle of our AI inference product direction. This&nbsp;includes&nbsp;market discovery and competitive intelligence, requirements definition, roadmap execution, and go-to-market readiness. You will partner closely with Engineering and Research and collaborate with M",
+    "date": "Sat, 21 Mar 2026 20:34:54 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-helium-10product-marketing-manager--team-lead",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager, Team Lead",
+    "company": "Helium 10",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/helium-10-product-marketing-manager-team-lead",
+    "tags": [],
+    "description": "Headquarters: Toronto or US - Remote\n\n\nAbout Us:&nbsp;Helium 10 is at the forefront of e-commerce solutions, providing brands with everything they need to scale in today’s digital marketplace. Our mission is to empower sellers by equipping them with the insights, tools, and resources&nbsp;required&nbsp;to succeed in an increasingly competitive landscape. We are known for our rapid pace, craft mast",
+    "date": "Sat, 21 Mar 2026 20:32:53 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-infragisticsproduct-marketing-manager---embedded-a",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager - Embedded Analytics",
+    "company": "Infragistics",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/infragistics-product-marketing-manager-embedded-analytics",
+    "tags": [],
+    "description": "Headquarters: Cranbury, New Jersey, United States\n\n\nWe’re hiring a&nbsp;strategic, execution-driven Product Marketing Manager to own our embedded analytics product’s end-to-end marketing outcomes—from strategy and budget planning through execution and measurable results.This is a&nbsp;GM-style PMM role, not a strategy-only or messaging-only position. Success is defined by delivery, pipeline impact",
+    "date": "Mon, 23 Mar 2026 20:31:51 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -122,4 +152,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "23.03.2026 10:33";
+const LAST_UPDATED = "24.03.2026 10:10";
