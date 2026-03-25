@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 24.03.2026 10:10
+// Автоматически сгенерировано: 25.03.2026 09:39
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,21 +14,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Zug, Switzerland\n    URL: https://www.maptiler.com/\n\n\n\nFull-time\nRemote in Europe&nbsp;\n\nDescriptionMapTiler is a global leader in high-performance mapping technology. We provide developers and enterprises with the building blocks to create world-class maps. We are seeking a strategic&nbsp;Growth Manager&nbsp;to lead our performance marketing and international expansion.This is a rol",
     "date": "Tue, 17 Mar 2026 13:20:35 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-spinncloud-systems-senior-product-manager---ai-inf",
-    "source": "WeWorkRemotely",
-    "title": "(Senior)Product Manager - AI Infrastructure",
-    "company": "SpiNNcloud Systems",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/spinncloud-systems-senior-product-manager-ai-infrastructure",
-    "tags": [],
-    "description": "Headquarters: Dresden, Deutschland\n\n\nThe Role&nbsp;We are hiring a Product Manager or Senior Product Manager to own the end-to-end lifecycle of our AI inference product direction. This&nbsp;includes&nbsp;market discovery and competitive intelligence, requirements definition, roadmap execution, and go-to-market readiness. You will partner closely with Engineering and Research and collaborate with M",
-    "date": "Sat, 21 Mar 2026 20:34:54 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -152,4 +137,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "24.03.2026 10:10";
+const LAST_UPDATED = "25.03.2026 09:39";
