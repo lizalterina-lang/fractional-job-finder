@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 25.03.2026 09:39
+// Автоматически сгенерировано: 26.03.2026 10:14
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,21 +14,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Zug, Switzerland\n    URL: https://www.maptiler.com/\n\n\n\nFull-time\nRemote in Europe&nbsp;\n\nDescriptionMapTiler is a global leader in high-performance mapping technology. We provide developers and enterprises with the building blocks to create world-class maps. We are seeking a strategic&nbsp;Growth Manager&nbsp;to lead our performance marketing and international expansion.This is a rol",
     "date": "Tue, 17 Mar 2026 13:20:35 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-helium-10product-marketing-manager--team-lead",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager, Team Lead",
-    "company": "Helium 10",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/helium-10-product-marketing-manager-team-lead",
-    "tags": [],
-    "description": "Headquarters: Toronto or US - Remote\n\n\nAbout Us:&nbsp;Helium 10 is at the forefront of e-commerce solutions, providing brands with everything they need to scale in today’s digital marketplace. Our mission is to empower sellers by equipping them with the insights, tools, and resources&nbsp;required&nbsp;to succeed in an increasingly competitive landscape. We are known for our rapid pace, craft mast",
-    "date": "Sat, 21 Mar 2026 20:32:53 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -137,4 +122,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "25.03.2026 09:39";
+const LAST_UPDATED = "26.03.2026 10:14";
