@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 28.03.2026 09:01
+// Автоматически сгенерировано: 29.03.2026 09:02
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -29,6 +29,28 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Cranbury, New Jersey, United States\n\n\nWe’re hiring a&nbsp;strategic, execution-driven Product Marketing Manager to own our embedded analytics product’s end-to-end marketing outcomes—from strategy and budget planning through execution and measurable results.This is a&nbsp;GM-style PMM role, not a strategy-only or messaging-only position. Success is defined by delivery, pipeline impact",
     "date": "Mon, 23 Mar 2026 20:31:51 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "Remote OK-getresponseproduct-marketing-manager-ecommerce",
+    "source": "Remote OK",
+    "title": "Product Marketing Manager Ecommerce",
+    "company": "GetResponse",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://remoteOK.com/remote-jobs/remote-product-marketing-manager-ecommerce-getresponse-1130907",
+    "tags": [
+      "manager",
+      "design",
+      "saas",
+      "recruiter",
+      "support",
+      "test"
+    ],
+    "description": "We're looking for a Product Marketing Manager who will own the ecommerce vertical - end to end. This means you'll be the person who understands our ecommerce customers better than anyone else in the building: their workflows, their pain points, how they think about tools, and what moves them from \"interested\" to \"convinced.\" This is not a support role. You'll be expected to come with ideas, build ",
+    "date": "2026-03-27T16:00:37+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -122,4 +144,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "28.03.2026 09:01";
+const LAST_UPDATED = "29.03.2026 09:02";
