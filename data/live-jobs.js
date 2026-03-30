@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 29.03.2026 09:02
+// Автоматически сгенерировано: 30.03.2026 10:48
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,21 +14,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Zug, Switzerland\n    URL: https://www.maptiler.com/\n\n\n\nFull-time\nRemote in Europe&nbsp;\n\nDescriptionMapTiler is a global leader in high-performance mapping technology. We provide developers and enterprises with the building blocks to create world-class maps. We are seeking a strategic&nbsp;Growth Manager&nbsp;to lead our performance marketing and international expansion.This is a rol",
     "date": "Tue, 17 Mar 2026 13:20:35 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-infragisticsproduct-marketing-manager---embedded-a",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager - Embedded Analytics",
-    "company": "Infragistics",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/infragistics-product-marketing-manager-embedded-analytics",
-    "tags": [],
-    "description": "Headquarters: Cranbury, New Jersey, United States\n\n\nWe’re hiring a&nbsp;strategic, execution-driven Product Marketing Manager to own our embedded analytics product’s end-to-end marketing outcomes—from strategy and budget planning through execution and measurable results.This is a&nbsp;GM-style PMM role, not a strategy-only or messaging-only position. Success is defined by delivery, pipeline impact",
-    "date": "Mon, 23 Mar 2026 20:31:51 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -144,4 +129,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "29.03.2026 09:02";
+const LAST_UPDATED = "30.03.2026 10:48";
