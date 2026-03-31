@@ -1,19 +1,19 @@
-// Автоматически сгенерировано: 30.03.2026 10:48
+// Автоматически сгенерировано: 31.03.2026 10:17
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-maptilergrowth-manager---maps-platform--remote-in-",
+    "id": "WeWorkRemotely-committee-for-childrensenior-product-marketing-man",
     "source": "WeWorkRemotely",
-    "title": "Growth Manager | Maps Platform (Remote in Europe)",
-    "company": "MapTiler",
+    "title": "Senior Product Marketing Manager",
+    "company": "Committee for Children",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/maptiler-growth-manager-maps-platform-remote-in-europe",
+    "url": "https://weworkremotely.com/remote-jobs/committee-for-children-senior-product-marketing-manager",
     "tags": [],
-    "description": "Headquarters: Zug, Switzerland\n    URL: https://www.maptiler.com/\n\n\n\nFull-time\nRemote in Europe&nbsp;\n\nDescriptionMapTiler is a global leader in high-performance mapping technology. We provide developers and enterprises with the building blocks to create world-class maps. We are seeking a strategic&nbsp;Growth Manager&nbsp;to lead our performance marketing and international expansion.This is a rol",
-    "date": "Tue, 17 Mar 2026 13:20:35 +0000",
+    "description": "Headquarters: Seattle \n    URL: https://www.cfchildren.org/\n\n\nAre you looking for purpose-driven work where you can make a positive impact on communities around the world? If so, then Committee for Children is an amazing place to grow your career as a&nbsp;Senior Product Marketing Manager.&nbsp;We’re a social enterprise dedicated to advancing the well-being of children through the development of e",
+    "date": "Mon, 30 Mar 2026 21:13:25 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -129,4 +129,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "30.03.2026 10:48";
+const LAST_UPDATED = "31.03.2026 10:17";
