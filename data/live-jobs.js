@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 31.03.2026 10:17
+// Автоматически сгенерировано: 01.04.2026 10:36
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-spinncloud-systems-senior-product-manager---ai-inf",
+    "source": "WeWorkRemotely",
+    "title": "(Senior)Product Manager - AI Infrastructure",
+    "company": "SpiNNcloud Systems",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/spinncloud-systems-senior-product-manager-ai-infrastructure",
+    "tags": [],
+    "description": "Headquarters: Dresden, Deutschland\n\n\nThe Role&nbsp;We are hiring a Product Manager or Senior Product Manager to own the end-to-end lifecycle of our AI inference product direction. This&nbsp;includes&nbsp;market discovery and competitive intelligence, requirements definition, roadmap execution, and go-to-market readiness. You will partner closely with Engineering and Research and collaborate with M",
+    "date": "Sat, 21 Mar 2026 20:34:54 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-committee-for-childrensenior-product-marketing-man",
     "source": "WeWorkRemotely",
@@ -129,4 +144,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "31.03.2026 10:17";
+const LAST_UPDATED = "01.04.2026 10:36";
