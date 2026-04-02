@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 01.04.2026 10:36
+// Автоматически сгенерировано: 02.04.2026 10:13
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -29,6 +29,28 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Seattle \n    URL: https://www.cfchildren.org/\n\n\nAre you looking for purpose-driven work where you can make a positive impact on communities around the world? If so, then Committee for Children is an amazing place to grow your career as a&nbsp;Senior Product Marketing Manager.&nbsp;We’re a social enterprise dedicated to advancing the well-being of children through the development of e",
     "date": "Mon, 30 Mar 2026 21:13:25 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "Remote OK-pharmaceutical-strategies-group-llcproject-coordin",
+    "source": "Remote OK",
+    "title": "Project Coordinator Pharmacy Benefit Management Procurements",
+    "company": "Pharmaceutical Strategies Group LLC",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "part-time",
+    "url": "https://remoteOK.com/remote-jobs/remote-project-coordinator-pharmacy-benefit-management-procurements-pharmaceutical-strategies-group-llc-1130941",
+    "tags": [
+      "coordinator",
+      "support",
+      "growth",
+      "manager",
+      "microsoft",
+      "management"
+    ],
+    "description": "Come join our team!\n\nThere are many reasons why EPIC Insurance Brokers & Consultants has become one of the fastest-growing firms in the insurance industry. Fueled and driven by capable, committed people who share common beliefs and values and âbring itâ every day, EPIC is always looking for people who have âthe right stuffâ â people who know what they want and arenât afraid to make it ",
+    "date": "2026-03-31T16:00:07+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -144,4 +166,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "01.04.2026 10:36";
+const LAST_UPDATED = "02.04.2026 10:13";
