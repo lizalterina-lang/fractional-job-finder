@@ -1,7 +1,37 @@
-// Автоматически сгенерировано: 02.04.2026 10:13
+// Автоматически сгенерировано: 03.04.2026 09:40
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-grafana-labsstaff-product-marketing-manager---unit",
+    "source": "WeWorkRemotely",
+    "title": "Staff Product Marketing Manager | United Kingdom | Remote",
+    "company": "Grafana Labs",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/grafana-labs-staff-product-marketing-manager-united-kingdom-remote",
+    "tags": [],
+    "description": "Headquarters: United Kingdom (Remote)\n\n\nGrafana Labs is a remote-first, open-source powerhouse. There are more than 20M users of Grafana, the open source visualization tool, around the globe, monitoring everything from beehives to climate change in the Alps. The instantly recognizable dashboards have been spotted everywhere from a NASA launch and Minecraft HQ to Wimbledon and the Tour de France. G",
+    "date": "Thu, 02 Apr 2026 20:31:18 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-digital-luxury-group--dlgproduct-marketing-manager",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager - B2B SaaS",
+    "company": "Digital Luxury Group, DLG",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/digital-luxury-group-dlg-product-marketing-manager-b2b-saas",
+    "tags": [],
+    "description": "Headquarters: Remote\n    URL: http://digitalluxurygroup.com\n\n\n\nWHO WE AREDLG (Digital Luxury Group) is a Swiss-headquartered company building a B2B SaaS market intelligence platform powered by AI. We turn millions of data points into competitive clarity for enterprise clients, who happen to be some of the world's most prestigious luxury brands. Our team spans Geneva, Shanghai, Singapore, and Londo",
+    "date": "Thu, 02 Apr 2026 16:40:06 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-spinncloud-systems-senior-product-manager---ai-inf",
     "source": "WeWorkRemotely",
@@ -166,4 +196,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "02.04.2026 10:13";
+const LAST_UPDATED = "03.04.2026 09:40";
