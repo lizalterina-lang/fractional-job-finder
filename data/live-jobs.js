@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 03.04.2026 09:40
+// Автоматически сгенерировано: 04.04.2026 09:03
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -59,6 +59,66 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Seattle \n    URL: https://www.cfchildren.org/\n\n\nAre you looking for purpose-driven work where you can make a positive impact on communities around the world? If so, then Committee for Children is an amazing place to grow your career as a&nbsp;Senior Product Marketing Manager.&nbsp;We’re a social enterprise dedicated to advancing the well-being of children through the development of e",
     "date": "Mon, 30 Mar 2026 21:13:25 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-grafana-labsstaff-product-marketing-manager---germ",
+    "source": "WeWorkRemotely",
+    "title": "Staff Product Marketing Manager | Germany | Remote",
+    "company": "Grafana Labs",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/grafana-labs-staff-product-marketing-manager-germany-remote",
+    "tags": [],
+    "description": "Headquarters: Germany (Remote)\n\n\nGrafana Labs is a remote-first, open-source powerhouse. There are more than 20M users of Grafana, the open source visualization tool, around the globe, monitoring everything from beehives to climate change in the Alps. The instantly recognizable dashboards have been spotted everywhere from a NASA launch and Minecraft HQ to Wimbledon and the Tour de France. Grafana ",
+    "date": "Fri, 03 Apr 2026 20:31:44 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-grafana-labsstaff-product-marketing-manager---swed",
+    "source": "WeWorkRemotely",
+    "title": "Staff Product Marketing Manager | Sweden | Remote",
+    "company": "Grafana Labs",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/grafana-labs-staff-product-marketing-manager-sweden-remote",
+    "tags": [],
+    "description": "Headquarters: Sweden (Remote)\n\n\nGrafana Labs is a remote-first, open-source powerhouse. There are more than 20M users of Grafana, the open source visualization tool, around the globe, monitoring everything from beehives to climate change in the Alps. The instantly recognizable dashboards have been spotted everywhere from a NASA launch and Minecraft HQ to Wimbledon and the Tour de France. Grafana L",
+    "date": "Fri, 03 Apr 2026 20:31:33 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-grafana-labsstaff-product-marketing-manager---spai",
+    "source": "WeWorkRemotely",
+    "title": "Staff Product Marketing Manager | Spain | Remote",
+    "company": "Grafana Labs",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/grafana-labs-staff-product-marketing-manager-spain-remote",
+    "tags": [],
+    "description": "Headquarters: Spain (Remote)\n\n\nGrafana Labs is a remote-first, open-source powerhouse. There are more than 20M users of Grafana, the open source visualization tool, around the globe, monitoring everything from beehives to climate change in the Alps. The instantly recognizable dashboards have been spotted everywhere from a NASA launch and Minecraft HQ to Wimbledon and the Tour de France. Grafana La",
+    "date": "Fri, 03 Apr 2026 20:31:33 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-hospitable-staff-product-marketing-manager--usa-em",
+    "source": "WeWorkRemotely",
+    "title": "Staff Product Marketing Manager (USA/EMEA - Remote)",
+    "company": "Hospitable.",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/hospitable-staff-product-marketing-manager-usa-emea-remote-1",
+    "tags": [],
+    "description": "Headquarters: United States\n    URL: https://hospitable.com/careers\n\n\nTLDR; We build software for short-term rentals to rent themselves, with a state-of-the-art product and user experience.\nWe have crafted an Applicant Handbook, which we highly recommend you check out, where you can find out more about the company, culture, how we recruit, what we do, and how we do it: https://hsptb.com/hndbk\nHosp",
+    "date": "Fri, 03 Apr 2026 16:21:32 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -196,4 +256,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "03.04.2026 09:40";
+const LAST_UPDATED = "04.04.2026 09:03";
