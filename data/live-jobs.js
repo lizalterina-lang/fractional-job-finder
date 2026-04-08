@@ -1,64 +1,79 @@
-// Автоматически сгенерировано: 07.04.2026 10:36
+// Автоматически сгенерировано: 08.04.2026 10:40
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-hahn-air-linesproduct-marketing-manager--all-gende",
+    "id": "WeWorkRemotely-valsoft-corporationproduct-marketing-manager-ehsq",
     "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager (all genders)",
-    "company": "Hahn Air Lines",
+    "title": "Product Marketing Manager EHSQ",
+    "company": "Valsoft Corporation",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/hahn-air-lines-product-marketing-manager-all-genders",
+    "url": "https://weworkremotely.com/remote-jobs/valsoft-corporation-product-marketing-manager-ehsq",
     "tags": [],
-    "description": "Headquarters: Dreieich\n\n\nReady for something truly new?                        The Product Marketing Manager (all genders) will be a pivotal member of the Corporate Communications &amp; Marketing team, responsible for our new DISTRIPLY brand and product content. This role requires a dynamic and strategic individual with a proven track record in startup growth and a strong preference for experience",
-    "date": "Mon, 06 Apr 2026 20:34:33 +0000",
+    "description": "Headquarters: Canada\n\n\nTAG Software Group is seeking a Product Marketing Manager EHSQ Software to lead product positioning, go-to-market execution, and customer-centric storytelling across our Environmental, Health, Safety &amp; Quality portfolio.ABOUT TAG SOFTWARE GROUP:TAG Software Group is a team of experienced investors and operators dedicated to acquiring, enhancing, and growing mission-criti",
+    "date": "Tue, 07 Apr 2026 20:34:58 +0000",
     "salary": "",
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-fadata-groupproduct-marketing-senior-manager--go-t",
+    "id": "WeWorkRemotely-amplitudeproduct-marketing-manager--experiment",
     "source": "WeWorkRemotely",
-    "title": "Product Marketing Senior Manager (Go-to-Market)",
-    "company": "Fadata Group",
+    "title": "Product Marketing Manager, Experiment",
+    "company": "Amplitude",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/fadata-group-product-marketing-senior-manager-go-to-market",
+    "url": "https://weworkremotely.com/remote-jobs/amplitude-product-marketing-manager-experiment",
     "tags": [],
-    "description": "Headquarters: Hybrid Madrid,Germany,Denmark,Sofia\n\n\nAt Fadata, we take pride in our ability to adapt quickly to the ever-changing needs of our market and customers. This means that you, too, should be ready to embrace change as circumstances evolve. If you're excited about a fast-paced, dynamic environment where strategy is set but flexibility to grow with the market remains, then hit the apply bu",
-    "date": "Mon, 06 Apr 2026 18:02:38 +0000",
+    "description": "Headquarters: Remote - USA\n\n\nAmplitude is the leading AI analytics platform, helping over 4,300 customers—including Atlassian, Burger King, NBCUniversal, Square, and Under Armour—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories by G2, Amp",
+    "date": "Tue, 07 Apr 2026 20:34:03 +0000",
     "salary": "",
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-infinite-rootsproduct-marketing-associate--m-f-d-",
+    "id": "WeWorkRemotely-openminedtechnical-product-marketer",
     "source": "WeWorkRemotely",
-    "title": "Product Marketing Associate (m/f/d)",
-    "company": "Infinite Roots",
+    "title": "Technical Product Marketer",
+    "company": "Openmined",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/infinite-roots-product-marketing-associate-m-f-d",
+    "url": "https://weworkremotely.com/remote-jobs/openmined-technical-product-marketer",
     "tags": [],
-    "description": "Headquarters: Hamburg\n\n\nAs a Product Marketing Associate, you’ll support the development and execution of product and packaging initiatives while playing an active role in product launch campaigns and go-to-market operations. Working closely with cross-functional teams, you’ll ensure that our products meet consumer needs, brand standards, legal &amp; coast requirements and business goals — while g",
-    "date": "Mon, 06 Apr 2026 18:00:48 +0000",
+    "description": "Headquarters: United States\n\n\nOpenMined is a 501(c)(3) non-profit foundation that brings together leading minds in AI, security, and privacy technology to develop open-source solutions that transform how data can be accessed and shared. Founded in 2017, we've grown into a global community of over 18,000 members working to ensure that privacy protection and AI innovation reinforce each other rather",
+    "date": "Tue, 07 Apr 2026 20:33:07 +0000",
     "salary": "",
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-hospitable-staff-product-marketing-manager--usa-em",
+    "id": "WeWorkRemotely-housecall-prosenior-product-marketing-manager--mar",
     "source": "WeWorkRemotely",
-    "title": "Staff Product Marketing Manager (USA/EMEA - Remote)",
-    "company": "Hospitable.",
+    "title": "Senior Product Marketing Manager, Market Strategy",
+    "company": "Housecall Pro",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/hospitable-staff-product-marketing-manager-usa-emea-remote-1",
+    "url": "https://weworkremotely.com/remote-jobs/housecall-pro-senior-product-marketing-manager-market-strategy",
     "tags": [],
-    "description": "Headquarters: United States\n    URL: https://hospitable.com/careers\n\n\nTLDR; We build software for short-term rentals to rent themselves, with a state-of-the-art product and user experience.\nWe have crafted an Applicant Handbook, which we highly recommend you check out, where you can find out more about the company, culture, how we recruit, what we do, and how we do it: https://hsptb.com/hndbk\nHosp",
-    "date": "Fri, 03 Apr 2026 16:21:32 +0000",
+    "description": "Headquarters: United States\n\n\nWhy Housecall Pro?Help us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service professionals that support America’s 100 million homes. We’re all about the Pro, and dedicate our days to helping them streamline operations, scale their businesses, and—ultimately—save time so they ca",
+    "date": "Tue, 07 Apr 2026 20:32:49 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-pindropproduct-marketing-manager---emerging",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager - Emerging",
+    "company": "Pindrop",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/pindrop-product-marketing-manager-emerging",
+    "tags": [],
+    "description": "Headquarters: US - Remote\n\n\nWho we areAre you passionate about innovating at the intersection of technology and personal security? At Pindrop, we recognize that the human voice is a unique personal identifier, increasingly susceptible to sophisticated fraud, including the threat of deepfakes. We're leading the way in developing cutting-edge authentication, fraud prevention, and deepfake detection.",
+    "date": "Tue, 07 Apr 2026 20:32:37 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -196,4 +211,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "07.04.2026 10:36";
+const LAST_UPDATED = "08.04.2026 10:40";
