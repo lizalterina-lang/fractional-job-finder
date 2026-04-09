@@ -1,7 +1,37 @@
-// Автоматически сгенерировано: 08.04.2026 10:40
+// Автоматически сгенерировано: 09.04.2026 10:44
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-kentikprincipal-product-marketing-manager",
+    "source": "WeWorkRemotely",
+    "title": "Principal Product Marketing Manager",
+    "company": "Kentik",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/kentik-principal-product-marketing-manager",
+    "tags": [],
+    "description": "Headquarters: Remote  United States\n\n\nWho we areKentik is the network intelligence platform for modern infrastructure teams. Unlike traditional monitoring and observability tools, we demystify complex network operations, enabling organizations to deliver applications and innovation at scale. Built by network experts to make critical insight accessible to every engineer, Kentik is the real-time sou",
+    "date": "Wed, 08 Apr 2026 20:33:06 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-arnogrowth-marketer---korea",
+    "source": "WeWorkRemotely",
+    "title": "Growth Marketer – Korea",
+    "company": "Arno",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "part-time",
+    "url": "https://weworkremotely.com/remote-jobs/arno-growth-marketer-korea",
+    "tags": [],
+    "description": "Headquarters: United States\n    URL: https://goarno.io\n\n\nGrowth Marketer – Korea\n20 hours per week · Fully remote · $18 per hour + annual bonuses\nThe Role\nYou'll be our first dedicated hire for the Korean market, responsible for both shaping our marketing strategy there and executing on it. That means understanding where our target audience (Korean students aged 16–24 who want to study abroad at E",
+    "date": "Wed, 08 Apr 2026 11:10:39 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-valsoft-corporationproduct-marketing-manager-ehsq",
     "source": "WeWorkRemotely",
@@ -33,47 +63,17 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-openminedtechnical-product-marketer",
-    "source": "WeWorkRemotely",
-    "title": "Technical Product Marketer",
-    "company": "Openmined",
-    "location": "Remote",
+    "id": "WorkingNomads-fractional-growth-marketer",
+    "source": "WorkingNomads",
+    "title": "Fractional Growth Marketer",
+    "company": "",
+    "location": "Anywhere in the world",
     "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/openmined-technical-product-marketer",
+    "format": "part-time",
+    "url": "https://www.workingnomads.com/job/go/1527356/",
     "tags": [],
-    "description": "Headquarters: United States\n\n\nOpenMined is a 501(c)(3) non-profit foundation that brings together leading minds in AI, security, and privacy technology to develop open-source solutions that transform how data can be accessed and shared. Founded in 2017, we've grown into a global community of over 18,000 members working to ensure that privacy protection and AI innovation reinforce each other rather",
-    "date": "Tue, 07 Apr 2026 20:33:07 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-housecall-prosenior-product-marketing-manager--mar",
-    "source": "WeWorkRemotely",
-    "title": "Senior Product Marketing Manager, Market Strategy",
-    "company": "Housecall Pro",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/housecall-pro-senior-product-marketing-manager-market-strategy",
-    "tags": [],
-    "description": "Headquarters: United States\n\n\nWhy Housecall Pro?Help us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service professionals that support America’s 100 million homes. We’re all about the Pro, and dedicate our days to helping them streamline operations, scale their businesses, and—ultimately—save time so they ca",
-    "date": "Tue, 07 Apr 2026 20:32:49 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-pindropproduct-marketing-manager---emerging",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager - Emerging",
-    "company": "Pindrop",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/pindrop-product-marketing-manager-emerging",
-    "tags": [],
-    "description": "Headquarters: US - Remote\n\n\nWho we areAre you passionate about innovating at the intersection of technology and personal security? At Pindrop, we recognize that the human voice is a unique personal identifier, increasingly susceptible to sophisticated fraud, including the threat of deepfakes. We're leading the way in developing cutting-edge authentication, fraud prevention, and deepfake detection.",
-    "date": "Tue, 07 Apr 2026 20:32:37 +0000",
+    "description": "We're hiring: Fractional Growth Marketer\nCoreli (https://coreli.ai) is a beautiful, curated landing page builder for creators, brands, and professionals. Think of it as the premium replacement for Linktree — a page that actually looks like you, built from your existing content in minutes.\nWe have 350+ paying subscribers and we're growing steadily. Now we're ready to pour fuel on it.\nFounded by Tho",
+    "date": "2026-04-08T11:38:30-04:00",
     "salary": "",
     "watch_company": false
   },
@@ -186,29 +186,7 @@ const LIVE_JOBS = [
     "date": "2026-02-07T02:00:05+00:00",
     "salary": "",
     "watch_company": false
-  },
-  {
-    "id": "Remote OK-ajax-systemsb2b-marketing-manager",
-    "source": "Remote OK",
-    "title": "B2B Marketing Manager",
-    "company": "Ajax Systems",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-b2b-marketing-manager-ajax-systems-1130028",
-    "tags": [
-      "manager",
-      "security",
-      "support",
-      "software",
-      "growth",
-      "travel"
-    ],
-    "description": "Ajax Systems is an international tech company and the largest manufacturer of security systems in Europe, with over 4.5 million end users and 330K PRO users in more than 180 countries worldwide. The company offers end-to-end solutions for protecting homes and businesses Ð¾f any scale. To date, Ajax product portfolio includes 280 devices for intrusion protection, video surveillance, fire and life s",
-    "date": "2026-02-03T00:02:24+00:00",
-    "salary": "",
-    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "08.04.2026 10:40";
+const LAST_UPDATED = "09.04.2026 10:44";
