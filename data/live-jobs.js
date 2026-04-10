@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 09.04.2026 10:44
+// Автоматически сгенерировано: 10.04.2026 10:35
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -33,32 +33,17 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-valsoft-corporationproduct-marketing-manager-ehsq",
+    "id": "WeWorkRemotely-crypto-comproduct-marketing-manager--exchange-prod",
     "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager EHSQ",
-    "company": "Valsoft Corporation",
+    "title": "Product Marketing Manager (Exchange Product)",
+    "company": "Crypto.Com",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/valsoft-corporation-product-marketing-manager-ehsq",
+    "url": "https://weworkremotely.com/remote-jobs/crypto-com-product-marketing-manager-exchange-product",
     "tags": [],
-    "description": "Headquarters: Canada\n\n\nTAG Software Group is seeking a Product Marketing Manager EHSQ Software to lead product positioning, go-to-market execution, and customer-centric storytelling across our Environmental, Health, Safety &amp; Quality portfolio.ABOUT TAG SOFTWARE GROUP:TAG Software Group is a team of experienced investors and operators dedicated to acquiring, enhancing, and growing mission-criti",
-    "date": "Tue, 07 Apr 2026 20:34:58 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-amplitudeproduct-marketing-manager--experiment",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager, Experiment",
-    "company": "Amplitude",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/amplitude-product-marketing-manager-experiment",
-    "tags": [],
-    "description": "Headquarters: Remote - USA\n\n\nAmplitude is the leading AI analytics platform, helping over 4,300 customers—including Atlassian, Burger King, NBCUniversal, Square, and Under Armour—build better products and digital experiences. With powerful AI Agents embedded across our platform, teams can analyze, test, and optimize user experiences faster than ever. Ranked #1 across multiple categories by G2, Amp",
-    "date": "Tue, 07 Apr 2026 20:34:03 +0000",
+    "description": "Headquarters: United States\n\n\nCrypto.com is on a mission to accelerate the world’s transition to cryptocurrency. As we continue to scale our Exchange and Crypto.com App (spot trading) we’re hiring a Product Marketing Manager to lead on our go-to-market strategy, lifecycle initiatives, and product positioning that fuel global user growth and engagement as we expand.This role sits at the intersectio",
+    "date": "Thu, 09 Apr 2026 20:34:08 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -189,4 +174,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "09.04.2026 10:44";
+const LAST_UPDATED = "10.04.2026 10:35";
