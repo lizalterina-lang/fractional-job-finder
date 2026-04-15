@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 14.04.2026 10:50
+// Автоматически сгенерировано: 15.04.2026 08:21
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -18,17 +18,17 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-arnogrowth-marketer---korea",
+    "id": "WeWorkRemotely-chainguardstaff-product-marketing-manager---contai",
     "source": "WeWorkRemotely",
-    "title": "Growth Marketer – Korea",
-    "company": "Arno",
+    "title": "Staff Product Marketing Manager - Containers",
+    "company": "Chainguard",
     "location": "Remote",
     "region": "Remote",
-    "format": "part-time",
-    "url": "https://weworkremotely.com/remote-jobs/arno-growth-marketer-korea",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/chainguard-staff-product-marketing-manager-containers",
     "tags": [],
-    "description": "Headquarters: United States\n    URL: https://goarno.io\n\n\nGrowth Marketer – Korea\n20 hours per week · Fully remote · $18 per hour + annual bonuses\nThe Role\nYou'll be our first dedicated hire for the Korean market, responsible for both shaping our marketing strategy there and executing on it. That means understanding where our target audience (Korean students aged 16–24 who want to study abroad at E",
-    "date": "Wed, 08 Apr 2026 11:10:39 +0000",
+    "description": "Headquarters: United States - Remote\n\n\nThe role, in a nutshell:&nbsp;This role is for a Staff Product Marketing Manager who will lead ongoing launches and growth initiatives for Chainguard Containers. Chainguard is innovative at its core - the products we build are new and different - and articulating our value in a compelling and credible way is essential to our growth. This role requires strong ",
+    "date": "Tue, 14 Apr 2026 20:31:36 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -44,6 +44,21 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: United States\n\n\nCrypto.com is on a mission to accelerate the world’s transition to cryptocurrency. As we continue to scale our Exchange and Crypto.com App (spot trading) we’re hiring a Product Marketing Manager to lead on our go-to-market strategy, lifecycle initiatives, and product positioning that fuel global user growth and engagement as we expand.This role sits at the intersectio",
     "date": "Thu, 09 Apr 2026 20:34:08 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-growthx-aiai-growth-strategist--account-management",
+    "source": "WeWorkRemotely",
+    "title": "AI Growth Strategist (Account Management)",
+    "company": "GrowthX AI",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/growthx-ai-ai-growth-strategist-account-management",
+    "tags": [],
+    "description": "Headquarters: San Francisco\n    URL: https://growthx.ai/\n\n\nAbout the Role\nWe’re hiring an&nbsp;AI Growth Strategist&nbsp;to own the most critical phase of the customer lifecycle:&nbsp;turning new customers into confident, long-term partners who see real growth and choose to expand with us.\nThis role is&nbsp;customer-facing, outcome-driven, and consultative. You are accountable for onboarding custo",
+    "date": "Fri, 13 Feb 2026 19:20:00 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -174,4 +189,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "14.04.2026 10:50";
+const LAST_UPDATED = "15.04.2026 08:21";
