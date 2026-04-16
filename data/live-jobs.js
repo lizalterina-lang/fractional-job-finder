@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 15.04.2026 08:21
+// Автоматически сгенерировано: 16.04.2026 08:21
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -59,6 +59,28 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: San Francisco\n    URL: https://growthx.ai/\n\n\nAbout the Role\nWe’re hiring an&nbsp;AI Growth Strategist&nbsp;to own the most critical phase of the customer lifecycle:&nbsp;turning new customers into confident, long-term partners who see real growth and choose to expand with us.\nThis role is&nbsp;customer-facing, outcome-driven, and consultative. You are accountable for onboarding custo",
     "date": "Fri, 13 Feb 2026 19:20:00 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "Remote OK-neighborhoods-commanager-growth-marketing---conten",
+    "source": "Remote OK",
+    "title": "Manager Growth Marketing & Content",
+    "company": "Neighborhoods.com",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://remoteOK.com/remote-jobs/remote-manager-growth-marketing-content-neighborhoods-com-1131112",
+    "tags": [
+      "growth",
+      "manager",
+      "director",
+      "leader",
+      "strategy",
+      "lead"
+    ],
+    "description": "About the Role \nNeighborhoods.com and 55places.com are built on a simple but powerful belief: the neighborhood and community you belong to matters more than the house you live in. Our content is the bridge between that belief and the people searching for their next home and community â and we're looking for a leader to make that bridge stronger, smarter, and more impactful than ever. As Sr. Mana",
+    "date": "2026-04-15T00:00:42+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -189,4 +211,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "15.04.2026 08:21";
+const LAST_UPDATED = "16.04.2026 08:21";
