@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 16.04.2026 08:21
+// Автоматически сгенерировано: 17.04.2026 08:20
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-kentikprincipal-product-marketing-manager",
-    "source": "WeWorkRemotely",
-    "title": "Principal Product Marketing Manager",
-    "company": "Kentik",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/kentik-principal-product-marketing-manager",
-    "tags": [],
-    "description": "Headquarters: Remote  United States\n\n\nWho we areKentik is the network intelligence platform for modern infrastructure teams. Unlike traditional monitoring and observability tools, we demystify complex network operations, enabling organizations to deliver applications and innovation at scale. Built by network experts to make critical insight accessible to every engineer, Kentik is the real-time sou",
-    "date": "Wed, 08 Apr 2026 20:33:06 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "WeWorkRemotely-chainguardstaff-product-marketing-manager---contai",
     "source": "WeWorkRemotely",
@@ -186,29 +171,7 @@ const LIVE_JOBS = [
     "date": "2026-03-13T08:00:09+00:00",
     "salary": "",
     "watch_company": false
-  },
-  {
-    "id": "Remote OK-coingeckosenior-product-marketer-api",
-    "source": "Remote OK",
-    "title": "Senior Product Marketer API",
-    "company": "CoinGecko",
-    "location": "Malaysia",
-    "region": "Malaysia",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-product-marketer-api-coingecko-1130132",
-    "tags": [
-      "saas",
-      "defi",
-      "crypto",
-      "cryptocurrency",
-      "technical",
-      "support"
-    ],
-    "description": "CoinGecko is a global leader in tracking cryptocurrency data. Operating since 2014, CoinGecko has built the world's largest cryptocurrency data platform, tracking over 10,000 tokens across more than 400 exchanges, serving over 300 million page views in more than 100 countries, and handling more than 45 billion API calls every month. We are proud to have played a major part in mainstream awareness,",
-    "date": "2026-02-07T02:00:05+00:00",
-    "salary": "",
-    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "16.04.2026 08:21";
+const LAST_UPDATED = "17.04.2026 08:20";
