@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 17.04.2026 08:20
+// Автоматически сгенерировано: 18.04.2026 07:52
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-chainguardstaff-product-marketing-manager---contai",
-    "source": "WeWorkRemotely",
-    "title": "Staff Product Marketing Manager - Containers",
-    "company": "Chainguard",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/chainguard-staff-product-marketing-manager-containers",
-    "tags": [],
-    "description": "Headquarters: United States - Remote\n\n\nThe role, in a nutshell:&nbsp;This role is for a Staff Product Marketing Manager who will lead ongoing launches and growth initiatives for Chainguard Containers. Chainguard is innovative at its core - the products we build are new and different - and articulating our value in a compelling and credible way is essential to our growth. This role requires strong ",
-    "date": "Tue, 14 Apr 2026 20:31:36 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "WeWorkRemotely-crypto-comproduct-marketing-manager--exchange-prod",
     "source": "WeWorkRemotely",
@@ -29,6 +14,21 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: United States\n\n\nCrypto.com is on a mission to accelerate the world’s transition to cryptocurrency. As we continue to scale our Exchange and Crypto.com App (spot trading) we’re hiring a Product Marketing Manager to lead on our go-to-market strategy, lifecycle initiatives, and product positioning that fuel global user growth and engagement as we expand.This role sits at the intersectio",
     "date": "Thu, 09 Apr 2026 20:34:08 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-lawnstartersenior-product-marketing-manager--pro-e",
+    "source": "WeWorkRemotely",
+    "title": "Senior Product Marketing Manager, Pro Experience",
+    "company": "LawnStarter",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/lawnstarter-senior-product-marketing-manager-pro-experience",
+    "tags": [],
+    "description": "Headquarters: San Francisco, California, United States\n    URL: http://lawnstarter.com\n\n\nAbout LawnStarter\nLawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We connect homeowners with vetted local service professionals (Pros) who handle everything from weekly mowing to pool cleaning. We're profitable, growing 30%+ YoY,",
+    "date": "Fri, 17 Apr 2026 19:08:27 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -174,4 +174,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "17.04.2026 08:20";
+const LAST_UPDATED = "18.04.2026 07:52";
