@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 21.04.2026 08:26
+// Автоматически сгенерировано: 22.04.2026 08:23
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-plaidproduct-manager---payments",
+    "source": "WeWorkRemotely",
+    "title": "Product Manager – Payments",
+    "company": "Plaid",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/plaid-product-manager-payments",
+    "tags": [],
+    "description": "Headquarters: Remote\n    URL: https://plaid.com\n\n\nPlaid is looking for a Product Manager to own our payments product line. You'll define the roadmap and work with engineering, design, and go-to-market teams to build products that help consumers and developers interact with the financial system.5+ years of product management experience in fintech or paymentsStrong analytical skills and data-driven ",
+    "date": "Wed, 22 Apr 2026 02:29:49 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-crypto-comproduct-marketing-manager--exchange-prod",
     "source": "WeWorkRemotely",
@@ -174,4 +189,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "21.04.2026 08:26";
+const LAST_UPDATED = "22.04.2026 08:23";
