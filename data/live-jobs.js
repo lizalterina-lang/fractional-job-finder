@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 22.04.2026 08:23
+// Автоматически сгенерировано: 23.04.2026 08:28
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-north-spore-llchead-of-marketing",
+    "source": "WeWorkRemotely",
+    "title": "Head of Marketing",
+    "company": "North Spore LLC",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/north-spore-llc-head-of-marketing",
+    "tags": [],
+    "description": "Headquarters: Portland, ME\n    URL: https://northspore.com/\n\n\nPOSITION OVERVIEW\nWe're looking for a Head of Marketing to be the steward of our brand as we enter our next phase of growth. This is a brand-first leadership role — focused on how North Spore shows up in the world, how customers experience us, and how we deepen the love and loyalty that have made us the category leader. You'll lead bran",
+    "date": "Wed, 22 Apr 2026 17:13:25 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-plaidproduct-manager---payments",
     "source": "WeWorkRemotely",
@@ -48,17 +63,20 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-growthx-aiai-growth-strategist--account-management",
-    "source": "WeWorkRemotely",
-    "title": "AI Growth Strategist (Account Management)",
-    "company": "GrowthX AI",
+    "id": "Remote OK-happilyproduct-growth-marketer",
+    "source": "Remote OK",
+    "title": "Product Growth Marketer",
+    "company": "Happily",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/growthx-ai-ai-growth-strategist-account-management",
-    "tags": [],
-    "description": "Headquarters: San Francisco\n    URL: https://growthx.ai/\n\n\nAbout the Role\nWe’re hiring an&nbsp;AI Growth Strategist&nbsp;to own the most critical phase of the customer lifecycle:&nbsp;turning new customers into confident, long-term partners who see real growth and choose to expand with us.\nThis role is&nbsp;customer-facing, outcome-driven, and consultative. You are accountable for onboarding custo",
-    "date": "Fri, 13 Feb 2026 19:20:00 +0000",
+    "url": "https://remoteOK.com/remote-jobs/remote-product-growth-marketer-happily-1131244",
+    "tags": [
+      "marketing",
+      "product"
+    ],
+    "description": "What We're BuildingHappily has been producing high-impact live events for leading brands since 2012. We know this world from the inside â the run of show, the green room, the moment the doors open. That's exactly why we built Arrived.Arrived is an event registration and on-site check-in tool built for professional event organizers. It handles the full arc â from branded registration pages and ",
+    "date": "2026-04-21T13:00:33+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -189,4 +207,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "22.04.2026 08:23";
+const LAST_UPDATED = "23.04.2026 08:28";
