@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 23.04.2026 08:28
+// Автоматически сгенерировано: 24.04.2026 08:54
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -29,21 +29,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Remote\n    URL: https://plaid.com\n\n\nPlaid is looking for a Product Manager to own our payments product line. You'll define the roadmap and work with engineering, design, and go-to-market teams to build products that help consumers and developers interact with the financial system.5+ years of product management experience in fintech or paymentsStrong analytical skills and data-driven ",
     "date": "Wed, 22 Apr 2026 02:29:49 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-crypto-comproduct-marketing-manager--exchange-prod",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager (Exchange Product)",
-    "company": "Crypto.Com",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/crypto-com-product-marketing-manager-exchange-product",
-    "tags": [],
-    "description": "Headquarters: United States\n\n\nCrypto.com is on a mission to accelerate the world’s transition to cryptocurrency. As we continue to scale our Exchange and Crypto.com App (spot trading) we’re hiring a Product Marketing Manager to lead on our go-to-market strategy, lifecycle initiatives, and product positioning that fuel global user growth and engagement as we expand.This role sits at the intersectio",
-    "date": "Thu, 09 Apr 2026 20:34:08 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -207,4 +192,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "23.04.2026 08:28";
+const LAST_UPDATED = "24.04.2026 08:54";
