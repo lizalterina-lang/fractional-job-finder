@@ -1,49 +1,64 @@
-// Автоматически сгенерировано: 28.04.2026 09:13
+// Автоматически сгенерировано: 29.04.2026 09:04
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-north-spore-llchead-of-marketing",
+    "id": "WeWorkRemotely-matrix42senior-product-marketing-manager--m-f-d-",
     "source": "WeWorkRemotely",
-    "title": "Head of Marketing",
-    "company": "North Spore LLC",
+    "title": "Senior Product Marketing Manager (m/f/d)",
+    "company": "Matrix42",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/north-spore-llc-head-of-marketing",
+    "url": "https://weworkremotely.com/remote-jobs/matrix42-senior-product-marketing-manager-m-f-d",
     "tags": [],
-    "description": "Headquarters: Portland, ME\n    URL: https://northspore.com/\n\n\nPOSITION OVERVIEW\nWe're looking for a Head of Marketing to be the steward of our brand as we enter our next phase of growth. This is a brand-first leadership role — focused on how North Spore shows up in the world, how customers experience us, and how we deepen the love and loyalty that have made us the category leader. You'll lead bran",
-    "date": "Wed, 22 Apr 2026 17:13:25 +0000",
+    "description": "Headquarters: Frankfurt am Main,Bucharest,Remote Germany Hessen,Espoo\n\n\nWe are seeking a dynamic and experienced Senior Product Marketing Manager. &nbsp;Product marketing managers at Matrix42 spearhead all marketing efforts for their assigned product(s). These individuals deeply understand their target audience’s everyday challenges and can clearly communicate how their product helps solve custome",
+    "date": "Wed, 29 Apr 2026 08:34:44 +0000",
     "salary": "",
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-plaidproduct-manager---payments",
+    "id": "WeWorkRemotely-interop-labsproduct-marketing-manager",
     "source": "WeWorkRemotely",
-    "title": "Product Manager – Payments",
-    "company": "Plaid",
+    "title": "Product Marketing Manager",
+    "company": "Interop Labs",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/plaid-product-manager-payments",
+    "url": "https://weworkremotely.com/remote-jobs/interop-labs-product-marketing-manager",
     "tags": [],
-    "description": "Headquarters: Remote\n    URL: https://plaid.com\n\n\nPlaid is looking for a Product Manager to own our payments product line. You'll define the roadmap and work with engineering, design, and go-to-market teams to build products that help consumers and developers interact with the financial system.5+ years of product management experience in fintech or paymentsStrong analytical skills and data-driven ",
-    "date": "Wed, 22 Apr 2026 02:29:49 +0000",
+    "description": "Headquarters: Remote\n\n\nInterop Labs is growing, and we’re looking for a Product Marketing Manager to join our team! In this role, you’ll be the go-to expert for taking Axelar’s products to market; from messaging and positioning to hands-on GTM execution.If you’re passionate about Web3, enjoy working cross-functionally with product, sales, and marketing teams, and thrive in fast-paced, startup envi",
+    "date": "Wed, 29 Apr 2026 08:34:22 +0000",
     "salary": "",
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-lawnstartersenior-product-marketing-manager--pro-e",
+    "id": "WeWorkRemotely-altiumsenior-product-marketing-manager",
     "source": "WeWorkRemotely",
-    "title": "Senior Product Marketing Manager, Pro Experience",
-    "company": "LawnStarter",
+    "title": "Senior Product Marketing Manager",
+    "company": "Altium",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/lawnstarter-senior-product-marketing-manager-pro-experience",
+    "url": "https://weworkremotely.com/remote-jobs/altium-senior-product-marketing-manager-1",
     "tags": [],
-    "description": "Headquarters: San Francisco, California, United States\n    URL: http://lawnstarter.com\n\n\nAbout LawnStarter\nLawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We connect homeowners with vetted local service professionals (Pros) who handle everything from weekly mowing to pool cleaning. We're profitable, growing 30%+ YoY,",
-    "date": "Fri, 17 Apr 2026 19:08:27 +0000",
+    "description": "Headquarters: United States\n\n\n&nbsp;&nbsp;️ Why Altium?Altium is transforming the way electronics are designed and built. From startups to world’s technology giants, our digital platforms give more power to PCB designers, supply chain, and manufacturing, letting them collaborate as never before.Constant innovation has created a transformative technology, unique in its spaceMore than 30,000 compani",
+    "date": "Wed, 29 Apr 2026 08:33:52 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-fastntechnical-product-marketing-manager",
+    "source": "WeWorkRemotely",
+    "title": "Technical Product Marketing Manager",
+    "company": "Fastn",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/fastn-technical-product-marketing-manager-1",
+    "tags": [],
+    "description": "Headquarters: Remote Oregon United States\n\n\nTechnical Product Marketing Manager Location: Remote (Some overlap hours with Central Time US.)Language : ENGLISH (MUST HAVE)Company: FastnType: Full-TimeReports to: CEOCompensation: USD About Fastn Fastn is revolutionizing how SaaS companies connect with their customers' environments. As a fast-growing startup, we're building an AI-powered embedded inte",
+    "date": "Wed, 29 Apr 2026 08:32:46 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -192,4 +207,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "28.04.2026 09:13";
+const LAST_UPDATED = "29.04.2026 09:04";
