@@ -1,7 +1,67 @@
-// Автоматически сгенерировано: 29.04.2026 09:04
+// Автоматически сгенерировано: 30.04.2026 09:06
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-socuresenior-product-marketing-manager",
+    "source": "WeWorkRemotely",
+    "title": "Senior Product Marketing Manager",
+    "company": "Socure",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/socure-senior-product-marketing-manager",
+    "tags": [],
+    "description": "Headquarters: Remote - USA\n\n\nWhy Socure?At Socure, we’re on a mission—to verify 100% of good identities in real time and eliminate identity fraud from the internet.Using predictive analytics and advanced machine learning trained on billions of signals to power RiskOS™, Socure has created the most accurate identity verification and fraud prevention platform in the world. Trusted by thousands of lea",
+    "date": "Wed, 29 Apr 2026 23:04:06 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-pindropproduct-marketing-manager",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager",
+    "company": "Pindrop",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/pindrop-product-marketing-manager",
+    "tags": [],
+    "description": "Headquarters: US - Remote\n\n\nWho We ArePindrop is redefining trust in the digital age. Our patented voice, and video authentication, fraud detection, and deepfake detection technologies protect some of the world’s largest banks, insurers, retailers, and healthcare leaders. As AI-driven threats evolve in the form of synthetic voices, deepfakes, face swapping and more, our solutions stay ahead, helpi",
+    "date": "Wed, 29 Apr 2026 20:34:38 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-tesvolt-agproduct-marketing-manager--m-w-d-",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager (m/w/d)",
+    "company": "Tesvolt Ag",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/tesvolt-ag-product-marketing-manager-m-w-d",
+    "tags": [],
+    "description": "Headquarters: Berlin, HQ - Lutherstadt Wittenberg, Hybrid\n\n\nGestalte mit uns die Energiewende                        Die Zukunft, TESVOLT und Du - gemeinsam formen wir die Energiewende mit hochmodernen &amp; effizienten Stromspeichern&nbsp;„Made in Germany“. Unsere Mission ist es, immer und überall bezahlbare Energie zu ermöglichen. Hierarchie, Bürokratie und Formalismus bremsen Dich aus? Dank uns",
+    "date": "Wed, 29 Apr 2026 20:33:18 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-filestageproduct-marketing-manager",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager",
+    "company": "Filestage",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/filestage-product-marketing-manager",
+    "tags": [],
+    "description": "Headquarters: Remote\n    URL: https://filestage.io/\n\n\n\n\nAbout Filestage\nFilestage is the review and approval platform that helps teams get their work over the finish line with confidence. As AI speeds up content creation, the process of verifying and approving that work has become a major bottleneck. We provide the AI-powered infrastructure that ensures every file is checked, compliant, and approv",
+    "date": "Wed, 29 Apr 2026 12:40:24 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-matrix42senior-product-marketing-manager--m-f-d-",
     "source": "WeWorkRemotely",
@@ -40,10 +100,10 @@ const LIVE_JOBS = [
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/altium-senior-product-marketing-manager-1",
+    "url": "https://weworkremotely.com/remote-jobs/altium-senior-product-marketing-manager",
     "tags": [],
-    "description": "Headquarters: United States\n\n\n&nbsp;&nbsp;️ Why Altium?Altium is transforming the way electronics are designed and built. From startups to world’s technology giants, our digital platforms give more power to PCB designers, supply chain, and manufacturing, letting them collaborate as never before.Constant innovation has created a transformative technology, unique in its spaceMore than 30,000 compani",
-    "date": "Wed, 29 Apr 2026 08:33:52 +0000",
+    "description": "Headquarters: United States Remote\n\n\n&nbsp;&nbsp;️ Why Altium?Altium is transforming the way electronics are designed and built. From startups to world’s technology giants, our digital platforms give more power to PCB designers, supply chain, and manufacturing, letting them collaborate as never before.Constant innovation has created a transformative technology, unique in its spaceMore than 30,000 ",
+    "date": "Wed, 29 Apr 2026 08:33:15 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -207,4 +267,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "29.04.2026 09:04";
+const LAST_UPDATED = "30.04.2026 09:06";
