@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 30.04.2026 09:06
+// Автоматически сгенерировано: 01.05.2026 08:52
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-socuresenior-product-marketing-manager",
-    "source": "WeWorkRemotely",
-    "title": "Senior Product Marketing Manager",
-    "company": "Socure",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/socure-senior-product-marketing-manager",
-    "tags": [],
-    "description": "Headquarters: Remote - USA\n\n\nWhy Socure?At Socure, we’re on a mission—to verify 100% of good identities in real time and eliminate identity fraud from the internet.Using predictive analytics and advanced machine learning trained on billions of signals to power RiskOS™, Socure has created the most accurate identity verification and fraud prevention platform in the world. Trusted by thousands of lea",
-    "date": "Wed, 29 Apr 2026 23:04:06 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "WeWorkRemotely-pindropproduct-marketing-manager",
     "source": "WeWorkRemotely",
@@ -63,62 +48,47 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-matrix42senior-product-marketing-manager--m-f-d-",
-    "source": "WeWorkRemotely",
-    "title": "Senior Product Marketing Manager (m/f/d)",
-    "company": "Matrix42",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/matrix42-senior-product-marketing-manager-m-f-d",
-    "tags": [],
-    "description": "Headquarters: Frankfurt am Main,Bucharest,Remote Germany Hessen,Espoo\n\n\nWe are seeking a dynamic and experienced Senior Product Marketing Manager. &nbsp;Product marketing managers at Matrix42 spearhead all marketing efforts for their assigned product(s). These individuals deeply understand their target audience’s everyday challenges and can clearly communicate how their product helps solve custome",
-    "date": "Wed, 29 Apr 2026 08:34:44 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-interop-labsproduct-marketing-manager",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager",
-    "company": "Interop Labs",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/interop-labs-product-marketing-manager",
-    "tags": [],
-    "description": "Headquarters: Remote\n\n\nInterop Labs is growing, and we’re looking for a Product Marketing Manager to join our team! In this role, you’ll be the go-to expert for taking Axelar’s products to market; from messaging and positioning to hands-on GTM execution.If you’re passionate about Web3, enjoy working cross-functionally with product, sales, and marketing teams, and thrive in fast-paced, startup envi",
-    "date": "Wed, 29 Apr 2026 08:34:22 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-altiumsenior-product-marketing-manager",
+    "id": "WeWorkRemotely-jimdosenior-product-marketing-manager",
     "source": "WeWorkRemotely",
     "title": "Senior Product Marketing Manager",
-    "company": "Altium",
+    "company": "Jimdo",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/altium-senior-product-marketing-manager",
+    "url": "https://weworkremotely.com/remote-jobs/jimdo-senior-product-marketing-manager",
     "tags": [],
-    "description": "Headquarters: United States Remote\n\n\n&nbsp;&nbsp;️ Why Altium?Altium is transforming the way electronics are designed and built. From startups to world’s technology giants, our digital platforms give more power to PCB designers, supply chain, and manufacturing, letting them collaborate as never before.Constant innovation has created a transformative technology, unique in its spaceMore than 30,000 ",
-    "date": "Wed, 29 Apr 2026 08:33:15 +0000",
+    "description": "Headquarters: Germany\n\n\nAbout JimdoJoin us to help unleash the power of the self-employed and help them thrive!&nbsp;Jimdo was founded by three school friends in 2007 in a farmhouse in Northern Germany. Fast forward today, we are a growing, profitable, remote-first company with 220+ people from over 50 nationalities, working across more than 15 countries. We value trust, ownership, and execution o",
+    "date": "Thu, 30 Apr 2026 20:33:52 +0000",
     "salary": "",
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-fastntechnical-product-marketing-manager",
+    "id": "WeWorkRemotely-brighthiresenior-product-marketing-manager",
     "source": "WeWorkRemotely",
-    "title": "Technical Product Marketing Manager",
-    "company": "Fastn",
+    "title": "Senior Product Marketing Manager",
+    "company": "Brighthire",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/fastn-technical-product-marketing-manager-1",
+    "url": "https://weworkremotely.com/remote-jobs/brighthire-senior-product-marketing-manager",
     "tags": [],
-    "description": "Headquarters: Remote Oregon United States\n\n\nTechnical Product Marketing Manager Location: Remote (Some overlap hours with Central Time US.)Language : ENGLISH (MUST HAVE)Company: FastnType: Full-TimeReports to: CEOCompensation: USD About Fastn Fastn is revolutionizing how SaaS companies connect with their customers' environments. As a fast-growing startup, we're building an AI-powered embedded inte",
-    "date": "Wed, 29 Apr 2026 08:32:46 +0000",
+    "description": "Headquarters: Remote\n\n\nBrightHire is a category-creating, high-growth, Series B software company with a mission to give everyone the hiring experience they deserve.We deliver on this mission by transforming the way many of the world’s leading companies build exceptional teams. We created the Interview Intelligence category, and our clients include some of the world’s most innovative companies—Canv",
+    "date": "Thu, 30 Apr 2026 20:33:06 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-siena-aiproduct-marketing-manager",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager",
+    "company": "Siena Ai",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/siena-ai-product-marketing-manager",
+    "tags": [],
+    "description": "Headquarters: New York\n\n\nMeet SienaSiena is the first intelligence layer for customer experience. We're creating an operating system of AI agents that learn, remember, and act across every customer touchpoint—from support conversations to shopping experiences to voice and social media interactions.Siena doesn't just automate support; it powers shopping agents, builds persistent customer memory, ge",
+    "date": "Thu, 30 Apr 2026 17:37:28 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -267,4 +237,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "30.04.2026 09:06";
+const LAST_UPDATED = "01.05.2026 08:52";
