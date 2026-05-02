@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 01.05.2026 08:52
+// Автоматически сгенерировано: 02.05.2026 08:16
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -48,21 +48,6 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-jimdosenior-product-marketing-manager",
-    "source": "WeWorkRemotely",
-    "title": "Senior Product Marketing Manager",
-    "company": "Jimdo",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/jimdo-senior-product-marketing-manager",
-    "tags": [],
-    "description": "Headquarters: Germany\n\n\nAbout JimdoJoin us to help unleash the power of the self-employed and help them thrive!&nbsp;Jimdo was founded by three school friends in 2007 in a farmhouse in Northern Germany. Fast forward today, we are a growing, profitable, remote-first company with 220+ people from over 50 nationalities, working across more than 15 countries. We value trust, ownership, and execution o",
-    "date": "Thu, 30 Apr 2026 20:33:52 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
     "id": "WeWorkRemotely-brighthiresenior-product-marketing-manager",
     "source": "WeWorkRemotely",
     "title": "Senior Product Marketing Manager",
@@ -89,6 +74,21 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: New York\n\n\nMeet SienaSiena is the first intelligence layer for customer experience. We're creating an operating system of AI agents that learn, remember, and act across every customer touchpoint—from support conversations to shopping experiences to voice and social media interactions.Siena doesn't just automate support; it powers shopping agents, builds persistent customer memory, ge",
     "date": "Thu, 30 Apr 2026 17:37:28 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-temporal-technologiessenior-staff-product-marketin",
+    "source": "WeWorkRemotely",
+    "title": "Senior Staff Product Marketing Manager, AI",
+    "company": "Temporal Technologies",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/temporal-technologies-senior-staff-product-marketing-manager-ai",
+    "tags": [],
+    "description": "Headquarters: United States - Remote Opportunity\n\n\nAbout UsTemporal is an open source programming model that can simplify code, make applications more reliable, and help developers focus on the important things like delivering features faster. We are on a mission to be the reliable foundation of every developer’s toolbox, and are building the team that will make that happen.&nbsp;Our values guide ",
+    "date": "Fri, 01 May 2026 20:32:15 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -237,4 +237,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "01.05.2026 08:52";
+const LAST_UPDATED = "02.05.2026 08:16";
