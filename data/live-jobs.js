@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 02.05.2026 08:16
+// Автоматически сгенерировано: 03.05.2026 08:29
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,36 +14,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: US - Remote\n\n\nWho We ArePindrop is redefining trust in the digital age. Our patented voice, and video authentication, fraud detection, and deepfake detection technologies protect some of the world’s largest banks, insurers, retailers, and healthcare leaders. As AI-driven threats evolve in the form of synthetic voices, deepfakes, face swapping and more, our solutions stay ahead, helpi",
     "date": "Wed, 29 Apr 2026 20:34:38 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-tesvolt-agproduct-marketing-manager--m-w-d-",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager (m/w/d)",
-    "company": "Tesvolt Ag",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/tesvolt-ag-product-marketing-manager-m-w-d",
-    "tags": [],
-    "description": "Headquarters: Berlin, HQ - Lutherstadt Wittenberg, Hybrid\n\n\nGestalte mit uns die Energiewende                        Die Zukunft, TESVOLT und Du - gemeinsam formen wir die Energiewende mit hochmodernen &amp; effizienten Stromspeichern&nbsp;„Made in Germany“. Unsere Mission ist es, immer und überall bezahlbare Energie zu ermöglichen. Hierarchie, Bürokratie und Formalismus bremsen Dich aus? Dank uns",
-    "date": "Wed, 29 Apr 2026 20:33:18 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-filestageproduct-marketing-manager",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager",
-    "company": "Filestage",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/filestage-product-marketing-manager",
-    "tags": [],
-    "description": "Headquarters: Remote\n    URL: https://filestage.io/\n\n\n\n\nAbout Filestage\nFilestage is the review and approval platform that helps teams get their work over the finish line with confidence. As AI speeds up content creation, the process of verifying and approving that work has become a major bottleneck. We provide the AI-powered infrastructure that ensures every file is checked, compliant, and approv",
-    "date": "Wed, 29 Apr 2026 12:40:24 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -237,4 +207,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "02.05.2026 08:16";
+const LAST_UPDATED = "03.05.2026 08:29";
