@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 03.05.2026 08:29
+// Автоматически сгенерировано: 04.05.2026 09:10
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-pindropproduct-marketing-manager",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager",
-    "company": "Pindrop",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/pindrop-product-marketing-manager",
-    "tags": [],
-    "description": "Headquarters: US - Remote\n\n\nWho We ArePindrop is redefining trust in the digital age. Our patented voice, and video authentication, fraud detection, and deepfake detection technologies protect some of the world’s largest banks, insurers, retailers, and healthcare leaders. As AI-driven threats evolve in the form of synthetic voices, deepfakes, face swapping and more, our solutions stay ahead, helpi",
-    "date": "Wed, 29 Apr 2026 20:34:38 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "WeWorkRemotely-brighthiresenior-product-marketing-manager",
     "source": "WeWorkRemotely",
@@ -44,6 +29,21 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: New York\n\n\nMeet SienaSiena is the first intelligence layer for customer experience. We're creating an operating system of AI agents that learn, remember, and act across every customer touchpoint—from support conversations to shopping experiences to voice and social media interactions.Siena doesn't just automate support; it powers shopping agents, builds persistent customer memory, ge",
     "date": "Thu, 30 Apr 2026 17:37:28 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-maptilergrowth-manager---maps-platform--remote-in-",
+    "source": "WeWorkRemotely",
+    "title": "Growth Manager | Maps Platform (Remote in Europe)",
+    "company": "MapTiler",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/maptiler-growth-manager-maps-platform-remote-in-europe-1",
+    "tags": [],
+    "description": "Headquarters: Zug, Switzerland\n    URL: https://www.maptiler.com/\n\n\n\nFull-time\nRemote in Europe&nbsp;\n\nDescriptionMapTiler is a global leader in high-performance mapping technology. We provide developers and enterprises with the building blocks to create world-class maps. We are seeking a strategic&nbsp;Growth Manager&nbsp;to lead our performance marketing and international expansion.This is a rol",
+    "date": "Mon, 04 May 2026 08:44:51 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -207,4 +207,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "03.05.2026 08:29";
+const LAST_UPDATED = "04.05.2026 09:10";
