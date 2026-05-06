@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 05.05.2026 09:03
+// Автоматически сгенерировано: 06.05.2026 09:14
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,21 +14,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Remote\n\n\nBrightHire is a category-creating, high-growth, Series B software company with a mission to give everyone the hiring experience they deserve.We deliver on this mission by transforming the way many of the world’s leading companies build exceptional teams. We created the Interview Intelligence category, and our clients include some of the world’s most innovative companies—Canv",
     "date": "Thu, 30 Apr 2026 20:33:06 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-siena-aiproduct-marketing-manager",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager",
-    "company": "Siena Ai",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/siena-ai-product-marketing-manager",
-    "tags": [],
-    "description": "Headquarters: New York\n\n\nMeet SienaSiena is the first intelligence layer for customer experience. We're creating an operating system of AI agents that learn, remember, and act across every customer touchpoint—from support conversations to shopping experiences to voice and social media interactions.Siena doesn't just automate support; it powers shopping agents, builds persistent customer memory, ge",
-    "date": "Thu, 30 Apr 2026 17:37:28 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -207,4 +192,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "05.05.2026 09:03";
+const LAST_UPDATED = "06.05.2026 09:14";
