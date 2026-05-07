@@ -1,19 +1,19 @@
-// Автоматически сгенерировано: 06.05.2026 09:14
+// Автоматически сгенерировано: 07.05.2026 09:24
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-brighthiresenior-product-marketing-manager",
+    "id": "WeWorkRemotely-freshly-commercegrowth-marketing-manager---contrac",
     "source": "WeWorkRemotely",
-    "title": "Senior Product Marketing Manager",
-    "company": "Brighthire",
+    "title": "Growth Marketing Manager - Contract",
+    "company": "Freshly Commerce",
     "location": "Remote",
     "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/brighthire-senior-product-marketing-manager",
+    "format": "part-time",
+    "url": "https://weworkremotely.com/remote-jobs/freshly-commerce-growth-marketing-manager-contract",
     "tags": [],
-    "description": "Headquarters: Remote\n\n\nBrightHire is a category-creating, high-growth, Series B software company with a mission to give everyone the hiring experience they deserve.We deliver on this mission by transforming the way many of the world’s leading companies build exceptional teams. We created the Interview Intelligence category, and our clients include some of the world’s most innovative companies—Canv",
-    "date": "Thu, 30 Apr 2026 20:33:06 +0000",
+    "description": "Headquarters: Waterloo, Canada\n    URL: https://www.simplebundles.com/careers/\n\n\nAt Freshly Commerce we’re on a mission to become the logistics brain for commerce. Today our 3 Shopify apps simplify inventory, product bundling, and order fulfillment for brands like Sennheiser, Godiva, YAMAHA, and Stanley Drinkware. Tomorrow we’ll deliver intelligent automation that feels like an ops team so merchan",
+    "date": "Wed, 06 May 2026 20:28:02 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -103,28 +103,6 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "Remote OK-pharmaceutical-strategies-group-llcproject-coordin",
-    "source": "Remote OK",
-    "title": "Project Coordinator Pharmacy Benefit Management Procurements",
-    "company": "Pharmaceutical Strategies Group LLC",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "part-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-project-coordinator-pharmacy-benefit-management-procurements-pharmaceutical-strategies-group-llc-1130941",
-    "tags": [
-      "coordinator",
-      "support",
-      "growth",
-      "manager",
-      "microsoft",
-      "management"
-    ],
-    "description": "Come join our team!\n\nThere are many reasons why EPIC Insurance Brokers & Consultants has become one of the fastest-growing firms in the insurance industry. Fueled and driven by capable, committed people who share common beliefs and values and âbring itâ every day, EPIC is always looking for people who have âthe right stuffâ â people who know what they want and arenât afraid to make it ",
-    "date": "2026-03-31T16:00:07+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
     "id": "Remote OK-getresponseproduct-marketing-manager-ecommerce",
     "source": "Remote OK",
     "title": "Product Marketing Manager Ecommerce",
@@ -192,4 +170,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "06.05.2026 09:14";
+const LAST_UPDATED = "07.05.2026 09:24";
