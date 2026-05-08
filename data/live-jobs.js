@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 07.05.2026 09:24
+// Автоматически сгенерировано: 08.05.2026 08:17
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -33,17 +33,17 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-temporal-technologiessenior-staff-product-marketin",
-    "source": "WeWorkRemotely",
-    "title": "Senior Staff Product Marketing Manager, AI",
-    "company": "Temporal Technologies",
-    "location": "Remote",
+    "id": "WorkingNomads-senior-seo-strategist---remote--work-from-home-",
+    "source": "WorkingNomads",
+    "title": "Senior SEO Strategist - Remote (Work from Home)",
+    "company": "",
+    "location": "Anywhere in the world",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/temporal-technologies-senior-staff-product-marketing-manager-ai",
+    "url": "https://www.workingnomads.com/job/go/1586280/",
     "tags": [],
-    "description": "Headquarters: United States - Remote Opportunity\n\n\nAbout UsTemporal is an open source programming model that can simplify code, make applications more reliable, and help developers focus on the important things like delivering features faster. We are on a mission to be the reliable foundation of every developer’s toolbox, and are building the team that will make that happen.&nbsp;Our values guide ",
-    "date": "Fri, 01 May 2026 20:32:15 +0000",
+    "description": "Who We Are\nStubGroup is a remote digital marketing agency that has helped SMBs grow for nearly 15 years through strong marketing strategy and execution. We are also a Premier Google Partner, and we work with businesses across local/home services, professional services, lead-generation SMBs, and ecommerce.\nWe care about doing thoughtful, high-quality work that actually helps clients grow. We are no",
+    "date": "2026-05-07T16:34:03-04:00",
     "salary": "",
     "watch_company": false
   },
@@ -170,4 +170,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "07.05.2026 09:24";
+const LAST_UPDATED = "08.05.2026 08:17";
