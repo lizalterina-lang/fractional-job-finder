@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 08.05.2026 08:17
+// Автоматически сгенерировано: 09.05.2026 08:23
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -88,21 +88,6 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WorkingNomads-fractional-growth-marketer",
-    "source": "WorkingNomads",
-    "title": "Fractional Growth Marketer",
-    "company": "",
-    "location": "Anywhere in the world",
-    "region": "Remote",
-    "format": "part-time",
-    "url": "https://www.workingnomads.com/job/go/1527356/",
-    "tags": [],
-    "description": "We're hiring: Fractional Growth Marketer\nCoreli (https://coreli.ai) is a beautiful, curated landing page builder for creators, brands, and professionals. Think of it as the premium replacement for Linktree — a page that actually looks like you, built from your existing content in minutes.\nWe have 350+ paying subscribers and we're growing steadily. Now we're ready to pour fuel on it.\nFounded by Tho",
-    "date": "2026-04-08T11:38:30-04:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
     "id": "Remote OK-getresponseproduct-marketing-manager-ecommerce",
     "source": "Remote OK",
     "title": "Product Marketing Manager Ecommerce",
@@ -170,4 +155,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "08.05.2026 08:17";
+const LAST_UPDATED = "09.05.2026 08:23";
