@@ -1,34 +1,19 @@
-// Автоматически сгенерировано: 11.05.2026 10:26
+// Автоматически сгенерировано: 12.05.2026 09:28
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-freshly-commercegrowth-marketing-manager---contrac",
+    "id": "WeWorkRemotely-freshly-commercegrowth-marketing-manager",
     "source": "WeWorkRemotely",
-    "title": "Growth Marketing Manager - Contract",
+    "title": "Growth Marketing Manager",
     "company": "Freshly Commerce",
     "location": "Remote",
     "region": "Remote",
-    "format": "part-time",
-    "url": "https://weworkremotely.com/remote-jobs/freshly-commerce-growth-marketing-manager-contract",
-    "tags": [],
-    "description": "Headquarters: Waterloo, Canada\n    URL: https://www.simplebundles.com/careers/\n\n\nAt Freshly Commerce we’re on a mission to become the logistics brain for commerce. Today our 3 Shopify apps simplify inventory, product bundling, and order fulfillment for brands like Sennheiser, Godiva, YAMAHA, and Stanley Drinkware. Tomorrow we’ll deliver intelligent automation that feels like an ops team so merchan",
-    "date": "Wed, 06 May 2026 20:28:02 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-maptilergrowth-manager---maps-platform--remote-in-",
-    "source": "WeWorkRemotely",
-    "title": "Growth Manager | Maps Platform (Remote in Europe)",
-    "company": "MapTiler",
-    "location": "Remote",
-    "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/maptiler-growth-manager-maps-platform-remote-in-europe-1",
+    "url": "https://weworkremotely.com/remote-jobs/freshly-commerce-growth-marketing-manager",
     "tags": [],
-    "description": "Headquarters: Zug, Switzerland\n    URL: https://www.maptiler.com/\n\n\n\nFull-time\nRemote in Europe&nbsp;\n\nDescriptionMapTiler is a global leader in high-performance mapping technology. We provide developers and enterprises with the building blocks to create world-class maps. We are seeking a strategic&nbsp;Growth Manager&nbsp;to lead our performance marketing and international expansion.This is a rol",
-    "date": "Mon, 04 May 2026 08:44:51 +0000",
+    "description": "Headquarters: Waterloo, Canada\n    URL: https://www.simplebundles.com/careers/\n\n\nAt Freshly Commerce we’re on a mission to become the logistics brain for commerce. Today our 3 Shopify apps simplify inventory, product bundling, and order fulfillment for brands like Sennheiser, Godiva, YAMAHA, and Stanley Drinkware. Tomorrow, we’ll deliver intelligent automation that feels like an ops team so mercha",
+    "date": "Wed, 06 May 2026 20:28:02 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -155,4 +140,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "11.05.2026 10:26";
+const LAST_UPDATED = "12.05.2026 09:28";
