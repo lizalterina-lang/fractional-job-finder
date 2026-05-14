@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 13.05.2026 09:34
+// Автоматически сгенерировано: 14.05.2026 09:25
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,21 +14,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Venice Beach, California\n    URL: https://solebicycles.com\n\n\nAbout the Role:\nWe’re seeking a hands-on, operationally minded marketing manager to own the day-to-day execution and performance of marketing across all of Solé’s channels—Online Sales, Retail Sales, &amp; Corporate / B2B Sales. You’ll build the repeatable systems behind every marketing motion, run cold outreach for new par",
     "date": "Wed, 13 May 2026 01:51:40 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-freshly-commercegrowth-marketing-manager",
-    "source": "WeWorkRemotely",
-    "title": "Growth Marketing Manager",
-    "company": "Freshly Commerce",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/freshly-commerce-growth-marketing-manager",
-    "tags": [],
-    "description": "Headquarters: Waterloo, Canada\n    URL: https://www.simplebundles.com/careers/\n\n\nAt Freshly Commerce we’re on a mission to become the logistics brain for commerce. Today our 3 Shopify apps simplify inventory, product bundling, and order fulfillment for brands like Sennheiser, Godiva, YAMAHA, and Stanley Drinkware. Tomorrow, we’ll deliver intelligent automation that feels like an ops team so mercha",
-    "date": "Wed, 06 May 2026 20:28:02 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -155,4 +140,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "13.05.2026 09:34";
+const LAST_UPDATED = "14.05.2026 09:25";
