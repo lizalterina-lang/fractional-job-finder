@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 14.05.2026 09:25
+// Автоматически сгенерировано: 15.05.2026 09:37
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -27,7 +27,7 @@ const LIVE_JOBS = [
     "format": "full-time",
     "url": "https://www.workingnomads.com/job/go/1586280/",
     "tags": [],
-    "description": "Who We Are\nStubGroup is a remote digital marketing agency that has helped SMBs grow for nearly 15 years through strong marketing strategy and execution. We are also a Premier Google Partner, and we work with businesses across local/home services, professional services, lead-generation SMBs, and ecommerce.\nWe care about doing thoughtful, high-quality work that actually helps clients grow. We are no",
+    "description": "Who We AreStubGroup is a remote digital marketing agency that has helped SMBs grow for nearly 15 years through strong marketing strategy and execution. We are also a Premier Google Partner, and we work with businesses across local/home services, professional services, lead-generation SMBs, and ecommerce.We care about doing thoughtful, high-quality work that actually helps clients grow. We are not ",
     "date": "2026-05-07T16:34:03-04:00",
     "salary": "",
     "watch_company": false
@@ -140,4 +140,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "14.05.2026 09:25";
+const LAST_UPDATED = "15.05.2026 09:37";
