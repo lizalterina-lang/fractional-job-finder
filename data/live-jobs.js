@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 15.05.2026 09:37
+// Автоматически сгенерировано: 16.05.2026 08:30
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,6 +14,21 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Venice Beach, California\n    URL: https://solebicycles.com\n\n\nAbout the Role:\nWe’re seeking a hands-on, operationally minded marketing manager to own the day-to-day execution and performance of marketing across all of Solé’s channels—Online Sales, Retail Sales, &amp; Corporate / B2B Sales. You’ll build the repeatable systems behind every marketing motion, run cold outreach for new par",
     "date": "Wed, 13 May 2026 01:51:40 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-welltechproduct-growth-manager",
+    "source": "WeWorkRemotely",
+    "title": "Product Growth Manager",
+    "company": "Welltech",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/welltech-product-growth-manager",
+    "tags": [],
+    "description": "Headquarters: Ukraine\n\n\nWho Are We?We are Welltech — a global company with Ukrainian roots and a powerful mission: to move everybody to start and stay well for life. Today 25.5 million users have trusted Welltech to help them build healthy habits — a testament to the real value our innovative, engaging wellness solutions deliver every day. With five hubs across Cyprus, Ukraine, Poland, Spain and t",
+    "date": "Fri, 15 May 2026 20:31:12 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -140,4 +155,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "15.05.2026 09:37";
+const LAST_UPDATED = "16.05.2026 08:30";
