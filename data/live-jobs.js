@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 16.05.2026 08:30
+// Автоматически сгенерировано: 17.05.2026 08:56
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -18,17 +18,24 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-welltechproduct-growth-manager",
-    "source": "WeWorkRemotely",
-    "title": "Product Growth Manager",
-    "company": "Welltech",
+    "id": "Remote OK-pairedsenior-cro-manager-growth-optimization-lead-",
+    "source": "Remote OK",
+    "title": "Senior CRO Manager Growth Optimization Lead for US DTC Company",
+    "company": "Paired",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/welltech-product-growth-manager",
-    "tags": [],
-    "description": "Headquarters: Ukraine\n\n\nWho Are We?We are Welltech — a global company with Ukrainian roots and a powerful mission: to move everybody to start and stay well for life. Today 25.5 million users have trusted Welltech to help them build healthy habits — a testament to the real value our innovative, engaging wellness solutions deliver every day. With five hubs across Cyprus, Ukraine, Poland, Spain and t",
-    "date": "Fri, 15 May 2026 20:31:12 +0000",
+    "url": "https://remoteOK.com/remote-jobs/remote-senior-cro-manager-growth-optimization-lead-for-us-dtc-company-paired-1131608",
+    "tags": [
+      "growth",
+      "manager",
+      "react",
+      "swift",
+      "testing",
+      "test"
+    ],
+    "description": "PairedÂ is aÂ global staffing and recruiting agencyÂ that specializes in pairing remote work with top-tier talent!We areÂ dedicatedÂ toÂ connecting talented individualsÂ withÂ remarkable companiesÂ in need of their skills. Our goal is to create fulfilling jobÂ opportunities for professionals around the world.Our client:Is a fast-growing direct-to-consumer brand in the beauty and wellness space foc",
+    "date": "2026-05-16T00:00:02+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -155,4 +162,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "16.05.2026 08:30";
+const LAST_UPDATED = "17.05.2026 08:56";
