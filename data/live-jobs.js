@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 17.05.2026 08:56
+// Автоматически сгенерировано: 18.05.2026 10:55
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-sol--bicycleshead-of-marketing",
-    "source": "WeWorkRemotely",
-    "title": "Head of Marketing",
-    "company": "Solé Bicycles",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/sole-bicycles-head-of-marketing-1",
-    "tags": [],
-    "description": "Headquarters: Venice Beach, California\n    URL: https://solebicycles.com\n\n\nAbout the Role:\nWe’re seeking a hands-on, operationally minded marketing manager to own the day-to-day execution and performance of marketing across all of Solé’s channels—Online Sales, Retail Sales, &amp; Corporate / B2B Sales. You’ll build the repeatable systems behind every marketing motion, run cold outreach for new par",
-    "date": "Wed, 13 May 2026 01:51:40 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "Remote OK-pairedsenior-cro-manager-growth-optimization-lead-",
     "source": "Remote OK",
@@ -162,4 +147,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "17.05.2026 08:56";
+const LAST_UPDATED = "18.05.2026 10:55";
