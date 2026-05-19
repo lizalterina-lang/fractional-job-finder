@@ -1,7 +1,37 @@
-// Автоматически сгенерировано: 18.05.2026 10:55
+// Автоматически сгенерировано: 19.05.2026 10:30
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-nivodasenior-product-marketing-manager",
+    "source": "WeWorkRemotely",
+    "title": "Senior Product Marketing Manager",
+    "company": "Nivoda",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/nivoda-senior-product-marketing-manager",
+    "tags": [],
+    "description": "Headquarters: US\n\n\nLocation: RemoteAbout NivodaAt Nivoda, we’re reimagining how the world buys and sells jewellery. Our global marketplace connects retailers and suppliers across diamonds, gemstones, and finished jewellery - already powering over $300M in annual transactions and scaling fast toward our billion-dollar vision.We’re bringing tech, data, and automation to an $350B industry that’s bare",
+    "date": "Mon, 18 May 2026 20:31:39 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-bazaarvoiceproduct-marketing-manager",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager",
+    "company": "Bazaarvoice",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/bazaarvoice-product-marketing-manager",
+    "tags": [],
+    "description": "Headquarters: Remote, United States\n\n\n&nbsp;About Bazaarvoice&nbsp;At Bazaarvoice, we create smart shopping experiences. Through our expansive global network, product-passionate community &amp; enterprise technology, we connect thousands of brands and retailers with billions of consumers. Our solutions enable brands to connect with consumers and collect valuable user-generated content, at an unpre",
+    "date": "Mon, 18 May 2026 20:31:11 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "Remote OK-pairedsenior-cro-manager-growth-optimization-lead-",
     "source": "Remote OK",
@@ -147,4 +177,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "18.05.2026 10:55";
+const LAST_UPDATED = "19.05.2026 10:30";
