@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 20.05.2026 10:16
+// Автоматически сгенерировано: 21.05.2026 10:29
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -66,24 +66,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Who We AreStubGroup is a remote digital marketing agency that has helped SMBs grow for nearly 15 years through strong marketing strategy and execution. We are also a Premier Google Partner, and we work with businesses across local/home services, professional services, lead-generation SMBs, and ecommerce.We care about doing thoughtful, high-quality work that actually helps clients grow. We are not ",
     "date": "2026-05-07T16:34:03-04:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-happilyproduct-growth-marketer",
-    "source": "Remote OK",
-    "title": "Product Growth Marketer",
-    "company": "Happily",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-product-growth-marketer-happily-1131244",
-    "tags": [
-      "marketing",
-      "product"
-    ],
-    "description": "What We're BuildingHappily has been producing high-impact live events for leading brands since 2012. We know this world from the inside â the run of show, the green room, the moment the doors open. That's exactly why we built Arrived.Arrived is an event registration and on-site check-in tool built for professional event organizers. It handles the full arc â from branded registration pages and ",
-    "date": "2026-04-21T13:00:33+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -177,4 +159,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "20.05.2026 10:16";
+const LAST_UPDATED = "21.05.2026 10:29";
