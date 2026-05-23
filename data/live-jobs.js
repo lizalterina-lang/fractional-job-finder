@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 22.05.2026 10:14
+// Автоматически сгенерировано: 23.05.2026 08:56
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-north-spore-llchead-of-marketing",
+    "source": "WeWorkRemotely",
+    "title": "Head of Marketing",
+    "company": "North Spore LLC",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/north-spore-llc-head-of-marketing",
+    "tags": [],
+    "description": "Headquarters: Portland, ME\n    URL: https://northspore.com/\n\n\nPOSITION OVERVIEW\nWe're looking for a Head of Marketing to be the steward of our brand as we enter our next phase of growth. This is a brand-first leadership role — focused on how North Spore shows up in the world, how customers experience us, and how we deepen the love and loyalty that have made us the category leader. You'll lead bran",
+    "date": "Wed, 22 Apr 2026 17:13:25 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-nivodasenior-product-marketing-manager",
     "source": "WeWorkRemotely",
@@ -33,6 +48,43 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
+    "id": "WeWorkRemotely-visevenproduct-marketing-manager--b2b-for-life-sci",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager (B2B for life sciences/pharma/biotech)",
+    "company": "Viseven",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/viseven-product-marketing-manager-b2b-for-life-sciences-pharma-biotech",
+    "tags": [],
+    "description": "Headquarters: Warszawa\n\n\nViseven Group is a leading global B2B MarTech service provider, empowering Pharma and LifeScience companies since 2009. Our mission is to drive digital transformation and excellence, offering comprehensive end-to-end software and digital marketing services tailored to the pharmaceutical industry. The company's solutions, products, and services are actively used by the top ",
+    "date": "Fri, 22 May 2026 20:31:38 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "Remote OK-social-elementfreelance-nz-english-content-writer",
+    "source": "Remote OK",
+    "title": "Freelance NZ English Content Writer",
+    "company": "Social Element",
+    "location": "Melbourne, Melbourne, Victoria, Australia",
+    "region": "AUS",
+    "format": "part-time",
+    "url": "https://remoteOK.com/remote-jobs/remote-freelance-nz-english-content-writer-social-element-1131896",
+    "tags": [
+      "video",
+      "ads",
+      "content",
+      "marketing",
+      "illustrator",
+      "ecommerce"
+    ],
+    "description": "ð Where: Remoteð¤ Type: Freelanceðª Industry: Fintechð About MarketFully Group ðAt MarketFully Group, weâre on a mission to help the worldâs most ambitious brands achieve growth InContent, InLanguage, InCulture, and InMarket. We provide multilingual marketing strategy, creative content, and cutting-edge technology to help clients expand globally; while keeping their brand voice au",
+    "date": "2026-05-19T14:31:03+00:00",
+    "salary": "",
+    "watch_company": false
+  },
+  {
     "id": "Remote OK-pairedsenior-cro-manager-growth-optimization-lead-",
     "source": "Remote OK",
     "title": "Senior CRO Manager Growth Optimization Lead for US DTC Company",
@@ -55,6 +107,28 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
+    "id": "Remote OK-social-elementfreelance-australian-english-content",
+    "source": "Remote OK",
+    "title": "Freelance Australian English Content Editor",
+    "company": "Social Element",
+    "location": "Melbourne, Melbourne, Victoria, Australia",
+    "region": "AUS",
+    "format": "part-time",
+    "url": "https://remoteOK.com/remote-jobs/remote-freelance-australian-english-content-editor-social-element-1131901",
+    "tags": [
+      "video",
+      "ads",
+      "content",
+      "marketing",
+      "illustrator",
+      "ecommerce"
+    ],
+    "description": "ð Where: Australiað¤ Type: Freelanceðª Industry: Fintechð About MarketFully Group ðAt MarketFully Group, weâre on a mission to help the worldâs most ambitious brands achieve growth InContent, InLanguage, InCulture, and InMarket. We provide multilingual marketing strategy, creative content, and cutting-edge technology to help clients expand globally; while keeping their brand voice",
+    "date": "2026-05-12T01:23:02+00:00",
+    "salary": "",
+    "watch_company": false
+  },
+  {
     "id": "WorkingNomads-senior-seo-strategist---remote--work-from-home-",
     "source": "WorkingNomads",
     "title": "Senior SEO Strategist - Remote (Work from Home)",
@@ -68,95 +142,7 @@ const LIVE_JOBS = [
     "date": "2026-05-07T16:34:03-04:00",
     "salary": "",
     "watch_company": false
-  },
-  {
-    "id": "Remote OK-neighborhoods-commanager-growth-marketing---conten",
-    "source": "Remote OK",
-    "title": "Manager Growth Marketing & Content",
-    "company": "Neighborhoods.com",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-manager-growth-marketing-content-neighborhoods-com-1131112",
-    "tags": [
-      "growth",
-      "manager",
-      "director",
-      "leader",
-      "strategy",
-      "lead"
-    ],
-    "description": "About the Role \nNeighborhoods.com and 55places.com are built on a simple but powerful belief: the neighborhood and community you belong to matters more than the house you live in. Our content is the bridge between that belief and the people searching for their next home and community â and we're looking for a leader to make that bridge stronger, smarter, and more impactful than ever. As Sr. Mana",
-    "date": "2026-04-15T00:00:42+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-getresponseproduct-marketing-manager-ecommerce",
-    "source": "Remote OK",
-    "title": "Product Marketing Manager Ecommerce",
-    "company": "GetResponse",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-product-marketing-manager-ecommerce-getresponse-1130907",
-    "tags": [
-      "manager",
-      "design",
-      "saas",
-      "recruiter",
-      "support",
-      "test"
-    ],
-    "description": "We're looking for a Product Marketing Manager who will own the ecommerce vertical - end to end. This means you'll be the person who understands our ecommerce customers better than anyone else in the building: their workflows, their pain points, how they think about tools, and what moves them from \"interested\" to \"convinced.\" This is not a support role. You'll be expected to come with ideas, build ",
-    "date": "2026-03-27T16:00:37+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-12go-asiaproduct-manager-growth",
-    "source": "Remote OK",
-    "title": "Product Manager Growth",
-    "company": "12Go Asia",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-product-manager-growth-12go-asia-1130851",
-    "tags": [
-      "growth",
-      "manager",
-      "training",
-      "technical",
-      "seo",
-      "ads"
-    ],
-    "description": "You'll be the product owner for our marketing technology stack â the infrastructure that connects our platform to the channels where travellers discover us. This is a technical PM role at the intersection of product, engineering, and marketing. You won't be running campaigns yourself; you'll be building and improving the products and systems that make campaigns possible, measurable, and scalable",
-    "date": "2026-03-20T16:00:03+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-10x-teamgo-to-market-strategist-ai-trainer-freelan",
-    "source": "Remote OK",
-    "title": "Go To Market Strategist AI Trainer Freelance 8 20 hrs week",
-    "company": "10x Team",
-    "location": "London",
-    "region": "UK",
-    "format": "part-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-go-to-market-strategist-ai-trainer-freelance-8-20-hrs-week-10x-team-1130756",
-    "tags": [
-      "trainer",
-      "strategist",
-      "content",
-      "marketing",
-      "sales",
-      "go"
-    ],
-    "description": "Updated: 12 March 2026Freelance | 8â20 hrs/week | Remote (EU/UK)Are you an experienced go-to-market strategist ready to shape the next generation of AI-driven business solutions? Do you have 8 to 20 hours per week available to contribute your expertise while maintaining your existing professional commitments?We are 10x Team, a platform for fractional and freelance professionals. We partner with ",
-    "date": "2026-03-13T08:00:09+00:00",
-    "salary": "",
-    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "22.05.2026 10:14";
+const LAST_UPDATED = "23.05.2026 08:56";
