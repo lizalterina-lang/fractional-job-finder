@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 23.05.2026 08:56
+// Автоматически сгенерировано: 24.05.2026 09:12
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -85,50 +85,6 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "Remote OK-pairedsenior-cro-manager-growth-optimization-lead-",
-    "source": "Remote OK",
-    "title": "Senior CRO Manager Growth Optimization Lead for US DTC Company",
-    "company": "Paired",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-cro-manager-growth-optimization-lead-for-us-dtc-company-paired-1131608",
-    "tags": [
-      "growth",
-      "manager",
-      "react",
-      "swift",
-      "testing",
-      "test"
-    ],
-    "description": "PairedÂ is aÂ global staffing and recruiting agencyÂ that specializes in pairing remote work with top-tier talent!We areÂ dedicatedÂ toÂ connecting talented individualsÂ withÂ remarkable companiesÂ in need of their skills. Our goal is to create fulfilling jobÂ opportunities for professionals around the world.Our client:Is a fast-growing direct-to-consumer brand in the beauty and wellness space foc",
-    "date": "2026-05-16T00:00:02+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-social-elementfreelance-australian-english-content",
-    "source": "Remote OK",
-    "title": "Freelance Australian English Content Editor",
-    "company": "Social Element",
-    "location": "Melbourne, Melbourne, Victoria, Australia",
-    "region": "AUS",
-    "format": "part-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-freelance-australian-english-content-editor-social-element-1131901",
-    "tags": [
-      "video",
-      "ads",
-      "content",
-      "marketing",
-      "illustrator",
-      "ecommerce"
-    ],
-    "description": "ð Where: Australiað¤ Type: Freelanceðª Industry: Fintechð About MarketFully Group ðAt MarketFully Group, weâre on a mission to help the worldâs most ambitious brands achieve growth InContent, InLanguage, InCulture, and InMarket. We provide multilingual marketing strategy, creative content, and cutting-edge technology to help clients expand globally; while keeping their brand voice",
-    "date": "2026-05-12T01:23:02+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
     "id": "WorkingNomads-senior-seo-strategist---remote--work-from-home-",
     "source": "WorkingNomads",
     "title": "Senior SEO Strategist - Remote (Work from Home)",
@@ -145,4 +101,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "23.05.2026 08:56";
+const LAST_UPDATED = "24.05.2026 09:12";
