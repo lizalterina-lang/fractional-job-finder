@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 25.05.2026 11:03
+// Автоматически сгенерировано: 26.05.2026 10:39
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -100,28 +100,6 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "Remote OK-adswerve--incmanager-digital-media-strategy",
-    "source": "Remote OK",
-    "title": "Manager Digital Media Strategy",
-    "company": "Adswerve, Inc",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-manager-digital-media-strategy-adswerve-inc-1131248",
-    "tags": [
-      "manager",
-      "marketing",
-      "strategy",
-      "consulting",
-      "ads",
-      "analytics"
-    ],
-    "description": "We're an award-winning data, media and tech consultancy and a leading Google and Adobe partner that helps brands and agencies think beyond clicks and conversions to unlock new opportunities for growth. We thrive on rolling up our sleeves and digging into the tough stuff for our 800+ clients. And we love getting them the most ROI from their digital marketing. If you're up for the challenge, join us",
-    "date": "2026-04-21T16:00:52+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
     "id": "Remote OK-getresponseproduct-marketing-manager-ecommerce",
     "source": "Remote OK",
     "title": "Product Marketing Manager Ecommerce",
@@ -211,4 +189,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "25.05.2026 11:03";
+const LAST_UPDATED = "26.05.2026 10:39";
