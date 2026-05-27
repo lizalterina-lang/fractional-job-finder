@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 26.05.2026 10:39
+// Автоматически сгенерировано: 27.05.2026 10:44
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,21 +14,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Portland, ME\n    URL: https://northspore.com/\n\n\nPOSITION OVERVIEW\nWe're looking for a Head of Marketing to be the steward of our brand as we enter our next phase of growth. This is a brand-first leadership role — focused on how North Spore shows up in the world, how customers experience us, and how we deepen the love and loyalty that have made us the category leader. You'll lead bran",
     "date": "Wed, 22 Apr 2026 17:13:25 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-bazaarvoiceproduct-marketing-manager",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager",
-    "company": "Bazaarvoice",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/bazaarvoice-product-marketing-manager",
-    "tags": [],
-    "description": "Headquarters: Remote, United States\n\n\n&nbsp;About Bazaarvoice&nbsp;At Bazaarvoice, we create smart shopping experiences. Through our expansive global network, product-passionate community &amp; enterprise technology, we connect thousands of brands and retailers with billions of consumers. Our solutions enable brands to connect with consumers and collect valuable user-generated content, at an unpre",
-    "date": "Mon, 18 May 2026 20:31:11 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -74,28 +59,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Who We AreStubGroup is a remote digital marketing agency that has helped SMBs grow for nearly 15 years through strong marketing strategy and execution. We are also a Premier Google Partner, and we work with businesses across local/home services, professional services, lead-generation SMBs, and ecommerce.We care about doing thoughtful, high-quality work that actually helps clients grow. We are not ",
     "date": "2026-05-07T16:34:03-04:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-terrapaid-media-manager",
-    "source": "Remote OK",
-    "title": "Paid Media Manager",
-    "company": "Terra",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-paid-media-manager-terra-1131312",
-    "tags": [
-      "ads",
-      "ai",
-      "analytics",
-      "manager",
-      "marketing",
-      "strategy"
-    ],
-    "description": "Weâre looking for a strategic, data-driven Paid Media Manager to join our growing Digital team. In this role, you will own paid media strategy end-to-end for a portfolio of B2B clients, leading campaign execution, optimization, and performance storytelling across platforms. Weâre especially interested in candidates who are excited about how AI can reshape paid media workflows and performance. ",
-    "date": "2026-04-24T16:00:16+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -189,4 +152,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "26.05.2026 10:39";
+const LAST_UPDATED = "27.05.2026 10:44";
