@@ -1,37 +1,7 @@
-// Автоматически сгенерировано: 28.05.2026 10:42
+// Автоматически сгенерировано: 29.05.2026 10:37
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-north-spore-llchead-of-marketing",
-    "source": "WeWorkRemotely",
-    "title": "Head of Marketing",
-    "company": "North Spore LLC",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/north-spore-llc-head-of-marketing",
-    "tags": [],
-    "description": "Headquarters: Portland, ME\n    URL: https://northspore.com/\n\n\nPOSITION OVERVIEW\nWe're looking for a Head of Marketing to be the steward of our brand as we enter our next phase of growth. This is a brand-first leadership role — focused on how North Spore shows up in the world, how customers experience us, and how we deepen the love and loyalty that have made us the category leader. You'll lead bran",
-    "date": "Wed, 22 Apr 2026 17:13:25 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-visevenproduct-marketing-manager--b2b-for-life-sci",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager (B2B for life sciences/pharma/biotech)",
-    "company": "Viseven",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/viseven-product-marketing-manager-b2b-for-life-sciences-pharma-biotech",
-    "tags": [],
-    "description": "Headquarters: Warszawa\n\n\nViseven Group is a leading global B2B MarTech service provider, empowering Pharma and LifeScience companies since 2009. Our mission is to drive digital transformation and excellence, offering comprehensive end-to-end software and digital marketing services tailored to the pharmaceutical industry. The company's solutions, products, and services are actively used by the top ",
-    "date": "Fri, 22 May 2026 20:31:38 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "Jobicy-bloomreachtechnical-product-marketing-manager",
     "source": "Jobicy",
@@ -152,4 +122,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "28.05.2026 10:42";
+const LAST_UPDATED = "29.05.2026 10:37";
