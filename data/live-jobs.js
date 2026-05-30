@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 29.05.2026 10:37
+// Автоматически сгенерировано: 30.05.2026 09:07
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "Jobicy-bloomreachtechnical-product-marketing-manager",
-    "source": "Jobicy",
-    "title": "Technical Product Marketing Manager",
-    "company": "Bloomreach",
-    "location": "UK",
-    "region": "UK",
-    "format": "full-time",
-    "url": "https://jobicy.com/jobs/144711-technical-product-marketing-manager",
-    "tags": [],
-    "description": "Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We&#8217;re taking autonomous search mainstream, making product... \nBloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how bu",
-    "date": "2026-05-24T12:42:30+00:00",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "WorkingNomads-senior-seo-strategist---remote--work-from-home-",
     "source": "WorkingNomads",
@@ -122,4 +107,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "29.05.2026 10:37";
+const LAST_UPDATED = "30.05.2026 09:07";
