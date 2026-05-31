@@ -1,7 +1,29 @@
-// Автоматически сгенерировано: 30.05.2026 09:07
+// Автоматически сгенерировано: 31.05.2026 09:40
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "Remote OK-impact-brandsexecutive-assistant-the-cmo",
+    "source": "Remote OK",
+    "title": "Executive Assistant the CMO",
+    "company": "IMPACT BRANDS",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://remoteOK.com/remote-jobs/remote-executive-assistant-the-cmo-impact-brands-1132569",
+    "tags": [
+      "exec",
+      "customer support",
+      "copywriting",
+      "marketing",
+      "video",
+      "finance"
+    ],
+    "description": "Posted 5:10:40 AM. IMPACT BRANDS is a leading contributor to the health and wellness industry. With a journey from 5â¦See this and similar jobs on LinkedIn.Please mention the word **ROCKSTARS** and tag ROjox when applying to show you read the job post completely (#ROjox). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see th",
+    "date": "2026-05-30T04:07:34+00:00",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WorkingNomads-senior-seo-strategist---remote--work-from-home-",
     "source": "WorkingNomads",
@@ -107,4 +129,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "30.05.2026 09:07";
+const LAST_UPDATED = "31.05.2026 09:40";
