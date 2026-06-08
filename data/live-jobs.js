@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 07.06.2026 09:54
+// Автоматически сгенерировано: 08.06.2026 11:47
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -31,29 +31,7 @@ const LIVE_JOBS = [
     "date": "2026-06-05T05:36:00+00:00",
     "salary": "",
     "watch_company": true
-  },
-  {
-    "id": "Remote OK-getresponseproduct-marketing-manager-ecommerce",
-    "source": "Remote OK",
-    "title": "Product Marketing Manager Ecommerce",
-    "company": "GetResponse",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-product-marketing-manager-ecommerce-getresponse-1130907",
-    "tags": [
-      "marketing",
-      "manager",
-      "product",
-      "ecommerce",
-      "content",
-      "sales"
-    ],
-    "description": "We're looking for a Product Marketing Manager who will own the ecommerce vertical - end to end. This means you'll be the person who understands our ecommerce customers better than anyone else in the building: their workflows, their pain points, how they think about tools, and what moves them from \"interested\" to \"convinced.\" This is not a support role. You'll be expected to come with ideas, build ",
-    "date": "2026-03-27T16:00:37+00:00",
-    "salary": "",
-    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "07.06.2026 09:54";
+const LAST_UPDATED = "08.06.2026 11:47";
