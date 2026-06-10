@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 09.06.2026 10:26
+// Автоматически сгенерировано: 10.06.2026 10:46
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -18,20 +18,20 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "Jobicy-employment-herosenior-product-marketing-manager",
+    "id": "Jobicy-sapiensmarketing---events-operations-specialist",
     "source": "Jobicy",
-    "title": "Senior Product Marketing Manager",
-    "company": "Employment Hero",
+    "title": "Marketing & Events Operations Specialist",
+    "company": "Sapiens",
     "location": "UK",
     "region": "UK",
     "format": "full-time",
-    "url": "https://jobicy.com/jobs/145585-senior-product-marketing-manager",
+    "url": "https://jobicy.com/jobs/145867-marketing-events-operations-specialist",
     "tags": [],
-    "description": "Senior Product Marketing Manager – UKTalent Marketplace &amp; Strategic GrowthWho we are Employment Hero is on a mission to make employment easier and more valuable for everyone. Our Employment Operating... Senior Product Marketing Manager – UK\nTalent Marketplace &amp; Strategic Growth\nWho we are \n\nEmployment Hero is on a mission to make employment easier and more valuable for everyone. Our Employ",
-    "date": "2026-06-05T05:36:00+00:00",
+    "description": "Role OverviewThe Global Marketing Operations Specialist serves as the operational backbone for the worldwide Go-to-Market (GTM) organization. You will ensure seamless execution across financial processes, vendor management, global logistics, events... Role Overview\nThe Global Marketing Operations Specialist serves as the operational backbone for the worldwide Go-to-Market (GTM) organization. You w",
+    "date": "2026-06-09T10:52:25+00:00",
     "salary": "",
-    "watch_company": true
+    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "09.06.2026 10:26";
+const LAST_UPDATED = "10.06.2026 10:46";
