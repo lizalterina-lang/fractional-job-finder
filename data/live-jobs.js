@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 10.06.2026 10:46
+// Автоматически сгенерировано: 11.06.2026 11:16
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-super-comproduct-marketing-manager",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager",
+    "company": "Super.Com",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/super-com-product-marketing-manager",
+    "tags": [],
+    "description": "Headquarters: Canada\n\n\nAbout Super.comWe started Super.com to help maximize lives–both the lives of our customers and the lives of our team – so that everyone can experience all that life has to offer. For our employees, our promise is that Super.com is more than just a job; it’s an opportunity to unlock one’s potential, where learning is celebrated and impact is realized.We are more than a fast-p",
+    "date": "Wed, 10 Jun 2026 20:31:13 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-runwayb2b-marketing-director",
     "source": "WeWorkRemotely",
@@ -16,22 +31,7 @@ const LIVE_JOBS = [
     "date": "Thu, 04 Jun 2026 20:05:59 +0000",
     "salary": "",
     "watch_company": false
-  },
-  {
-    "id": "Jobicy-sapiensmarketing---events-operations-specialist",
-    "source": "Jobicy",
-    "title": "Marketing & Events Operations Specialist",
-    "company": "Sapiens",
-    "location": "UK",
-    "region": "UK",
-    "format": "full-time",
-    "url": "https://jobicy.com/jobs/145867-marketing-events-operations-specialist",
-    "tags": [],
-    "description": "Role OverviewThe Global Marketing Operations Specialist serves as the operational backbone for the worldwide Go-to-Market (GTM) organization. You will ensure seamless execution across financial processes, vendor management, global logistics, events... Role Overview\nThe Global Marketing Operations Specialist serves as the operational backbone for the worldwide Go-to-Market (GTM) organization. You w",
-    "date": "2026-06-09T10:52:25+00:00",
-    "salary": "",
-    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "10.06.2026 10:46";
+const LAST_UPDATED = "11.06.2026 11:16";
