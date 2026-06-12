@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 11.06.2026 11:16
+// Автоматически сгенерировано: 12.06.2026 10:55
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -18,20 +18,20 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-runwayb2b-marketing-director",
+    "id": "WeWorkRemotely-septeo-cneeproduct-marketing-manager--w-m-d--f-r-s",
     "source": "WeWorkRemotely",
-    "title": "B2B Marketing Director",
-    "company": "Runway",
+    "title": "Product Marketing Manager (w/m/d) für SaaS und On-Premises Lösungen",
+    "company": "Septeo CNEE",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/runway-b2b-marketing-director",
+    "url": "https://weworkremotely.com/remote-jobs/septeo-cnee-product-marketing-manager-w-m-d-fur-saas-und-on-premises-losungen",
     "tags": [],
-    "description": "Headquarters: Remote\n    URL: http://runwayml.com\n\n\nWe are building AI to simulate the world through merging art and science.We believe that world models are at the frontier of progress in artificial intelligence. Language models alone won’t solve the world’s hardest problems – robotics, disease, scientific discovery. Real progress requires models that experience the world and learn from their mis",
-    "date": "Thu, 04 Jun 2026 20:05:59 +0000",
+    "description": "Headquarters: Karlsruhe, DE, Lauf a. d. Pegnitz, DE, Nordwalde, DE, Remote, Germany\n    URL: http://stp.one\n\n\nKurzbeschreibungDu bist ein Marketingtalent (w/m/d) mit Schwerpunkt im Bereich B2B Produktmarketing? Du möchtest dich beruflich neu orientieren und unser Unternehmen mit deiner Produktmarketing-Expertise in einem stark dynamischen und international wachsenden Umfeld begleiten und vorantrei",
+    "date": "Thu, 11 Jun 2026 21:45:28 +0000",
     "salary": "",
     "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "11.06.2026 11:16";
+const LAST_UPDATED = "12.06.2026 10:55";
