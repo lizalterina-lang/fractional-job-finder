@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 15.06.2026 12:55
+// Автоматически сгенерировано: 16.06.2026 12:01
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -31,7 +31,22 @@ const LIVE_JOBS = [
     "date": "Thu, 11 Jun 2026 21:45:28 +0000",
     "salary": "",
     "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-mongoosehead-of-marketing--product---gtm",
+    "source": "WeWorkRemotely",
+    "title": "Head of Marketing, Product & GTM",
+    "company": "Mongoose",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/mongoose-head-of-marketing-product-gtm",
+    "tags": [],
+    "description": "Headquarters: Buffalo / Atlanta / Austin / Boston / Chicago / Denver / Los Angeles / New York City / Oakland / Portland / San Francisco / Seattle / Philadelphia\n\n\nAs Vice President of Marketing, you will ensure that Marketing is a strategic growth partner embedded in how this business wins. Sitting at the center of the Go-to-Market triad, you’ll drive deep alignment across Revenue and Product, sha",
+    "date": "Mon, 15 Jun 2026 20:31:20 +0000",
+    "salary": "",
+    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "15.06.2026 12:55";
+const LAST_UPDATED = "16.06.2026 12:01";
