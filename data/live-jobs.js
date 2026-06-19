@@ -1,19 +1,19 @@
-// Автоматически сгенерировано: 18.06.2026 11:03
+// Автоматически сгенерировано: 19.06.2026 11:12
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-super-comproduct-marketing-manager",
+    "id": "WeWorkRemotely-10x-teamgrowth-manager---ai-trainer---freelance---",
     "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager",
-    "company": "Super.Com",
+    "title": "Growth Manager - AI Trainer - Freelance - 8-20 hrs/week",
+    "company": "10x Team",
     "location": "Remote",
     "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/super-com-product-marketing-manager",
+    "format": "part-time",
+    "url": "https://weworkremotely.com/remote-jobs/10x-team-growth-manager-ai-trainer-freelance-8-20-hrs-week",
     "tags": [],
-    "description": "Headquarters: Canada\n\n\nAbout Super.comWe started Super.com to help maximize lives–both the lives of our customers and the lives of our team – so that everyone can experience all that life has to offer. For our employees, our promise is that Super.com is more than just a job; it’s an opportunity to unlock one’s potential, where learning is celebrated and impact is realized.We are more than a fast-p",
-    "date": "Wed, 10 Jun 2026 20:31:13 +0000",
+    "description": "Headquarters: Belgium\n    URL: http://10x.team\n\n\nUpdated: 11 June 2026Freelance | 8–20 hrs/week | Remote (EU/UK)Are you an experienced growth strategist who instinctively spots opportunities for expansion and understands the complex realities of driving business growth? Do you have 8 to 20 hours per week available alongside your main job or consulting projects? Join us in shaping how AI understand",
+    "date": "Thu, 18 Jun 2026 23:50:31 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -49,4 +49,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "18.06.2026 11:03";
+const LAST_UPDATED = "19.06.2026 11:12";
