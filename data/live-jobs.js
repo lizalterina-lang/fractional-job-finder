@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 24.06.2026 10:11
+// Автоматически сгенерировано: 25.06.2026 10:09
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -33,21 +33,6 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-septeo-cneeproduct-marketing-manager--w-m-d--f-r-s",
-    "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager (w/m/d) für SaaS und On-Premises Lösungen",
-    "company": "Septeo CNEE",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/septeo-cnee-product-marketing-manager-w-m-d-fur-saas-und-on-premises-losungen",
-    "tags": [],
-    "description": "Headquarters: Karlsruhe, DE, Lauf a. d. Pegnitz, DE, Nordwalde, DE, Remote, Germany\n    URL: http://stp.one\n\n\nKurzbeschreibungDu bist ein Marketingtalent (w/m/d) mit Schwerpunkt im Bereich B2B Produktmarketing? Du möchtest dich beruflich neu orientieren und unser Unternehmen mit deiner Produktmarketing-Expertise in einem stark dynamischen und international wachsenden Umfeld begleiten und vorantrei",
-    "date": "Thu, 11 Jun 2026 21:45:28 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
     "id": "WeWorkRemotely-mongoosehead-of-marketing--product---gtm",
     "source": "WeWorkRemotely",
     "title": "Head of Marketing, Product & GTM",
@@ -64,4 +49,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "24.06.2026 10:11";
+const LAST_UPDATED = "25.06.2026 10:09";
