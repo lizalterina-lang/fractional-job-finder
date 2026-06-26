@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 25.06.2026 10:09
+// Автоматически сгенерировано: 26.06.2026 10:12
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,21 +14,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Portland, ME\n    URL: https://northspore.com/\n\n\nPOSITION OVERVIEW\nWe're looking for a Head of Marketing to be the steward of our brand as we enter our next phase of growth. This is a brand-first leadership role — focused on how North Spore shows up in the world, how customers experience us, and how we deepen the love and loyalty that have made us the category leader. You'll lead bran",
     "date": "Wed, 22 Apr 2026 17:13:25 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-10x-teamgrowth-manager---ai-trainer---freelance---",
-    "source": "WeWorkRemotely",
-    "title": "Growth Manager - AI Trainer - Freelance - 8-20 hrs/week",
-    "company": "10x Team",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "part-time",
-    "url": "https://weworkremotely.com/remote-jobs/10x-team-growth-manager-ai-trainer-freelance-8-20-hrs-week",
-    "tags": [],
-    "description": "Headquarters: Belgium\n    URL: http://10x.team\n\n\nUpdated: 11 June 2026Freelance | 8–20 hrs/week | Remote (EU/UK)Are you an experienced growth strategist who instinctively spots opportunities for expansion and understands the complex realities of driving business growth? Do you have 8 to 20 hours per week available alongside your main job or consulting projects? Join us in shaping how AI understand",
-    "date": "Thu, 18 Jun 2026 23:50:31 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -49,4 +34,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "25.06.2026 10:09";
+const LAST_UPDATED = "26.06.2026 10:12";
