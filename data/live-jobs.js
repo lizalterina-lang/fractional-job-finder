@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 29.06.2026 11:51
+// Автоматически сгенерировано: 30.06.2026 10:23
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -18,20 +18,20 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "WeWorkRemotely-mongoosehead-of-marketing--product---gtm",
-    "source": "WeWorkRemotely",
-    "title": "Head of Marketing, Product & GTM",
-    "company": "Mongoose",
-    "location": "Remote",
-    "region": "Remote",
+    "id": "Jobicy-bloomreachtechnical-product-marketing-manager",
+    "source": "Jobicy",
+    "title": "Technical Product Marketing Manager",
+    "company": "Bloomreach",
+    "location": "UK",
+    "region": "UK",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/mongoose-head-of-marketing-product-gtm",
+    "url": "https://jobicy.com/jobs/144711-technical-product-marketing-manager",
     "tags": [],
-    "description": "Headquarters: Buffalo / Atlanta / Austin / Boston / Chicago / Denver / Los Angeles / New York City / Oakland / Portland / San Francisco / Seattle / Philadelphia\n\n\nAs Vice President of Marketing, you will ensure that Marketing is a strategic growth partner embedded in how this business wins. Sitting at the center of the Go-to-Market triad, you’ll drive deep alignment across Revenue and Product, sha",
-    "date": "Mon, 15 Jun 2026 20:31:20 +0000",
+    "description": "Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We're taking autonomous search mainstream, making product discovery more intuitive and conversational for customers, and more profitable for businesses. We’re making conversati",
+    "date": "2026-06-29T15:36:41+00:00",
     "salary": "",
     "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "29.06.2026 11:51";
+const LAST_UPDATED = "30.06.2026 10:23";
