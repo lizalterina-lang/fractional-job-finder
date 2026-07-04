@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 03.07.2026 09:48
+// Автоматически сгенерировано: 04.07.2026 09:12
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,6 +14,21 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Portland, ME\n    URL: https://northspore.com/\n\n\nPOSITION OVERVIEW\nWe're looking for a Head of Marketing to be the steward of our brand as we enter our next phase of growth. This is a brand-first leadership role — focused on how North Spore shows up in the world, how customers experience us, and how we deepen the love and loyalty that have made us the category leader. You'll lead bran",
     "date": "Wed, 22 Apr 2026 17:13:25 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "Jobicy-thoughtworksclient-partner",
+    "source": "Jobicy",
+    "title": "Client Partner",
+    "company": "Thoughtworks",
+    "location": "Singapore",
+    "region": "SG",
+    "format": "full-time",
+    "url": "https://jobicy.com/jobs/145301-client-partner",
+    "tags": [],
+    "description": "We are a global software consultancy and a community of passionate, purpose-led individuals. We think disruptively to deliver technology to address our clients; toughest challenges, all while seeking to revolutionize the IT industry and create positive social change. Thoughtworks is seeking to expand our Go-To-Market team in PH&amp;LS (short for Public Sector, Healthcare &amp; Life&hellip; \n\nWe ar",
+    "date": "2026-07-03T10:41:42+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -34,4 +49,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "03.07.2026 09:48";
+const LAST_UPDATED = "04.07.2026 09:12";
