@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 05.07.2026 09:32
+// Автоматически сгенерировано: 06.07.2026 11:20
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-north-spore-llchead-of-marketing",
-    "source": "WeWorkRemotely",
-    "title": "Head of Marketing",
-    "company": "North Spore LLC",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/north-spore-llc-head-of-marketing",
-    "tags": [],
-    "description": "Headquarters: Portland, ME\n    URL: https://northspore.com/\n\n\nPOSITION OVERVIEW\nWe're looking for a Head of Marketing to be the steward of our brand as we enter our next phase of growth. This is a brand-first leadership role — focused on how North Spore shows up in the world, how customers experience us, and how we deepen the love and loyalty that have made us the category leader. You'll lead bran",
-    "date": "Wed, 22 Apr 2026 17:13:25 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "Jobicy-thoughtworksclient-partner",
     "source": "Jobicy",
@@ -34,4 +19,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "05.07.2026 09:32";
+const LAST_UPDATED = "06.07.2026 11:20";
