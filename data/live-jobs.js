@@ -1,6 +1,22 @@
-// Автоматически сгенерировано: 15.07.2026 09:03
+// Автоматически сгенерировано: 16.07.2026 09:06
 // Запусти 'python3 scraper.py' для обновления
 
-const LIVE_JOBS = [];
+const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-garden3dhead-of-marketing---communications",
+    "source": "WeWorkRemotely",
+    "title": "Head of Marketing & Communications",
+    "company": "garden3d",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/garden3d-head-of-marketing-communications",
+    "tags": [],
+    "description": "Headquarters: New York City\n    URL: https://garden3d.net/\n\n\nWe are hiring a Head of Marketing &amp; Communications to tell the garden3d story across the internet, from wherever in the world you happen to be.\nMore details if you check our original job posting link\nAbout garden3d\nWe are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cro",
+    "date": "Wed, 15 Jul 2026 17:35:23 +0000",
+    "salary": "",
+    "watch_company": false
+  }
+];
 
-const LAST_UPDATED = "15.07.2026 09:03";
+const LAST_UPDATED = "16.07.2026 09:06";
