@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 28.07.2026 09:29
+// Автоматически сгенерировано: 29.07.2026 09:31
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-toptalpinterest-growth-strategist---ecommerce---be",
+    "source": "WeWorkRemotely",
+    "title": "Pinterest Growth Strategist — Ecommerce & Beauty | Remote",
+    "company": "Toptal",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/toptal-pinterest-growth-strategist-ecommerce-beauty-remote",
+    "tags": [],
+    "description": "Headquarters: Remote\n    URL: https://www.toptal.com/\n\n\nAbout the Role\nWe're looking for an experienced Pinterest Marketing Specialist to drive real traffic and sales growth for an online hair extension store. This isn't a \"post and hope\" role — you'll own a full growth strategy built on SEO-driven content, keyword and trend research, and continuous analytics-based optimization. If you know how to",
+    "date": "Tue, 28 Jul 2026 21:42:15 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-zapiethead-of-marketing",
     "source": "WeWorkRemotely",
@@ -25,10 +40,10 @@ const LIVE_JOBS = [
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/dropbox-senior-director-revenue-operations-1",
+    "url": "https://weworkremotely.com/remote-jobs/dropbox-senior-director-revenue-operations",
     "tags": [],
-    "description": "Headquarters: Remote - US: Select locations\n\n\nRole Description\nDropbox is seeking a Head of Revenue Operations to lead and scale the operational foundation of the company's global B2B go-to-market organization. This role will be responsible for driving operational excellence across the revenue engine, enabling predictable, efficient growth across SMB, Mid-Market, and Enterprise segments. This role",
-    "date": "Fri, 24 Jul 2026 07:01:23 +0000",
+    "description": "Headquarters: Remote - Canada: Select locations\n\n\nRole Description\nDropbox is seeking a Head of Revenue Operations to lead and scale the operational foundation of the company's global B2B go-to-market organization. This role will be responsible for driving operational excellence across the revenue engine, enabling predictable, efficient growth across SMB, Mid-Market, and Enterprise segments. This ",
+    "date": "Fri, 24 Jul 2026 07:01:22 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -53,29 +68,7 @@ const LIVE_JOBS = [
     "date": "2026-07-27T08:00:24+00:00",
     "salary": "",
     "watch_company": false
-  },
-  {
-    "id": "Remote OK-alixpartnersproduct-marketing-manager",
-    "source": "Remote OK",
-    "title": "Product Marketing Manager",
-    "company": "AlixPartners",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-product-marketing-manager-alixpartners-1135188",
-    "tags": [
-      "exec",
-      "consulting",
-      "technical",
-      "customer support",
-      "testing",
-      "marketing"
-    ],
-    "description": "At AlixPartners, we tackle complex challenges by transforming insights into innovative solutions, delivering lasting value for businesses, their people, and the communities they serve. Our products are designed to drive meaningful impact, ensuring sustainable growth and success. By understanding, respecting, and honoring the needs of our employees, clients, and communities, AlixPartners actively p",
-    "date": "2026-07-22T08:00:18+00:00",
-    "salary": "",
-    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "28.07.2026 09:29";
+const LAST_UPDATED = "29.07.2026 09:31";
