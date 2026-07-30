@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 29.07.2026 09:31
+// Автоматически сгенерировано: 30.07.2026 09:24
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-toptalpinterest-growth-strategist---ecommerce---be",
-    "source": "WeWorkRemotely",
-    "title": "Pinterest Growth Strategist — Ecommerce & Beauty | Remote",
-    "company": "Toptal",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/toptal-pinterest-growth-strategist-ecommerce-beauty-remote",
-    "tags": [],
-    "description": "Headquarters: Remote\n    URL: https://www.toptal.com/\n\n\nAbout the Role\nWe're looking for an experienced Pinterest Marketing Specialist to drive real traffic and sales growth for an online hair extension store. This isn't a \"post and hope\" role — you'll own a full growth strategy built on SEO-driven content, keyword and trend research, and continuous analytics-based optimization. If you know how to",
-    "date": "Tue, 28 Jul 2026 21:42:15 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "WeWorkRemotely-zapiethead-of-marketing",
     "source": "WeWorkRemotely",
@@ -71,4 +56,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "29.07.2026 09:31";
+const LAST_UPDATED = "30.07.2026 09:24";
