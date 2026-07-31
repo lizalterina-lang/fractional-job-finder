@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 30.07.2026 09:24
+// Автоматически сгенерировано: 31.07.2026 09:35
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -18,6 +18,21 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
+    "id": "WeWorkRemotely-gitlabai-transformation-owner--marketing",
+    "source": "WeWorkRemotely",
+    "title": "AI Transformation Owner, Marketing",
+    "company": "GitLab",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-marketing",
+    "tags": [],
+    "description": "Headquarters: Remote, Canada; Remote, United Kingdom; Remote, US\n\n\nGitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship",
+    "date": "Fri, 31 Jul 2026 07:30:55 +0000",
+    "salary": "",
+    "watch_company": true
+  },
+  {
     "id": "WeWorkRemotely-dropboxsenior-director--revenue-operations",
     "source": "WeWorkRemotely",
     "title": "Senior Director, Revenue Operations",
@@ -29,6 +44,43 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Remote - Canada: Select locations\n\n\nRole Description\nDropbox is seeking a Head of Revenue Operations to lead and scale the operational foundation of the company's global B2B go-to-market organization. This role will be responsible for driving operational excellence across the revenue engine, enabling predictable, efficient growth across SMB, Mid-Market, and Enterprise segments. This ",
     "date": "Fri, 24 Jul 2026 07:01:22 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "Jobicy-bloomreachtechnical-product-marketing-manager",
+    "source": "Jobicy",
+    "title": "Technical Product Marketing Manager",
+    "company": "Bloomreach",
+    "location": "UK",
+    "region": "UK",
+    "format": "full-time",
+    "url": "https://jobicy.com/jobs/144711-technical-product-marketing-manager",
+    "tags": [],
+    "description": "Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We're taking autonomous search mainstream, making product discovery more intuitive and conversational for customers, and more profitable for businesses. We’re making conversati",
+    "date": "2026-07-30T19:05:04+00:00",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "Remote OK-clanxgrowth-marketer",
+    "source": "Remote OK",
+    "title": "Growth Marketer",
+    "company": "CLANX",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://remoteOK.com/remote-jobs/remote-growth-marketer-clanx-1135656",
+    "tags": [
+      "marketing",
+      "design",
+      "exec",
+      "recruiter",
+      "travel",
+      "finance"
+    ],
+    "description": "OverviewNola is building the AI-native account for the next decade â a stablecoin bank account with intelligence supporting every action. We're looking for a Founding Marketer to own growth, narrative, distribution, content, and experimentation from day one.Company DetailsThe ultra-wealthy have always had a private banker, a wealth manager, and a concierge running their financial life. Everyone ",
+    "date": "2026-07-30T08:00:30+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -56,4 +108,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "30.07.2026 09:24";
+const LAST_UPDATED = "31.07.2026 09:35";
