@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 31.07.2026 09:35
+// Автоматически сгенерировано: 01.08.2026 08:59
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -33,32 +33,24 @@ const LIVE_JOBS = [
     "watch_company": true
   },
   {
-    "id": "WeWorkRemotely-dropboxsenior-director--revenue-operations",
-    "source": "WeWorkRemotely",
-    "title": "Senior Director, Revenue Operations",
-    "company": "Dropbox",
+    "id": "Remote OK-lyricgrowth-strategist",
+    "source": "Remote OK",
+    "title": "Growth Strategist",
+    "company": "Lyric",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/dropbox-senior-director-revenue-operations",
-    "tags": [],
-    "description": "Headquarters: Remote - Canada: Select locations\n\n\nRole Description\nDropbox is seeking a Head of Revenue Operations to lead and scale the operational foundation of the company's global B2B go-to-market organization. This role will be responsible for driving operational excellence across the revenue engine, enabling predictable, efficient growth across SMB, Mid-Market, and Enterprise segments. This ",
-    "date": "Fri, 24 Jul 2026 07:01:22 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Jobicy-bloomreachtechnical-product-marketing-manager",
-    "source": "Jobicy",
-    "title": "Technical Product Marketing Manager",
-    "company": "Bloomreach",
-    "location": "UK",
-    "region": "UK",
-    "format": "full-time",
-    "url": "https://jobicy.com/jobs/144711-technical-product-marketing-manager",
-    "tags": [],
-    "description": "Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We're taking autonomous search mainstream, making product discovery more intuitive and conversational for customers, and more profitable for businesses. We’re making conversati",
-    "date": "2026-07-30T19:05:04+00:00",
+    "url": "https://remoteOK.com/remote-jobs/remote-growth-strategist-lyric-1135681",
+    "tags": [
+      "marketing",
+      "design",
+      "embedded",
+      "technical",
+      "strategy",
+      "customer support"
+    ],
+    "description": "About the CompanyWhy We Built Lyric: Supply chains are more critical and complex than ever. Every day, large enterprises navigate trillions of possible decisions that could impact the bottom line. Powerful algorithms and AI can address these problems, yet most organizations struggle to leverage supply chain AI at scale. The current SCM technologies are either rigid, limited-scope point solutions o",
+    "date": "2026-07-30T16:00:20+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -108,4 +100,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "31.07.2026 09:35";
+const LAST_UPDATED = "01.08.2026 08:59";
