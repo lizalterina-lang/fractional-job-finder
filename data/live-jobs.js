@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 02.08.2026 09:03
+// Автоматически сгенерировано: 03.08.2026 10:30
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -75,29 +75,7 @@ const LIVE_JOBS = [
     "date": "2026-07-30T08:00:30+00:00",
     "salary": "",
     "watch_company": false
-  },
-  {
-    "id": "Remote OK-huzzlebilingual-sales-development-representative-g",
-    "source": "Remote OK",
-    "title": "Bilingual Sales Development Representative German English",
-    "company": "Huzzle",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-bilingual-sales-development-representative-german-english-huzzle-1135460",
-    "tags": [
-      "saas",
-      "marketing",
-      "finance",
-      "microsoft",
-      "exec",
-      "content writing"
-    ],
-    "description": "About HuzzleAt Huzzle, we connect exceptional talent with top opportunities at leading companies across the UK, US, Canada, Europe, and Australia. Our clients include fast-growing startups, digital agencies, SaaS companies, and tech-enabled businesses across industries such as MarTech, FinTech, EdTech, and eCommerce. Unlike traditional outsourcing agencies, we place you directly with innovative co",
-    "date": "2026-07-27T08:00:24+00:00",
-    "salary": "",
-    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "02.08.2026 09:03";
+const LAST_UPDATED = "03.08.2026 10:30";
