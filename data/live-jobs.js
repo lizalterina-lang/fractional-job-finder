@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 04.08.2026 09:31
+// Автоматически сгенерировано: 05.08.2026 09:28
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-power-digitalgrowth-marketing-manager--b2b-saas",
+    "source": "WeWorkRemotely",
+    "title": "Growth Marketing Manager, B2B SaaS",
+    "company": "Power Digital",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/power-digital-growth-marketing-manager-b2b-saas-1",
+    "tags": [],
+    "description": "Headquarters: Remote - Costa Rica\n    URL: http://powerdigital.com\n\n\nWho We Are:\nWe are a tech-enabled growth firm–at the intersection of marketing, consulting &amp; data intelligence–igniting revenue and brand recognition for leading and emerging companies around the world. As a people-first firm, we value diversity in backgrounds and experiences. We strongly believe our people and culture are ke",
+    "date": "Tue, 04 Aug 2026 15:18:27 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-zapiethead-of-marketing",
     "source": "WeWorkRemotely",
@@ -16,21 +31,6 @@ const LIVE_JOBS = [
     "date": "Sun, 26 Jul 2026 17:42:41 +0000",
     "salary": "",
     "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-gitlabai-transformation-owner--marketing",
-    "source": "WeWorkRemotely",
-    "title": "AI Transformation Owner, Marketing",
-    "company": "GitLab",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-marketing",
-    "tags": [],
-    "description": "Headquarters: Remote, Canada; Remote, United Kingdom; Remote, US\n\n\nGitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship",
-    "date": "Fri, 31 Jul 2026 07:30:55 +0000",
-    "salary": "",
-    "watch_company": true
   },
   {
     "id": "Remote OK-lyricgrowth-strategist",
@@ -78,4 +78,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "04.08.2026 09:31";
+const LAST_UPDATED = "05.08.2026 09:28";
