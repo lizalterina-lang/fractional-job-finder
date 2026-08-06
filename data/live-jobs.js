@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 05.08.2026 09:28
+// Автоматически сгенерировано: 06.08.2026 09:33
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -31,51 +31,7 @@ const LIVE_JOBS = [
     "date": "Sun, 26 Jul 2026 17:42:41 +0000",
     "salary": "",
     "watch_company": false
-  },
-  {
-    "id": "Remote OK-lyricgrowth-strategist",
-    "source": "Remote OK",
-    "title": "Growth Strategist",
-    "company": "Lyric",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-growth-strategist-lyric-1135681",
-    "tags": [
-      "marketing",
-      "design",
-      "embedded",
-      "technical",
-      "strategy",
-      "customer support"
-    ],
-    "description": "About the CompanyWhy We Built Lyric: Supply chains are more critical and complex than ever. Every day, large enterprises navigate trillions of possible decisions that could impact the bottom line. Powerful algorithms and AI can address these problems, yet most organizations struggle to leverage supply chain AI at scale. The current SCM technologies are either rigid, limited-scope point solutions o",
-    "date": "2026-07-30T16:00:20+00:00",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Remote OK-clanxgrowth-marketer",
-    "source": "Remote OK",
-    "title": "Growth Marketer",
-    "company": "CLANX",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://remoteOK.com/remote-jobs/remote-growth-marketer-clanx-1135656",
-    "tags": [
-      "marketing",
-      "design",
-      "exec",
-      "recruiter",
-      "travel",
-      "finance"
-    ],
-    "description": "OverviewNola is building the AI-native account for the next decade â a stablecoin bank account with intelligence supporting every action. We're looking for a Founding Marketer to own growth, narrative, distribution, content, and experimentation from day one.Company DetailsThe ultra-wealthy have always had a private banker, a wealth manager, and a concierge running their financial life. Everyone ",
-    "date": "2026-07-30T08:00:30+00:00",
-    "salary": "",
-    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "05.08.2026 09:28";
+const LAST_UPDATED = "06.08.2026 09:33";
