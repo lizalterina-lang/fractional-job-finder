@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 12.08.2026 08:07
+// Автоматически сгенерировано: 13.08.2026 08:09
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-better-proposalsjunior-seo-specialist",
+    "source": "WeWorkRemotely",
+    "title": "Junior SEO Specialist",
+    "company": "Better Proposals",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/better-proposals-junior-seo-specialist",
+    "tags": [],
+    "description": "Headquarters: Brighton, UK\n    URL: https://betterproposals.io/\n\n\nAre you “the one”?\nWe're looking for a Junior SEO Specialist to join our growth team. You’ll work directly with the Growth Manager and help with everything SEO related, from keyword research and internal linking to technical SEO, content planning and link building.This is a junior role, but not a trainee position. You should already",
+    "date": "Wed, 12 Aug 2026 10:10:18 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-power-digitalgrowth-marketing-manager--b2b-saas",
     "source": "WeWorkRemotely",
@@ -34,4 +49,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "12.08.2026 08:07";
+const LAST_UPDATED = "13.08.2026 08:09";
