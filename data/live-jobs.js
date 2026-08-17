@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 16.08.2026 07:21
+// Автоматически сгенерировано: 17.08.2026 07:41
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,21 +14,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: New York City\n    URL: https://garden3d.net/\n\n\nWe are hiring a Head of Marketing &amp; Communications to tell the garden3d story across the internet, from wherever in the world you happen to be.\nMore details if you check our original job posting link\nAbout garden3d\nWe are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cro",
     "date": "Wed, 15 Jul 2026 17:35:23 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-better-proposalsjunior-seo-specialist",
-    "source": "WeWorkRemotely",
-    "title": "Junior SEO Specialist",
-    "company": "Better Proposals",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/better-proposals-junior-seo-specialist",
-    "tags": [],
-    "description": "Headquarters: Brighton, UK\n    URL: https://betterproposals.io/\n\n\nAre you “the one”?\nWe're looking for a Junior SEO Specialist to join our growth team. You’ll work directly with the Growth Manager and help with everything SEO related, from keyword research and internal linking to technical SEO, content planning and link building.This is a junior role, but not a trainee position. You should already",
-    "date": "Wed, 12 Aug 2026 10:10:18 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -64,4 +49,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "16.08.2026 07:21";
+const LAST_UPDATED = "17.08.2026 07:41";
