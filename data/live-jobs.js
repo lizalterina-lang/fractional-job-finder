@@ -1,19 +1,19 @@
-// Автоматически сгенерировано: 18.08.2026 07:27
+// Автоматически сгенерировано: 19.08.2026 07:28
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-garden3dhead-of-marketing---communications",
+    "id": "WeWorkRemotely-folioproduct-marketing-manager",
     "source": "WeWorkRemotely",
-    "title": "Head of Marketing & Communications",
-    "company": "garden3d",
+    "title": "Product Marketing Manager",
+    "company": "Folio",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/garden3d-head-of-marketing-communications",
+    "url": "https://weworkremotely.com/remote-jobs/folio-product-marketing-manager",
     "tags": [],
-    "description": "Headquarters: New York City\n    URL: https://garden3d.net/\n\n\nWe are hiring a Head of Marketing &amp; Communications to tell the garden3d story across the internet, from wherever in the world you happen to be.\nMore details if you check our original job posting link\nAbout garden3d\nWe are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cro",
-    "date": "Wed, 15 Jul 2026 17:35:23 +0000",
+    "description": "Headquarters: Remote (Within 3 hours of EST timezone preferred)\n\n\nWhat excites youYou want to be early. You like being close to the product, the customer, and the messiness of figuring things out.You enjoy turning sharp customer insight into positioning that actually changes behavior.You care about story-telling. You want to build narratives from launches and words to be thoughtful and useful, not",
+    "date": "Tue, 18 Aug 2026 20:34:22 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -49,4 +49,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "18.08.2026 07:27";
+const LAST_UPDATED = "19.08.2026 07:28";
