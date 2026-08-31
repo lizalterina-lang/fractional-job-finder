@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 30.08.2026 12:23
+// Автоматически сгенерировано: 31.08.2026 14:32
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -18,20 +18,20 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "Jobicy-okxgrowth-manager---campaigns",
-    "source": "Jobicy",
-    "title": "Growth Manager - Campaigns",
-    "company": "OKX",
-    "location": "Germany,  Netherlands,  Portugal",
-    "region": "NL",
+    "id": "WeWorkRemotely-databrickscyber-security-gtm-leader",
+    "source": "WeWorkRemotely",
+    "title": "Cyber Security GTM Leader",
+    "company": "Databricks",
+    "location": "Remote",
+    "region": "Remote",
     "format": "full-time",
-    "url": "https://jobicy.com/jobs/151922-growth-manager-campaigns",
+    "url": "https://weworkremotely.com/remote-jobs/databricks-cyber-security-gtm-leader",
     "tags": [],
-    "description": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large&hellip; Who We Are\nAt OKX, we believe that the future will be res",
-    "date": "2026-08-28T11:58:31+00:00",
+    "description": "Headquarters: Remote - California; Remote - New York\n\n\nSLSQ327R408\nAs the Cybersecurity Go-to-market (GTM) Leader, you will drive the global GTM strategy and execution of the Cybersecurity business at Databricks. You will play a pivotal role in accelerating cyber revenue growth by building scalable assets for the field, designing enablement programs, and driving key partnerships. You will be the d",
+    "date": "Mon, 31 Aug 2026 07:30:46 +0000",
     "salary": "",
     "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "30.08.2026 12:23";
+const LAST_UPDATED = "31.08.2026 14:32";
