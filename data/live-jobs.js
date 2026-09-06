@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 05.09.2026 11:00
+// Автоматически сгенерировано: 06.09.2026 11:24
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-moonshotsmarketing-intern",
-    "source": "WeWorkRemotely",
-    "title": "Marketing Intern",
-    "company": "Moonshots",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/moonshots-marketing-intern",
-    "tags": [],
-    "description": "Headquarters: [REMOTE]\n    URL: http://mms.cx\n\n\n\nJob Brief: We are seeking a dynamic and motivated Marketing Intern to join our team and assist with our marketing efforts in the crypto industry. As a Marketing Intern, you will be responsible for finding and reaching out to Chief Marketing Officers (CMOs), Business Development Managers (BDs), and Growth Managers of various crypto projects. Your pri",
-    "date": "Thu, 03 Sep 2026 01:34:48 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "WeWorkRemotely-zapiethead-of-marketing",
     "source": "WeWorkRemotely",
@@ -64,4 +49,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "05.09.2026 11:00";
+const LAST_UPDATED = "06.09.2026 11:24";
