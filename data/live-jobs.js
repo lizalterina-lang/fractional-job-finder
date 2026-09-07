@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 06.09.2026 11:24
+// Автоматически сгенерировано: 07.09.2026 13:06
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -33,20 +33,20 @@ const LIVE_JOBS = [
     "watch_company": false
   },
   {
-    "id": "Jobicy-worldlyproduct-marketing-manager--supplier-network",
+    "id": "Jobicy-tailscaledirector--apac-go-to-market",
     "source": "Jobicy",
-    "title": "Product Marketing Manager, Supplier Network Growth",
-    "company": "Worldly",
-    "location": "China,  Hong Kong,  Thailand,  Vietnam",
-    "region": "Hong Kong",
+    "title": "Director, APAC Go-to-Market",
+    "company": "Tailscale",
+    "location": "Singapore",
+    "region": "SG",
     "format": "full-time",
-    "url": "https://jobicy.com/jobs/152508-product-marketing-manager-supplier-network-growth",
+    "url": "https://jobicy.com/jobs/152677-director-apac-go-to-market",
     "tags": [],
-    "description": "Product Marketing Manager, Supplier Network Growth Location: Remote - Hong Kong, China, Vietnam, Thailand About Worldly Worldly is the world’s most comprehensive impact intelligence platform — delivering real data to businesses on impacts within their supply chain. Worldly is trusted by 40,000 global brands, retailers, and manufacturers to provide the single source of ESG intelligence&hellip; Prod",
-    "date": "2026-09-04T13:28:34+00:00",
+    "description": "About Tailscale Tailscale is making safe connection effortless by delivering software that makes it easy to securely interconnect people and their devices, no matter where they are. From hobbyists to multinational corporations, teams of every size use Tailscale each day to protect their networks, share access to internal tools, and more. We're building a future&hellip; About Tailscale \nTailscale i",
+    "date": "2026-09-06T11:06:00+00:00",
     "salary": "",
     "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "06.09.2026 11:24";
+const LAST_UPDATED = "07.09.2026 13:06";
