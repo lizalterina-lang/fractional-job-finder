@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 09.09.2026 12:01
+// Автоматически сгенерировано: 10.09.2026 11:56
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-xoangelsgrowth-manager---short-form-content--insta",
+    "source": "WeWorkRemotely",
+    "title": "Growth Manager – Short-Form Content (Instagram & TikTok)",
+    "company": "xoangels",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/xoangels-growth-manager-short-form-content-instagram-tiktok",
+    "tags": [],
+    "description": "Headquarters: Schwyz, Switzerland\n    URL: http://xo-angels.com\n\n\nWe're XO Angels, a creator management agency. As a Growth Manager, you'll own the short-form strategy of 2-4 creators end to end: scripts, shot lists, feedback to creators and editors, and constant testing until the numbers move. Your only real goal: views that turn into real reach.\nWhat you'll actually do\n\nAnalyse viral short-form ",
+    "date": "Wed, 09 Sep 2026 13:32:25 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-zapiethead-of-marketing",
     "source": "WeWorkRemotely",
@@ -31,7 +46,29 @@ const LIVE_JOBS = [
     "date": "Mon, 31 Aug 2026 07:30:46 +0000",
     "salary": "",
     "watch_company": false
+  },
+  {
+    "id": "Remote OK-lyricgrowth-strategist",
+    "source": "Remote OK",
+    "title": "Growth Strategist",
+    "company": "Lyric",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://remoteOK.com/remote-jobs/remote-growth-strategist-lyric-1135681",
+    "tags": [
+      "marketing",
+      "design",
+      "embedded",
+      "technical",
+      "strategy",
+      "customer support"
+    ],
+    "description": "About the CompanyWhy We Built Lyric: Supply chains are more critical and complex than ever. Every day, large enterprises navigate trillions of possible decisions that could impact the bottom line. Powerful algorithms and AI can address these problems, yet most organizations struggle to leverage supply chain AI at scale. The current SCM technologies are either rigid, limited-scope point solutions o",
+    "date": "2026-07-30T16:00:20+00:00",
+    "salary": "",
+    "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "09.09.2026 12:01";
+const LAST_UPDATED = "10.09.2026 11:56";
