@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 10.09.2026 11:56
+// Автоматически сгенерировано: 11.09.2026 11:55
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,6 +14,21 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Schwyz, Switzerland\n    URL: http://xo-angels.com\n\n\nWe're XO Angels, a creator management agency. As a Growth Manager, you'll own the short-form strategy of 2-4 creators end to end: scripts, shot lists, feedback to creators and editors, and constant testing until the numbers move. Your only real goal: views that turn into real reach.\nWhat you'll actually do\n\nAnalyse viral short-form ",
     "date": "Wed, 09 Sep 2026 13:32:25 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-onthegosystemshead-of-marketing",
+    "source": "WeWorkRemotely",
+    "title": "Head of Marketing",
+    "company": "OnTheGoSystems",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/onthegosystems-head-of-marketing",
+    "tags": [],
+    "description": "Headquarters: Remote\n    URL: http://onthegosystems.com\n\n\nAt OnTheGoSystems (creators of WPML and PTC), content is a key driver of how hundreds of thousands of people discover, understand, and choose our translation and localization products.\nAI is already a core part of how we work. We use it to move faster, automate work, research, analyze, build, and improve our products and processes.\nWe’re lo",
+    "date": "Thu, 10 Sep 2026 12:19:41 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -71,4 +86,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "10.09.2026 11:56";
+const LAST_UPDATED = "11.09.2026 11:55";
