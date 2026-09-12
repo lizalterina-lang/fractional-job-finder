@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 11.09.2026 11:55
+// Автоматически сгенерировано: 12.09.2026 11:21
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-xoangelsgrowth-manager---short-form-content--insta",
-    "source": "WeWorkRemotely",
-    "title": "Growth Manager – Short-Form Content (Instagram & TikTok)",
-    "company": "xoangels",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/xoangels-growth-manager-short-form-content-instagram-tiktok",
-    "tags": [],
-    "description": "Headquarters: Schwyz, Switzerland\n    URL: http://xo-angels.com\n\n\nWe're XO Angels, a creator management agency. As a Growth Manager, you'll own the short-form strategy of 2-4 creators end to end: scripts, shot lists, feedback to creators and editors, and constant testing until the numbers move. Your only real goal: views that turn into real reach.\nWhat you'll actually do\n\nAnalyse viral short-form ",
-    "date": "Wed, 09 Sep 2026 13:32:25 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "WeWorkRemotely-onthegosystemshead-of-marketing",
     "source": "WeWorkRemotely",
@@ -86,4 +71,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "11.09.2026 11:55";
+const LAST_UPDATED = "12.09.2026 11:21";
