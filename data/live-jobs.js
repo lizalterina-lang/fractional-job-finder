@@ -1,37 +1,7 @@
-// Автоматически сгенерировано: 14.09.2026 13:27
+// Автоматически сгенерировано: 15.09.2026 12:19
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "WeWorkRemotely-garden3dhead-of-marketing---communications",
-    "source": "WeWorkRemotely",
-    "title": "Head of Marketing & Communications",
-    "company": "garden3d",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/garden3d-head-of-marketing-communications",
-    "tags": [],
-    "description": "Headquarters: New York City\n    URL: https://garden3d.net/\n\n\nWe are hiring a Head of Marketing &amp; Communications to tell the garden3d story across the internet, from wherever in the world you happen to be.\nMore details if you check our original job posting link\nAbout garden3d\nWe are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cro",
-    "date": "Wed, 15 Jul 2026 17:35:23 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-zapiethead-of-marketing",
-    "source": "WeWorkRemotely",
-    "title": "Head of Marketing",
-    "company": "Zapiet",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/zapiet-head-of-marketing",
-    "tags": [],
-    "description": "Headquarters: UK\n    URL: https://zapiet.com/\n\n\nLocation: Remote, with a preference for candidates based in the UKSalary: £40,000–£50,000 per year, depending on experienceBonus: Performance-related bonusReporting to: Chief Marketing Officer and Chief Executive Officer\nThis is a remote role, and we welcome applications from suitably qualified candidates in other locations. However, candidates based",
-    "date": "Sun, 26 Jul 2026 17:42:41 +0000",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "WeWorkRemotely-databrickscyber-security-gtm-leader",
     "source": "WeWorkRemotely",
@@ -71,4 +41,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "14.09.2026 13:27";
+const LAST_UPDATED = "15.09.2026 12:19";
