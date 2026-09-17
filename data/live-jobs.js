@@ -1,19 +1,34 @@
-// Автоматически сгенерировано: 16.09.2026 12:17
+// Автоматически сгенерировано: 17.09.2026 12:16
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-databrickscyber-security-gtm-leader",
+    "id": "WeWorkRemotely-powered-by-searchsenior-seo---organic-growth-strat",
     "source": "WeWorkRemotely",
-    "title": "Cyber Security GTM Leader",
-    "company": "Databricks",
+    "title": "Senior SEO & Organic Growth Strategist",
+    "company": "Powered by search",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/databricks-cyber-security-gtm-leader",
+    "url": "https://weworkremotely.com/remote-jobs/powered-by-search-senior-seo-organic-growth-strategist",
     "tags": [],
-    "description": "Headquarters: Remote - California; Remote - New York\n\n\nSLSQ327R408\nAs the Cybersecurity Go-to-market (GTM) Leader, you will drive the global GTM strategy and execution of the Cybersecurity business at Databricks. You will play a pivotal role in accelerating cyber revenue growth by building scalable assets for the field, designing enablement programs, and driving key partnerships. You will be the d",
-    "date": "Mon, 31 Aug 2026 07:30:46 +0000",
+    "description": "Headquarters: Toronto\n    URL: https://www.poweredbysearch.com/\n\n\nReady to shape the future of B2B SaaS SEO while working with some of the fastest-growing companies in tech?\nIf you're equally passionate about driving strategic SEO initiatives and building strong senior client relationships, we want to talk to you.\nWe're looking for&nbsp;an SEO Strategist&nbsp;who can lead client conversations, tur",
+    "date": "Wed, 16 Sep 2026 17:01:23 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-powered-by-searchsenior-performance-marketing-stra",
+    "source": "WeWorkRemotely",
+    "title": "Senior Performance Marketing Strategist",
+    "company": "Powered by search",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/powered-by-search-senior-performance-marketing-strategist",
+    "tags": [],
+    "description": "Headquarters: Toronto\n    URL: https://www.poweredbysearch.com/\n\n\nReady to own paid media strategy for some of the fastest-growing B2B companies?\nIf you can run a Google Ads account (LinkedIn and Meta, too) with precision, and guide conversations with conviction, composure and confidence, we want to talk to you.\nWe're looking for a Paid Media Strategist who can lead senior client conversations, tu",
+    "date": "Wed, 16 Sep 2026 16:38:22 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -41,4 +56,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "16.09.2026 12:17";
+const LAST_UPDATED = "17.09.2026 12:16";
