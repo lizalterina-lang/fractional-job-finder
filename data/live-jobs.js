@@ -1,34 +1,19 @@
-// Автоматически сгенерировано: 20.09.2026 11:54
+// Автоматически сгенерировано: 21.09.2026 13:26
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-powered-by-searchsenior-seo---organic-growth-strat",
-    "source": "WeWorkRemotely",
-    "title": "Senior SEO & Organic Growth Strategist",
-    "company": "Powered by search",
-    "location": "Remote",
+    "id": "Jobicy-atomicgrowth-marketing-manager",
+    "source": "Jobicy",
+    "title": "Growth Marketing Manager",
+    "company": "Atomic",
+    "location": "Anywhere",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/powered-by-search-senior-seo-organic-growth-strategist",
+    "url": "https://jobicy.com/jobs/151297-growth-marketing-manager-2",
     "tags": [],
-    "description": "Headquarters: Toronto\n    URL: https://www.poweredbysearch.com/\n\n\nReady to shape the future of B2B SaaS SEO while working with some of the fastest-growing companies in tech?\nIf you're equally passionate about driving strategic SEO initiatives and building strong senior client relationships, we want to talk to you.\nWe're looking for&nbsp;an SEO Strategist&nbsp;who can lead client conversations, tur",
-    "date": "Wed, 16 Sep 2026 17:01:23 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-powered-by-searchsenior-performance-marketing-stra",
-    "source": "WeWorkRemotely",
-    "title": "Senior Performance Marketing Strategist",
-    "company": "Powered by search",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/powered-by-search-senior-performance-marketing-strategist",
-    "tags": [],
-    "description": "Headquarters: Toronto\n    URL: https://www.poweredbysearch.com/\n\n\nReady to own paid media strategy for some of the fastest-growing B2B companies?\nIf you can run a Google Ads account (LinkedIn and Meta, too) with precision, and guide conversations with conviction, composure and confidence, we want to talk to you.\nWe're looking for a Paid Media Strategist who can lead senior client conversations, tu",
-    "date": "Wed, 16 Sep 2026 16:38:22 +0000",
+    "description": "About Found Found is building the leading consumer platform for medically guided weight care—combining modern obesity medicine, AI-driven personalization, and a human care team. As one of the largest medically-assisted weight loss programs in the country, Found has served 300,000+ members and is backed by leading investors including Atomic, Google Ventures, WestCap, IVP, TCG, and&hellip; About Fou",
+    "date": "2026-09-21T09:50:14+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -56,4 +41,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "20.09.2026 11:54";
+const LAST_UPDATED = "21.09.2026 13:26";
