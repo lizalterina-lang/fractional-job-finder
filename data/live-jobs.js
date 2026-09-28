@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 27.09.2026 12:33
+// Автоматически сгенерировано: 28.09.2026 14:40
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "Jobicy-okxgrowth-manager---campaigns",
+    "source": "Jobicy",
+    "title": "Growth Manager - Campaigns",
+    "company": "OKX",
+    "location": "Germany,  Netherlands,  Portugal",
+    "region": "NL",
+    "format": "full-time",
+    "url": "https://jobicy.com/jobs/151922-growth-manager-campaigns",
+    "tags": [],
+    "description": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large&hellip; Who We Are\nAt OKX, we believe that the future will be res",
+    "date": "2026-09-28T05:25:19+00:00",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "Remote OK-lyricgrowth-strategist",
     "source": "Remote OK",
@@ -26,4 +41,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "27.09.2026 12:33";
+const LAST_UPDATED = "28.09.2026 14:40";
