@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 28.09.2026 14:40
+// Автоматически сгенерировано: 29.09.2026 13:31
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-onthegosystemshead-of-marketing",
+    "source": "WeWorkRemotely",
+    "title": "Head of Marketing",
+    "company": "OnTheGoSystems",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/onthegosystems-head-of-marketing-1",
+    "tags": [],
+    "description": "Headquarters: Remote\n    URL: http://onthegosystems.com\n\n\nAt OnTheGoSystems, the company behind WPML, Toolset, and PTC, we’re looking for a hands-on, AI-native marketer who wants to take ownership of marketing and help shape how we do it.\nAI is a core part of how we work. We’re looking for someone who already uses AI agents, automation, integrations, and structured workflows to get real marketing ",
+    "date": "Tue, 29 Sep 2026 10:15:54 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "Jobicy-okxgrowth-manager---campaigns",
     "source": "Jobicy",
@@ -41,4 +56,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "28.09.2026 14:40";
+const LAST_UPDATED = "29.09.2026 13:31";
