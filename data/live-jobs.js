@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 29.09.2026 13:31
+// Автоматически сгенерировано: 30.09.2026 13:07
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,21 +14,6 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Remote\n    URL: http://onthegosystems.com\n\n\nAt OnTheGoSystems, the company behind WPML, Toolset, and PTC, we’re looking for a hands-on, AI-native marketer who wants to take ownership of marketing and help shape how we do it.\nAI is a core part of how we work. We’re looking for someone who already uses AI agents, automation, integrations, and structured workflows to get real marketing ",
     "date": "Tue, 29 Sep 2026 10:15:54 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Jobicy-okxgrowth-manager---campaigns",
-    "source": "Jobicy",
-    "title": "Growth Manager - Campaigns",
-    "company": "OKX",
-    "location": "Germany,  Netherlands,  Portugal",
-    "region": "NL",
-    "format": "full-time",
-    "url": "https://jobicy.com/jobs/151922-growth-manager-campaigns",
-    "tags": [],
-    "description": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large&hellip; Who We Are\nAt OKX, we believe that the future will be res",
-    "date": "2026-09-28T05:25:19+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -56,4 +41,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "29.09.2026 13:31";
+const LAST_UPDATED = "30.09.2026 13:07";
