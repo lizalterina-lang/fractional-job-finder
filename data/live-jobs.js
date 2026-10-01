@@ -1,4 +1,4 @@
-// Автоматически сгенерировано: 30.09.2026 13:07
+// Автоматически сгенерировано: 01.10.2026 14:00
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
@@ -14,6 +14,21 @@ const LIVE_JOBS = [
     "tags": [],
     "description": "Headquarters: Remote\n    URL: http://onthegosystems.com\n\n\nAt OnTheGoSystems, the company behind WPML, Toolset, and PTC, we’re looking for a hands-on, AI-native marketer who wants to take ownership of marketing and help shape how we do it.\nAI is a core part of how we work. We’re looking for someone who already uses AI agents, automation, integrations, and structured workflows to get real marketing ",
     "date": "Tue, 29 Sep 2026 10:15:54 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "Jobicy-instructuregrowth-marketing-manager--foundry",
+    "source": "Jobicy",
+    "title": "Growth Marketing Manager, Foundry",
+    "company": "Instructure",
+    "location": "Australia,  Brazil,  China,  Germany,  Hong Kong,  Hungary,  Mexico,  Netherlands,  Norway,  Philippines,  Spain,  Sweden,  USA",
+    "region": "AUS",
+    "format": "full-time",
+    "url": "https://jobicy.com/jobs/152189-growth-marketing-manager-foundry",
+    "tags": [],
+    "description": "At Instructure, we believe in the power of people to grow and succeed throughout their lives. Our goal is to amplify that power by creating intuitive products that simplify learning and personal development, facilitate meaningful relationships, and inspire people to go further in their education and careers.We do this by giving smart, creative, passionate people&hellip; At Instructure, we believe ",
+    "date": "2026-10-01T04:00:23+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -41,4 +56,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "30.09.2026 13:07";
+const LAST_UPDATED = "01.10.2026 14:00";
