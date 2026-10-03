@@ -1,19 +1,19 @@
-// Автоматически сгенерировано: 02.10.2026 13:18
+// Автоматически сгенерировано: 03.10.2026 12:07
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "Jobicy-instructuregrowth-marketing-manager--foundry",
-    "source": "Jobicy",
-    "title": "Growth Marketing Manager, Foundry",
-    "company": "Instructure",
-    "location": "Australia,  Brazil,  China,  Germany,  Hong Kong,  Hungary,  Mexico,  Netherlands,  Norway,  Philippines,  Spain,  Sweden,  USA",
-    "region": "AUS",
+    "id": "WeWorkRemotely-6senseprincipal-technical-product-marketing-manage",
+    "source": "WeWorkRemotely",
+    "title": "Principal Technical Product Marketing Manager",
+    "company": "6sense",
+    "location": "Remote",
+    "region": "Remote",
     "format": "full-time",
-    "url": "https://jobicy.com/jobs/152189-growth-marketing-manager-foundry",
+    "url": "https://weworkremotely.com/remote-jobs/6sense-principal-technical-product-marketing-manager",
     "tags": [],
-    "description": "At Instructure, we believe in the power of people to grow and succeed throughout their lives. Our goal is to amplify that power by creating intuitive products that simplify learning and personal development, facilitate meaningful relationships, and inspire people to go further in their education and careers.We do this by giving smart, creative, passionate people&hellip; At Instructure, we believe ",
-    "date": "2026-10-01T04:00:23+00:00",
+    "description": "Headquarters: United States, Remote\n\n\nOur Mission:\n6sense's mission is to multiply what matters: growth, retention, and efficiency.&nbsp; We envision a future where companies, teams and people reach their full potential.\nOur People:\nPeople are the heart and soul of 6sense. We serve with passion and purpose. We live by our Being 6sense values of Win as One Team, Stay Curious, Do The Right Thing, Ow",
+    "date": "Sat, 03 Oct 2026 07:31:06 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -41,4 +41,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "02.10.2026 13:18";
+const LAST_UPDATED = "03.10.2026 12:07";
