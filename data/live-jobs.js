@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 04.10.2026 12:55
+// Автоматически сгенерировано: 05.10.2026 15:22
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "Jobicy-worldlyproduct-marketing-manager--supplier-network",
+    "source": "Jobicy",
+    "title": "Product Marketing Manager, Supplier Network Growth",
+    "company": "Worldly",
+    "location": "China,  Hong Kong,  Thailand,  Vietnam",
+    "region": "Hong Kong",
+    "format": "full-time",
+    "url": "https://jobicy.com/jobs/152508-product-marketing-manager-supplier-network-growth",
+    "tags": [],
+    "description": "Product Marketing Manager, Supplier Network Growth Location: Remote - Hong Kong, China, Vietnam, Thailand About Worldly Worldly is the world’s most comprehensive impact intelligence platform — delivering real data to businesses on impacts within their supply chain. Worldly is trusted by 40,000 global brands, retailers, and manufacturers to provide the single source of ESG intelligence&hellip; Prod",
+    "date": "2026-10-05T04:45:12+00:00",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "Remote OK-lyricgrowth-strategist",
     "source": "Remote OK",
@@ -26,4 +41,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "04.10.2026 12:55";
+const LAST_UPDATED = "05.10.2026 15:22";
