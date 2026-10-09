@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 08.10.2026 14:08
+// Автоматически сгенерировано: 09.10.2026 13:57
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "Jobicy-tailscaledirector--apac-go-to-market",
-    "source": "Jobicy",
-    "title": "Director, APAC Go-to-Market",
-    "company": "Tailscale",
-    "location": "Singapore",
-    "region": "SG",
-    "format": "full-time",
-    "url": "https://jobicy.com/jobs/152677-director-apac-go-to-market",
-    "tags": [],
-    "description": "About Tailscale Tailscale is making safe connection effortless by delivering software that makes it easy to securely interconnect people and their devices, no matter where they are. From hobbyists to multinational corporations, teams of every size use Tailscale each day to protect their networks, share access to internal tools, and more. We're building a future&hellip; About Tailscale \nTailscale i",
-    "date": "2026-10-07T04:30:23+00:00",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "Remote OK-lyricgrowth-strategist",
     "source": "Remote OK",
@@ -41,4 +26,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "08.10.2026 14:08";
+const LAST_UPDATED = "09.10.2026 13:57";
