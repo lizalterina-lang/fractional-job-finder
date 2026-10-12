@@ -1,34 +1,19 @@
-// Автоматически сгенерировано: 11.10.2026 13:37
+// Автоматически сгенерировано: 12.10.2026 16:14
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-pendolead-product-marketing-manager---novus",
+    "id": "WeWorkRemotely-amwellsr-product-marketing-manager",
     "source": "WeWorkRemotely",
-    "title": "Lead Product Marketing Manager - Novus",
-    "company": "Pendo",
+    "title": "Sr Product Marketing Manager",
+    "company": "Amwell",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/pendo-lead-product-marketing-manager-novus",
+    "url": "https://weworkremotely.com/remote-jobs/amwell-sr-product-marketing-manager",
     "tags": [],
-    "description": "Headquarters: Remote / San Francisco, CA / New York, NY / Raleigh, NC \n\n\nThe Team + The Role\nSoftware is being written faster than ever, and AI coding agents are accelerating how teams build and ship. Novus is Pendo's answer to what happens after software ships: helping fast-moving teams understand what is actually happening in their products and where to focus next. This is a new product, in a ne",
-    "date": "Sat, 10 Oct 2026 07:30:41 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "Jobicy-veriffhead-of-product-marketing",
-    "source": "Jobicy",
-    "title": "Head of Product Marketing",
-    "company": "Veriff",
-    "location": "Spain,  UK,  USA",
-    "region": "UK",
-    "format": "full-time",
-    "url": "https://jobicy.com/jobs/152906-head-of-product-marketing-2",
-    "tags": [],
-    "description": "Veriff is the trust infrastructure platform for the world’s most innovative companies, and we need the market to understand exactly why that matters and why it matters with us rather than anyone else. The Head of Product Marketing will own that answer. This is a high-impact role at a pivotal moment: a vertical go-to-market motion&hellip; Veriff is the trust infrastructure platform for the world’s ",
-    "date": "2026-10-10T03:23:37+00:00",
+    "description": "Headquarters: Remote US\n\n\nCompany Description\nAt Amwell, we’re transforming healthcare for all—powered by technology and inspired by people. Here, your ideas don’t just matter—they drive real change, improving lives on a global scale.\nWe marry technology and innovation with clinical excellence to provide trusted solutions that solve the healthcare industry’s biggest pain points and are on a missio",
+    "date": "Mon, 12 Oct 2026 07:31:18 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -56,4 +41,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "11.10.2026 13:37";
+const LAST_UPDATED = "12.10.2026 16:14";
