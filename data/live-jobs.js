@@ -1,7 +1,22 @@
-// Автоматически сгенерировано: 12.10.2026 16:14
+// Автоматически сгенерировано: 13.10.2026 14:39
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
+  {
+    "id": "WeWorkRemotely-tebraproduct-marketing-manager--temporary-",
+    "source": "WeWorkRemotely",
+    "title": "Product Marketing Manager (TEMPORARY)",
+    "company": "Tebra",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "full-time",
+    "url": "https://weworkremotely.com/remote-jobs/tebra-product-marketing-manager-temporary",
+    "tags": [],
+    "description": "Headquarters: United States - Remote\n\n\nTebra only initiates contact with candidates via email from an official Tebra email address (@tebra.com, @patientpop.com, or @kareo.com) or through our applicant tracking system, Greenhouse.&nbsp;We will only ask you to provide sensitive personal information through our official application portal — not via social media or text message. We do not conduct inte",
+    "date": "Tue, 13 Oct 2026 07:30:53 +0000",
+    "salary": "",
+    "watch_company": false
+  },
   {
     "id": "WeWorkRemotely-amwellsr-product-marketing-manager",
     "source": "WeWorkRemotely",
@@ -41,4 +56,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "12.10.2026 16:14";
+const LAST_UPDATED = "13.10.2026 14:39";
