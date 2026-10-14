@@ -1,34 +1,19 @@
-// Автоматически сгенерировано: 13.10.2026 14:39
+// Автоматически сгенерировано: 14.10.2026 12:32
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-tebraproduct-marketing-manager--temporary-",
+    "id": "WeWorkRemotely-latticeecosystem-marketing-lead",
     "source": "WeWorkRemotely",
-    "title": "Product Marketing Manager (TEMPORARY)",
-    "company": "Tebra",
+    "title": "Ecosystem Marketing Lead",
+    "company": "Lattice",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/tebra-product-marketing-manager-temporary",
+    "url": "https://weworkremotely.com/remote-jobs/lattice-ecosystem-marketing-lead",
     "tags": [],
-    "description": "Headquarters: United States - Remote\n\n\nTebra only initiates contact with candidates via email from an official Tebra email address (@tebra.com, @patientpop.com, or @kareo.com) or through our applicant tracking system, Greenhouse.&nbsp;We will only ask you to provide sensitive personal information through our official application portal — not via social media or text message. We do not conduct inte",
-    "date": "Tue, 13 Oct 2026 07:30:53 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-amwellsr-product-marketing-manager",
-    "source": "WeWorkRemotely",
-    "title": "Sr Product Marketing Manager",
-    "company": "Amwell",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/amwell-sr-product-marketing-manager",
-    "tags": [],
-    "description": "Headquarters: Remote US\n\n\nCompany Description\nAt Amwell, we’re transforming healthcare for all—powered by technology and inspired by people. Here, your ideas don’t just matter—they drive real change, improving lives on a global scale.\nWe marry technology and innovation with clinical excellence to provide trusted solutions that solve the healthcare industry’s biggest pain points and are on a missio",
-    "date": "Mon, 12 Oct 2026 07:31:18 +0000",
+    "description": "Headquarters: Remote - US\n\n\nThis role owns how Lattice turns its partner and integration ecosystem into a GTM advantage. It goes beyond traditional HR partnerships: the goal is to build relationships and joint go-to-market motions with the broader AI and work-tech ecosystem, including future-of-work platforms like OpenAI, Anthropic, Slack, and other tools Lattice integrates with, so Lattice reache",
+    "date": "Wed, 14 Oct 2026 07:30:56 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -56,4 +41,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "13.10.2026 14:39";
+const LAST_UPDATED = "14.10.2026 12:32";
