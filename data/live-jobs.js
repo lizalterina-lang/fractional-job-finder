@@ -1,19 +1,19 @@
-// Автоматически сгенерировано: 15.10.2026 12:14
+// Автоматически сгенерировано: 16.10.2026 11:58
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-latticeecosystem-marketing-lead",
+    "id": "WeWorkRemotely-clickhouseprincipal-product-marketing-manager",
     "source": "WeWorkRemotely",
-    "title": "Ecosystem Marketing Lead",
-    "company": "Lattice",
+    "title": "Principal Product Marketing Manager",
+    "company": "ClickHouse",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/lattice-ecosystem-marketing-lead",
+    "url": "https://weworkremotely.com/remote-jobs/clickhouse-principal-product-marketing-manager",
     "tags": [],
-    "description": "Headquarters: Remote - US\n\n\nThis role owns how Lattice turns its partner and integration ecosystem into a GTM advantage. It goes beyond traditional HR partnerships: the goal is to build relationships and joint go-to-market motions with the broader AI and work-tech ecosystem, including future-of-work platforms like OpenAI, Anthropic, Slack, and other tools Lattice integrates with, so Lattice reache",
-    "date": "Wed, 14 Oct 2026 07:30:56 +0000",
+    "description": "Headquarters: United States\n    URL: https://clickhouse.com/es\n\n\nNOTE: this position can be remote anywhere within the United States.\nAs the Principal Product Manager for ClickHouse Cloud, you will be responsible for leading the development and delivery of the product working closely with engineering, customers, and stakeholders.\nWhat you will do:\n\n\nDefine and drive the product roadmap for ClickHo",
+    "date": "Thu, 15 Oct 2026 18:38:51 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -56,4 +56,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "15.10.2026 12:14";
+const LAST_UPDATED = "16.10.2026 11:58";
