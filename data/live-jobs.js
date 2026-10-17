@@ -1,34 +1,19 @@
-// Автоматически сгенерировано: 16.10.2026 11:58
+// Автоматически сгенерировано: 17.10.2026 11:14
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-clickhouseprincipal-product-marketing-manager",
+    "id": "WeWorkRemotely-ucm-practice-growth-systems70-100k-potential-for-p",
     "source": "WeWorkRemotely",
-    "title": "Principal Product Marketing Manager",
-    "company": "ClickHouse",
+    "title": "70-100K Potential for Practice Growth Advisor Sales Position  (Central or Eastern Time Zone)",
+    "company": "UCM Practice Growth Systems",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/clickhouse-principal-product-marketing-manager",
+    "url": "https://weworkremotely.com/remote-jobs/ucm-practice-growth-systems-70-100k-potential-for-practice-growth-advisor-sales-position-central-or-eastern",
     "tags": [],
-    "description": "Headquarters: United States\n    URL: https://clickhouse.com/es\n\n\nNOTE: this position can be remote anywhere within the United States.\nAs the Principal Product Manager for ClickHouse Cloud, you will be responsible for leading the development and delivery of the product working closely with engineering, customers, and stakeholders.\nWhat you will do:\n\n\nDefine and drive the product roadmap for ClickHo",
-    "date": "Thu, 15 Oct 2026 18:38:51 +0000",
-    "salary": "",
-    "watch_company": false
-  },
-  {
-    "id": "WeWorkRemotely-dropboxgtm-readiness-manager",
-    "source": "WeWorkRemotely",
-    "title": "GTM Readiness Manager",
-    "company": "Dropbox",
-    "location": "Remote",
-    "region": "Remote",
-    "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/dropbox-gtm-readiness-manager",
-    "tags": [],
-    "description": "Headquarters: Remote - Canada: Select locations\n\n\nRole Description\nAs a GTM Readiness Manager within the GTM organization, you will help turn product and business changes into executable go-to-market motions. You will work across Product, Sales, Marketing, Customer Experience, Customer Success, Finance, Legal, Enablement, and Technology to ensure the business is operationally ready to bring new pr",
-    "date": "Thu, 15 Oct 2026 07:31:21 +0000",
+    "description": "Headquarters: Southern California\n    URL: https://ucmpracticegrowthsystems.com/\n\n\nSummary\nNOTE: Applicants MUST read this entire job posting and complete all steps outlined below to be considered for this position.Our Mission\nAt UCM Practice Growth Systems, we're a team on a mission. Dedicated to the glory of God, we aim to bring hope and healing to sick and suffering people through our partnersh",
+    "date": "Sat, 17 Oct 2026 00:53:30 +0000",
     "salary": "",
     "watch_company": false
   },
@@ -56,4 +41,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "16.10.2026 11:58";
+const LAST_UPDATED = "17.10.2026 11:14";
