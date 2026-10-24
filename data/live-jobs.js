@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 23.10.2026 12:14
+// Автоматически сгенерировано: 24.10.2026 11:42
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "Jobicy-givedirectlysenior-manager--marketing-strategy---o",
-    "source": "Jobicy",
-    "title": "Senior Manager, Marketing Strategy & Operations",
-    "company": "GiveDirectly",
-    "location": "Canada,  Germany,  Netherlands,  Poland,  Portugal,  Spain,  Türkiye,  UK,  USA",
-    "region": "UK",
-    "format": "full-time",
-    "url": "https://jobicy.com/jobs/156454-senior-manager-marketing-strategy-operations",
-    "tags": [],
-    "description": "About GiveDirectly What if the most effective way to fight poverty was also the simplest: give people money and trust them to decide what they need? Since 2011, GiveDirectly has proven that idea at scale. We’ve delivered more than $1B in cash directly to 2+ million people living in poverty and crisis across 15 countries,&hellip; About GiveDirectly \nWhat if the most effective way to fight poverty w",
-    "date": "2026-10-22T18:57:18+00:00",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "Remote OK-lyricgrowth-strategist",
     "source": "Remote OK",
@@ -41,4 +26,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "23.10.2026 12:14";
+const LAST_UPDATED = "24.10.2026 11:42";
