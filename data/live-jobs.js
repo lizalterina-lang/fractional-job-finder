@@ -1,19 +1,19 @@
-// Автоматически сгенерировано: 25.10.2026 12:10
+// Автоматически сгенерировано: 26.10.2026 13:41
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "Jobicy-dropboxsenior-manager--apj-field---channel-marketi",
+    "id": "Jobicy-elevenlabsb2b-marketing---singapore---ne-asia",
     "source": "Jobicy",
-    "title": "Senior Manager, APJ Field & Channel Marketing",
-    "company": "Dropbox",
-    "location": "Australia",
-    "region": "AUS",
+    "title": "B2B Marketing - Singapore & NE Asia",
+    "company": "Elevenlabs",
+    "location": "Singapore",
+    "region": "SG",
     "format": "full-time",
-    "url": "https://jobicy.com/jobs/156734-senior-manager-apj-field-channel-marketing",
+    "url": "https://jobicy.com/jobs/157052-b2b-marketing-singapore-ne-asia",
     "tags": [],
-    "description": "Role Description As Senior Manager, APJ Field &amp; Channel Marketing, you will lead the development and execution of Dropbox’s regional marketing strategy across the entire Asia-Pacific and Japan region. You will bring the greatest depth of focus to Dropbox’s Tier 1 markets—Australia/New Zealand, Singapore, Korea, India, and Japan—while building fit-for-market programs for Tier 2 markets&hellip; ",
-    "date": "2026-10-24T11:23:41+00:00",
+    "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of&hellip; About ElevenLabs\nElevenLabs is an AI res",
+    "date": "2026-10-26T05:01:54+00:00",
     "salary": "",
     "watch_company": false
   },
@@ -41,4 +41,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "25.10.2026 12:10";
+const LAST_UPDATED = "26.10.2026 13:41";
