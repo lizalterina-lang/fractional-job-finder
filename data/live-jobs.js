@@ -1,22 +1,7 @@
-// Автоматически сгенерировано: 29.10.2026 13:48
+// Автоматически сгенерировано: 30.10.2026 13:41
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
-  {
-    "id": "Jobicy-grafana-labssenior-product-marketing-manager---uk-",
-    "source": "Jobicy",
-    "title": "Senior Product Marketing Manager | UK | Remote",
-    "company": "Grafana Labs",
-    "location": "UK",
-    "region": "UK",
-    "format": "full-time",
-    "url": "https://jobicy.com/jobs/157765-senior-product-marketing-manager-uk-remote",
-    "tags": [],
-    "description": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving&hellip; Grafana Labs",
-    "date": "2026-10-29T08:05:12+00:00",
-    "salary": "",
-    "watch_company": false
-  },
   {
     "id": "Remote OK-lyricgrowth-strategist",
     "source": "Remote OK",
@@ -41,4 +26,4 @@ const LIVE_JOBS = [
   }
 ];
 
-const LAST_UPDATED = "29.10.2026 13:48";
+const LAST_UPDATED = "30.10.2026 13:41";
