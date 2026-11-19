@@ -1,22 +1,37 @@
-// Автоматически сгенерировано: 18.11.2026 16:01
+// Автоматически сгенерировано: 19.11.2026 16:08
 // Запусти 'python3 scraper.py' для обновления
 
 const LIVE_JOBS = [
   {
-    "id": "WeWorkRemotely-podcasthubpodcast-distribution---growth-manager",
+    "id": "WeWorkRemotely-typeformsenior-paid-marketing-strategist",
     "source": "WeWorkRemotely",
-    "title": "Podcast Distribution & Growth Manager",
-    "company": "podcasthub",
+    "title": "Senior Paid Marketing Strategist",
+    "company": "Typeform",
     "location": "Remote",
     "region": "Remote",
     "format": "full-time",
-    "url": "https://weworkremotely.com/remote-jobs/podcasthub-podcast-distribution-growth-manager",
+    "url": "https://weworkremotely.com/remote-jobs/typeform-senior-paid-marketing-strategist",
     "tags": [],
-    "description": "Headquarters: UAE,DUBAI \n    URL: http://podcasthub.ae\n\n\nWe're looking for the person who takes a finished episode and makes it **reach and grow an audience**. You'll own how our shows perform on YouTube, Spotify and Apple — the titles, thumbnails, chapters, publishing, and the short-form that pulls new viewers in. We handle production in Dubai; you own distribution and growth. We're hiring in the",
-    "date": "Mon, 19 Oct 2026 14:45:59 +0000",
+    "description": "Headquarters: Germany (Remote) ; Ireland (Remote); Netherlands (Remote) ; Portugal (Remote) ; Spain (Remote) ; United Kingdom (Remote) \n\n\nWho we are\nTypeform is a refreshingly different form builder. We help over 150,000 businesses collect the data they need with forms, surveys, and quizzes that people enjoy. Designed to look striking and feel effortless to fill out, Typeform drives 500 million re",
+    "date": "Thu, 19 Nov 2026 06:01:52 +0000",
+    "salary": "",
+    "watch_company": false
+  },
+  {
+    "id": "WeWorkRemotely-legionrevenue-enablement-manager",
+    "source": "WeWorkRemotely",
+    "title": "Revenue Enablement Manager",
+    "company": "Legion",
+    "location": "Remote",
+    "region": "Remote",
+    "format": "part-time",
+    "url": "https://weworkremotely.com/remote-jobs/legion-revenue-enablement-manager",
+    "tags": [],
+    "description": "Headquarters: Remote, United States\n\n\nJOB OVERVIEW\nLegion builds AI-powered workforce management software for enterprises that run hourly workforces in retail, hospitality, facilities management, and manufacturing.\nWe're hiring a Revenue Enablement Manager to own how our go-to-market team learns, sells, and improves. You'll build onboarding that shortens ramp, run the enablement cadence, launch ne",
+    "date": "Thu, 19 Nov 2026 06:01:25 +0000",
     "salary": "",
     "watch_company": false
   }
 ];
 
-const LAST_UPDATED = "18.11.2026 16:01";
+const LAST_UPDATED = "19.11.2026 16:08";
